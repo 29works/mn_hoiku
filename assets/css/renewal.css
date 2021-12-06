@@ -1,0 +1,2557 @@
+@charset "UTF-8";
+
+/*******************************
+  common
+********************************/
+
+body{
+  background: #fff;
+}
+
+.contentCover{
+  display: none;
+}
+
+.header-global{
+  margin: 0 0 20px;
+}
+
+.body_button-favorite{
+  display: none;
+}
+
+body.home {
+  background: #fff;
+  color: #333;
+}
+
+.home .content-global ul {
+  list-style: none;
+  padding: 0;
+}
+
+.home .content-global a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.home .content-global a {
+  color: #333;
+}
+
+.home .edit-select ,.home .edit-select-open-add{
+  width: 100%;
+  position: relative;
+}
+
+.home .edit-select select,.home .edit-select-open-add select{
+  background: #fff;
+  border: 1px solid #aaaaaa;
+  height: 40px;
+  line-height: 40px;
+  text-align: left;
+  padding: 0 10px;
+  box-sizing: border-box;
+  width: 100%;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.home .edit-select:before , .home .edit-select-open-add:before{
+  position: absolute;
+  content: "";
+  background: url(../img/renewal/icon_arrow03.png) no-repeat;
+  width: 13px;
+  height: 8px;
+  right: 10px;
+  bottom: 14px;
+}
+
+/*******************************
+  header
+********************************/
+
+.header-global .header-title {
+  float: left;
+/*  width: 28%; */
+  width: 480px;
+}
+.headerBar_title {
+  width: 480px;
+  margin: 0;
+  float: none;
+  line-height: 1.1;
+}
+.header-logo {
+  margin: 5px 0 0;
+  padding: 0;
+  font-size: 0;
+}
+.header-global .sns-link {
+  float: right;
+  line-height: 0.6;
+}
+
+.header-global .sns-link li {
+  display: inline-block;
+}
+
+.header-global .sns-link .twitter {
+  margin: 0 5px;
+}
+
+.header-global .sns-link .hatebu{
+  margin: 0 5px 0 0;
+}
+
+.header-global .sns-link .googlePlus{
+  width: 37px !important;
+}
+
+.header-global .container{
+  padding: 0;
+  width: 960px;
+}
+
+.header-global > .container{
+  margin: 50px auto 0;
+}
+.header-global .headerBar {
+  background: none;
+  color: #333;
+/*  height: 33px; */
+  height: auto;
+  min-height: 90px;
+}
+
+.header-global .headerBar .container {
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.header-global .header-right-link {
+  width: 480px;
+  float: right;
+}
+.header-global .header-right-link ul {
+  margin: 5px 0 0;
+  padding: 0;
+  text-align: right;
+}
+.header-global .header-right-link ul li {
+  margin: 0 0 0 15px;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+.header-global .header-right-link ul li:first-child {
+  margin-left: 0;
+}
+.header-global .header-right-link ul li.header-right-link-person,
+.header-global .header-right-link ul li.header-right-link-beginner,
+.header-global .header-right-link ul li.header-right-link-lock {
+  padding-top: 5px;
+}
+.header-global .header-right-link ul li.header-right-link-person a,
+.header-global .header-right-link ul li.header-right-link-beginner a,
+.header-global .header-right-link ul li.header-right-link-lock a {
+  padding-top: 35px;
+  color: #717171;
+  font-size: 9px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: inline-block;
+}
+.header-global .header-right-link ul li.header-right-link-person a:hover,
+.header-global .header-right-link ul li.header-right-link-beginner a:hover,
+.header-global .header-right-link ul li.header-right-link-lock a:hover {
+  color: #ee7800;
+  text-decoration: none;
+}
+.header-global .header-right-link ul li.header-right-link-person a {
+  background-image: url(../img/renewal_job/rn_icon_person01.png);
+}
+.header-global .header-right-link ul li.header-right-link-person a:hover {
+  background-image: url(../img/renewal_job/rn_icon_person02.png);
+}
+.header-global .header-right-link ul li.header-right-link-beginner a {
+  background-image: url(../img/renewal_job/rn_icon_beginner01.png);
+}
+.header-global .header-right-link ul li.header-right-link-beginner a:hover {
+  background-image: url(../img/renewal_job/rn_icon_beginner02.png);
+}
+.header-global .header-right-link ul li.header-right-link-lock a {
+  background-image: url(../img/renewal_job/rn_icon_lock01.png);
+}
+.header-global .header-right-link ul li.header-right-link-lock a:hover {
+  background-image: url(../img/renewal_job/rn_icon_lock02.png);
+}
+.header-global .header-right-link ul li.header-right-link-entry {
+  margin-left: 30px;
+}
+
+.header-global .logo-right{
+  position: absolute;
+  right: -50px;
+  bottom: 20px;
+}
+.header-global .saiyou_info{
+  position: absolute;
+  display: block;
+  right: 100px;
+  bottom: 35px;
+}
+.header-global .saiyou_info a{
+  width: 160px;
+  height: 45px;
+}
+
+.header-global .saiyou_info a:hover{
+ transition:.3s;
+-moz-transition:.3s;
+-o-transition:.3s;
+-webkit-transition:.3s;
+transition:.3s;
+filter:alpha(Opacity=50);
+opacity:.5;
+}
+
+.header-global .logo-right a {
+  width: 120px;
+  height: 120px;
+}
+.new-nav-global {
+  background: #ffeede;
+  height: 50px;
+}
+
+.new-nav-global ul {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.new-nav-global li {
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  background: none;
+  width: 192px;
+}
+
+.new-nav-global li a {
+  display: block;
+  background: url(../img/renewal/nav-global.png) 0 0 no-repeat;
+  font-size: 16px;
+  font-weight: bold;
+  height: 50px;
+  width: 192px;
+  position: relative;
+  text-indent: -9999px;
+}
+
+.new-nav-global li:nth-child(1) a{
+  background-position: 0 0;
+}
+
+.new-nav-global li:nth-child(2) a{
+  background-position: -192px 0;
+}
+
+.new-nav-global li:nth-child(3) a{
+  background-position: -384px 0;
+}
+
+.new-nav-global li:nth-child(4) a{
+  background-position: -576px 0;
+}
+
+.new-nav-global li:nth-child(5) a{
+  background-position: -768px 0;
+}
+
+.new-nav-global li:nth-child(1) a:hover{
+  background-position: 0 -50px;
+}
+
+.new-nav-global li:nth-child(2) a:hover{
+  background-position: -192px -50px;
+}
+
+.new-nav-global li:nth-child(3) a:hover{
+  background-position: -384px -50px;
+}
+
+.new-nav-global li:nth-child(4) a:hover{
+  background-position: -576px -50px;
+}
+
+.new-nav-global li:nth-child(5) a:hover{
+  background-position: -768px -50px;
+}
+
+.new-nav-global li:nth-child(1).active a{
+  background-position: 0 -100px;
+}
+
+.new-nav-global li:nth-child(2).active a{
+  background-position: -192px -100px;
+}
+
+.new-nav-global li:nth-child(3).active a{
+  background-position: -384px -100px;
+}
+
+.new-nav-global li:nth-child(4).active a{
+  background-position: -576px -100px;
+}
+
+.new-nav-global li:nth-child(5).active a{
+  background-position: -768px -100px;
+}
+
+
+
+
+/*******************************
+  .new-nav-global02
+********************************/
+
+.new-nav-global02 {
+  background: #ffeede;
+}
+
+.new-nav-global02 ul {
+  margin: 0 auto;
+  width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.new-nav-global02 li {
+  width: calc(99.9% / 6);
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  align-items: stretch;
+  position: relative;
+}
+.new-nav-global02 li:after {
+  width: 1px;
+  height: calc(100% - 10px);
+  border-right: dotted 1px #ccc;
+  display: block;
+  position: absolute;
+  top: 5px;
+  right: 0;
+  content: "";
+}
+
+.new-nav-global02 li a {
+  width: 100%;
+  height: 100%;
+  padding: 8px 0 6px;
+  color: #dc2611;
+  font-size: 10px;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3", sans-serif;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.new-nav-global02 li a:hover {
+  background-color: #fff8f2;
+}
+.new-nav-global02 li a b {
+  color: #6b6b6b;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+}
+.new-nav-global02 li:last-child:after {
+  display: none;
+}
+.new-nav-global02 li.active {
+  background-color: #f08a26;
+}
+.new-nav-global02 li.active a {
+  color: #fff;
+}
+.new-nav-global02 li.active a b {
+  color: #fff;
+}
+.new-nav-global02 li.active a:hover {
+  background-color: #f08a26;
+}
+
+
+
+
+/*******************************
+  kv
+********************************/
+
+.home .contentCoverScene {
+  margin: 30px auto 0;
+  padding: 0;
+}
+
+.home .contentCover {
+  background: none;
+  height: 326px;
+  margin: 40px auto 60px;
+}
+
+.home .new-speak-media .media-right {
+  float: right;
+  width: 491px;
+  background: none;
+  display: block;
+  position: relative;
+  padding: 0 0 0 5px;
+}
+
+.home .new-speak-media .media-right .kv-introduction:hover{
+  opacity: 0.6;
+}
+.home .new-speak-media .media-left{
+  float: left;
+  width: 452px;
+}
+
+.home .new-speak-media {
+/*  margin: 40px auto 60px; */
+  margin: 40px auto -30px;
+  background: none;
+  width: 960px;
+}
+
+.home .media-right .left{
+  background: #ffeede;
+  position: relative;
+  width: 213px;
+  float: left;
+}
+
+.home .media-right .right {
+  float: right;
+  width: 265px;
+}
+
+.home .media-right .right a{
+  display: block;
+  text-align: right;
+}
+
+.home .media-right .right .kv-merit{
+  margin: 0 0 5px;
+}
+.home .action-rollover{
+  position: relative;
+}
+
+.home .action-rollover:after{
+  position: absolute;
+  content: "";
+  background: url(../img/renewal/icon_arrow02.png) no-repeat;
+  width: 24px;
+  height: 24px;
+  right: 10px;
+  top: 50%;
+  margin: -12px 0 0;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.home .action-rollover.type02:after{
+  background: url(../img/renewal/icon_arrow04.png) no-repeat;
+}
+
+.home .action-rollover:hover:after{
+  right: 0;
+}
+
+
+
+/*******************************
+  home-main-search
+********************************/
+.home-main-search {
+  min-height: 326px;
+  padding: 15px;
+  border: solid 1px #c9c9c9;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 3px 3px 10px rgba(158,158,158,.35);
+}
+.home-main-search form {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.home-main-search .select-inner {
+  margin: 0 -5px;
+  font-size: 0;
+}
+
+.home-main-search .select-area,
+.home-main-search .select-style,
+.home-main-search .select-content {
+  margin: 0 0 15px;
+  position: relative;
+
+}
+.home-main-search .select-style,
+.home-main-search .select-content {
+  width: 50%;
+  padding: 0 5px;
+  display: inline-block;
+}
+.home-main-search .select-area:before,
+.home-main-search .select-style:before,
+.home-main-search .select-content:before {
+  width: 12px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  position: absolute;
+  left: 30px;
+  z-index: 2;
+  content: "";
+}
+.home-main-search .select-area:before {
+  height: 14px;
+  top: 19px;
+  left: 25px;
+  background-image: url(../img/renewal_job/rn_icon_area03.png);
+}
+.home-main-search .select-style:before {
+  height: 14px;
+  top: 19px;
+  background-image: url(../img/renewal_job/rn_icon_style02.png);
+}
+.home-main-search .select-content:before {
+  height: 10px;
+  top: 21px;
+  background-image: url(../img/renewal_job/rn_icon_content02.png);
+}
+
+.home-main-search .select-area:after,
+.home-main-search .select-style:after,
+.home-main-search .select-content:after {
+  background: url(../img/renewal_sp/icon_arrow04.png) no-repeat;
+  background-size: 100%;
+  content: "";
+  height: 8px;
+  position: absolute;
+  right: 15px;
+  top: 23px;
+  z-index: 2;
+  width: 12px;
+}
+.home-main-search .select-style:after,
+.home-main-search .select-content:after {
+  right: 20px;
+}
+
+/*
+.home-main-search .select-area select {
+  color: #a2a2a2;
+  background: #fff9f3;
+  border: 1px solid #ffc2a8;
+  border-radius: 45px;
+  height: 53px;
+  font-size: 16px;
+  line-height: 53px;
+  text-align: left;
+  padding: 0 40px 0 50px;
+  box-sizing: border-box;
+  width: 100%;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+ }
+*/
+
+/* .home-main-search .select-area select.js-selected, */
+.home-main-search .select-view.js-selected {
+  color: #333;
+}
+.home-main-search .select-area select,
+.home-main-search .select-style select,
+.home-main-search .select-content select {
+  width: 100%;
+  height: 53px;
+/*  padding-left: 50px; */
+	padding-left: 9px;
+  color: transparent;
+  font-size: 16px;
+  background: none;
+  border: none;
+  position: relative;
+  z-index: 2;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  opacity: 0;
+}
+.home-main-search option,
+.home-main-search optgroup {
+  color: #333;
+}
+.home-main-search .select-view {
+  width: calc(100% - 10px);
+  color: #a2a2a2;
+  background: #fff9f3;
+  border: 1px solid #ffc2a8;
+  border-radius: 45px;
+  height: 53px;
+  font-size: 16px;
+  line-height: 53px;
+  text-align: left;
+  padding: 0 30px 0 50px;
+  box-sizing: border-box;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  overflow: hidden;
+  white-space: nowrap;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  position: absolute;
+  z-index: 1;
+}
+.home-main-search .select-area .select-view {
+	width: 100%;
+}
+.home-main-search  select::-ms-expand {
+  display: none;
+}
+.home-main-search-head {
+  margin-bottom: 15px;
+  padding-bottom: 12px;
+  text-align: center;
+  border-bottom: solid 1px #c9c9c9;
+}
+.home-main-search-heads {
+  margin-bottom: 15px;
+  color: #5d5d5d;
+  font-size: 20px;
+  line-height: 1.1;
+  text-align: center;
+}
+.home-main-search-heads i {
+  width: 16px;
+  height: 16px;
+  margin: 0 10px 0 0;
+  vertical-align: middle;
+  background-image: url(/assets/img/renewal_job/rn_icon_search04.png);
+  background-position: center center;
+  background-size: 100%;
+  display: inline-block;
+}
+.home-main-search-heads b {
+  color: #00abeb;
+  font-weight: normal;
+}
+.home-main-search-btn {
+  width: 250px;
+  margin: 0 auto;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.1;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  background-color: #ee675d;
+  background-image: url(/assets/img/renewal_job/rn_icon_arrow01_w.png);
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 8px auto;
+   display: block;
+}
+.home-main-search-note {
+  margin: 10px 0 0;
+  color: #717171;
+  font-size: 9px;
+  text-align: right;
+}
+
+/*******************************
+  home-content-search
+********************************/
+.home-content-search {
+  margin: 0 auto 35px;
+  padding: 25px 25px 45px;
+  text-align: left;
+  background-color: #fff9f3;
+}
+.home-content-search-head {
+  margin-bottom: 10px;
+  color: #ef7065;
+  position: relative;
+}
+.home-content-search-head:after {
+  width: 100%;
+  height: 1px;
+  border-top: solid 1px #ef7065;
+  position: absolute;
+  top: calc(50% - 1px);
+  left: 0;
+  content: "";
+}
+.home-content-search-head h2 {
+  margin: 0;
+  padding: 0 40px 0 0;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.3;
+  background-color: #fff9f3;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+}
+.home-content-search-head i {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px 0 0;
+  vertical-align: middle;
+  background-position: center center;
+  background-size: 100%;
+  display: inline-block;
+  position: relative;
+}
+.home-content-search-head i.area {
+  background-image: url(/assets/img/renewal_job/rn_icon_area04.png);
+  top: -2px;
+}
+.home-content-search-head i.style {
+  background-image: url(/assets/img/renewal_job/rn_icon_style03.png);
+  top: -2px;
+}
+.home-content-search-head i.content {
+  background-image: url(/assets/img/renewal_job/rn_icon_content03.png);
+  top: -2px;
+}
+.home-content-search-heads {
+  margin-bottom: 20px;
+  color: #656565;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.1;
+  text-align: center;
+  position: relative;
+}
+.home-content-search-heads b {
+  color: #ff9933;
+}
+.home-content-search-heads i {
+  width: 18px;
+  height: 15px;
+  margin: 0 10px 0 0;
+  vertical-align: middle;
+  background-position: center center;
+  background-size: 100%;
+  display: inline-block;
+  position: relative;
+}
+.home-content-search-heads i.crown {
+  background-image: url(/assets/img/renewal_job/rn_icon_crown01.png);
+  top: -2px;
+}
+.home-content-search-inner {
+  margin: 0 0 40px;
+  padding: 25px 30px 0;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 3px 3px 10px rgba(158,158,158,.35);
+}
+.home-content-search-inner02 {
+  margin: 0 0 20px;
+  padding: 25px 45px 0;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 3px 3px 10px rgba(158,158,158,.35);
+}
+
+.home-content-search-inner dl {
+  margin-bottom: 20px;
+}
+.home-content-search-inner dt {
+  width: 8em;
+  color: #656565;
+  font-size: 14px;
+  line-height: 1.3;
+  float: left;
+}
+.home-content-search-inner dd {
+  padding-left: 9em;
+  font-size: 14px;
+}
+.home-content-search-inner dd span:after {
+  margin: 0 3px;
+  color: #343434;
+  display: inline-block;
+  content: "｜";
+}
+.home-content-search-inner dd a {
+  color: #2f91d5 !important;
+  line-height: 1.3;
+}
+.home-content-search-inner dd a:hover {
+  text-decoration: underline !important;
+}
+.home-content-search-inner dd>*:last-child:after {
+  display: none;
+}
+.home-content-search-link01 {
+  margin: 0;
+  padding: 0 0 15px !important;
+  font-size: 0;
+}
+.home-content-search-link01 li {
+  margin: 0 10px 10px 0;
+  padding: 0;
+  display: inline-block;
+}
+.home-content-search-link01 li a {
+  padding: 3px 20px 1px;
+  color: #666 !important;
+  font-size: 12px;
+  position: relative;
+  background: #ffeede;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px rgba(158,158,158,.35);
+  display: block;
+}
+.home-content-search-link01 li a:hover {
+  opacity: .6;
+}
+.home-content-search-link02 {
+  margin: 0;
+  padding: 0 0 25px !important;
+  font-size: 0;
+}
+.home-content-search-link02 li {
+  margin :0;
+  padding: 0;
+  font-size: 14px;
+  list-style: none;
+  display: inline-block;
+}
+.home-content-search-link02 li:after {
+  margin: 0 3px;
+  padding: 0;
+  color: #343434;
+
+  display: inline-block;
+  content: "｜";
+}
+.home-content-search-link02 li a {
+  color: #2f91d5 !important;
+  line-height: 1.3;
+}
+.home-content-search-link02 li a:hover {
+  text-decoration: underline !important;
+}
+.home-content-search-link02 li:last-child:after {
+  display: none;
+}
+
+.home-content-search-inner>*:last-child {
+  margin-bottom: 0;
+}
+.home-content-search>*:last-child {
+  margin-bottom: 0;
+}
+
+
+
+/*******************************
+  content-global
+********************************/
+
+.home .content-global .container {
+  margin: 60px auto 0;
+  width: 960px;
+  padding: 0;
+}
+
+.home.body-2col .aside-global {
+  float: right;
+  margin: 0 auto;
+  width: 210px;
+}
+
+.home .module-block {
+  margin: 0 auto 55px;
+}
+
+.home .module-block.merit{
+  margin: 0 auto;
+}
+
+.home .module-block.event{
+  margin: 0 auto 40px;
+}
+
+.home .module-block.employment{
+  margin: 0 auto 35px;
+}
+
+.home .search .block-title {
+  position: relative;
+}
+
+.home .search .block-title:before {
+  background: url(../img/renewal/icon_search02.png) no-repeat;
+  content: "";
+  height: 24px;
+  position: absolute;
+  top: 5px;
+  width: 24px;
+}
+
+.home .home-news {
+  background: #f1f1f1;
+  box-sizing: border-box;
+  /*height: 80px;*/
+  height: auto;
+  margin: 0 0 60px;
+  padding: 20px;
+  width: 960px;
+}
+
+.home .home-news dt.text-red {
+  color: #dc2611;
+  font-size: 20px;
+  vertical-align: middle;
+  padding: 0 20px 0 0;
+  border-right: 1px dotted #9e9e9e;
+}
+
+.home .home-news dd {
+  padding: 0 0 0 20px;
+  line-height: 1.8;
+}
+
+.home .home-news dd a {
+  color: #333;
+  line-height: 1.8;
+}
+.home .announcement {
+	width: 100%;
+	max-width: 1000px;
+	background: #e8e8e8;
+	margin: 0 auto 10px;
+  margin-bottom: 50px;
+}
+.home .announcement__tit {
+	padding: 10px 30px 10px 10px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.home .announcement__tit:after {
+	content: "+";
+	display: table;
+	font-size: 25px;
+	position: absolute;
+	top: 55%;
+	right: 10px;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	line-height: 0.3;
+	color: #dc2611;
+}
+.home .announcement__tit.open:after {
+	content: "";
+	display: block;
+	background: #dc2611;
+	position: absolute;
+	right: 14px;
+	height: 2px;
+	width: 15px;
+	top: 50%;
+}
+.home .announcement__txt {
+	padding: 0 0 12px 44px;
+	display: none;
+	width: 100%;
+	font-size: 14px;
+	text-align: justify;
+}
+.home .announcement__titInner {
+  margin-left: 16px;
+  font-size: 14px;
+  color: #666;
+  font-weight: bold;
+}
+.home .announcement__exclamation {
+	background: #dc2611;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	font-size: 13px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: -3px;
+	color: #fff;
+}
+.home.body-2col .main-global {
+  float: left;
+  margin: 0 60px 0 0;
+  width: 690px;
+}
+
+.home .text-center {
+  text-align: left;
+}
+
+.home .block-title {
+  border-bottom: 2px solid #dc2611;
+  color: #dc2611;
+  font-size: 28px;
+  font-weight: bold;
+  position: relative;
+  padding: 0 0 15px;
+}
+
+.home .recommend-top:before {
+  background: url(../img/renewal/icon_star.png) no-repeat;
+  content: "";
+  height: 26px;
+  position: absolute;
+  top: 3px;
+  width: 26px;
+}
+
+.home .block-title h2 {
+  margin: 0;
+  padding: 0 0 0 40px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.home .recommend-offers .offers {
+  background: #fff9f3;
+  box-sizing: border-box;
+  padding: 30px 21px 10px;
+  position: relative;
+}
+
+.home .list-unstyled li {
+  float: left;
+  width: 142px;
+  padding: 0 10px;
+  box-sizing: content-box;
+  position: relative;
+}
+
+.home .list-unstyled > li:nth-child(n+5){
+  display: none;
+}
+
+.home .list-unstyled li a{
+  display: block;
+}
+
+.home .list-unstyled li a:hover{
+  opacity: 0.6;
+}
+
+.home .list-unstyled li.new:before{
+  background: url(../img/renewal/icon_recruit_new.png) no-repeat;
+  content: "";
+  height: 22px;
+  left: 10px;
+  position: absolute;
+  top: 0;
+  width: 40px;
+  z-index: 10;
+}
+
+.home .flickity-prev-next-button svg{
+  display: none;
+}
+
+.home .flickity-prev-next-button.previous{
+  background: url(../img/renewal/icon_recruit_before.png) no-repeat;
+  width: 28px;
+  height: 26px;
+  left: -12px;
+}
+
+.home .flickity-prev-next-button.next{
+  background: url(../img/renewal/icon_recruit_after.png) no-repeat;
+  width: 28px;
+  height: 26px;
+  right: -12px;
+}
+
+.home .offer-text {
+  color: #333;
+  line-height: 1.6;
+  margin: 5px 0 10px;
+}
+
+/* カンタン求人検索 */
+
+.home .easy .search-method {
+  text-align: center;
+  margin: 30px auto;
+  letter-spacing: -.4em;
+}
+
+.home .search-method .search-tab.current {
+  background: #dc2611;
+  border: 1px solid #dc2611;
+  color: #fff;
+}
+
+.home .search-method .search-tab {
+  display: inline-block;
+  border: 1px solid #dc2611;
+  color: #dc2611;
+  letter-spacing: normal;
+  cursor: pointer;
+  width: 133px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+}
+
+.home .search-method .search-tab:hover{
+  opacity: 0.6;
+}
+
+.home .search-box {
+  background: #fff9f3;
+  padding: 15px 25px 30px;
+  text-align: center;
+  display: none;
+}
+
+.home .search-box.current{
+  display: block;
+}
+
+.home .search-img-box {
+  padding: 0;
+}
+
+.home .search-img-box li {
+  position: relative;
+}
+
+.home .search-img-box li:first-child:after,
+.home .search-img-box li:nth-child(2):after {
+  bottom: 0;
+  content: "";
+  height: 20px;
+  margin: auto;
+  position: absolute;
+  right: -27px;
+  top: 40px;
+  width: 20px;
+}
+
+.home .search-img-box{
+  margin: 20px 0 0;
+}
+
+.home .search-img-box li:first-child:after {
+  background: url(../img/renewal/icon_multiple.png) no-repeat;
+}
+
+.home .search-img-box li:nth-child(2):after {
+  background: url(../img/renewal/icon_multiple.png) no-repeat;
+}
+
+.home .search-img {
+  float: left;
+  width: 190px;
+  margin: 0 0 0 35px;
+}
+
+.home .search-img:first-child{
+  margin: 0;
+}
+
+.home .search-img .step {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px 0 10px;
+}
+
+.home .search-box .search-title{
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.home .search-box .search-inner-box{
+  padding: 0 0 20px;
+  margin: 0 0 30px;
+  border-bottom: 1px dotted #aaaaaa;
+}
+
+.home .search-box .search-table{
+  width: 100%;
+}
+
+.home .search-box .search-table.type01 th{
+  width: 12%;
+  font-weight: normal;
+}
+
+.home .search-box .search-table.type01 td{
+  width: 44%;
+  padding: 10px 10px 15px 0;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.home .search-box .search-table.type01 td .edit-select-open-add{
+  width: 270px;
+  float: left;
+}
+
+.home .search-box .search-table.type01 td .edit-select-open-add + .edit-select-open-add{
+  margin: 0 0 0 10px;
+}
+
+.home .search-box .search-table.type01 .check-area td{
+  width: 100%;
+  padding: 10px 0 15px;
+}
+
+.home .search-box .search-table.type01 .check-area label{
+  width: 32%;
+  margin: 0 0 10px 2%;
+  vertical-align: top;
+  float: left;
+}
+
+.home .search-box .search-table.type01 .check-area label:nth-child(3n+1){
+  clear: both;
+  margin: 0 0 10px;
+}
+
+.home .search-box .search-table.type01 .check-area th{
+  padding: 14px 0 0;
+  vertical-align: top;
+}
+
+.home .search-box .search-table.type02 td{
+  width:100%;
+  text-align: left;
+}
+
+.home .search-box .search-table.type02 .check-area label{
+  width: 32%;
+  margin: 0 0 10px 2%;
+  vertical-align: top;
+  float: left;
+}
+
+.home .search-box .search-table.type02 .check-area label:nth-child(3n+1){
+  clear: both;
+  margin: 0 0 10px;
+}
+
+.home .search-box .custom-checkbox{
+  position:relative;
+  display:inline-block;
+  width: 100%;
+  cursor: pointer;
+}
+
+.home .search-box .custom-checkbox .custom-control-input{
+  display: none;
+}
+
+.home .search-box .custom-checkbox .custom-control-check{
+  position:absolute;
+  width:14px;
+  height:14px;
+  border:1px solid #aaaaaa;
+  background: #fff;
+  left: 8px;
+  top: 9px;
+}
+.home .search-box .custom-checkbox .custom-control-check:before{
+  position: absolute;
+  top: 50%;
+  left: 3px;
+  display: block;
+  margin: -6px 0 0;
+  width: 6px;
+  height: 9px;
+  border-right: 2px solid #dc2611;
+  border-bottom: 2px solid #dc2611;
+  content: '';
+  opacity: 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition: opacity 0.1s linear;
+  transition: opacity 0.1s linear;
+}
+
+.home .search-box .custom-checkbox .custom-control-description{
+  display: block;
+  padding: 5px 5px  5px 30px;
+  text-align: left;
+  -webkit-transition: background 0.1s linear;
+  transition: background 0.1s linear;
+  font-weight: normal;
+}
+
+.home .search-box .custom-checkbox .custom-control-description:hover{
+  background: #ffdeda;
+}
+
+.home .search-box .custom-checkbox .custom-control-input:checked + .custom-control-check:before{
+  opacity: 1;
+}
+
+.home .search-box .custom-checkbox .custom-control-input:checked + .custom-control-check + .custom-control-description{
+  background: #dc2611;
+  color: #fff;
+}
+
+.home .step.text01, .home .step.text02 {
+  color: #18a73e;
+}
+
+.home .step.text03 {
+  color: #03a0d5;
+}
+
+.home .search-box .freeword-text{
+  width: 100%;
+  text-align: left;
+  padding: 5px 10px;
+  border:1px solid #aaaaaa;
+}
+
+.home .search-box .freeword-text::-webkit-input-placeholder {
+    color: #aaaaaa;
+}
+.home .search-box .freeword-text:-ms-input-placeholder {
+    color: #aaaaaa;
+}
+.home .search-box .freeword-text::-moz-placeholder {
+    color: #aaaaaa;
+}
+
+.home .search-box .btn-block{
+  margin: 30px 0 0;
+  text-align: center;
+  position: relative;
+}
+
+.home .search-box .search-btn {
+  background: #dc2611;
+  border: none;
+  color: #fff;
+  display: inline-block;
+  height: 40px;
+  position: relative;
+  width: 370px;
+  font-size: 16px;
+}
+
+.home .search-box .search-btn:before {
+  background: url(../img/renewal/icon_search01.png) no-repeat;
+  bottom: 0;
+  content: "";
+  height: 18px;
+  left: 35px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  width: 18px;
+}
+
+.home .search-box .search-btn:hover{
+  opacity: 0.6;
+}
+
+.home .search-box .clear-btn{
+  position: absolute;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  background: #fff;
+  border: 1px solid #dc2611;
+  color: #dc2611;
+  right: 0;
+  font-size: 16px;
+  cursor:pointer;
+}
+
+.home .search-box .clear-btn:hover{
+  opacity: 0.6;
+}
+
+.home .particular.module-block{
+  margin: 0 auto 35px;
+}
+
+.home .particular .particluar-box {
+  background: #fff9f3;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.home .particular .particluar-box li a {
+  display: block;
+  padding: 13px 0;
+  position: relative;
+}
+.home .particular .particluar-box li a img {
+  width: auto;
+  height: 50px;
+}
+
+.home .particular .particluar-box li a:hover{
+  opacity: 0.6;
+  background: #fff;
+}
+
+.home .particular .particluar-box li a:after {
+  background: url(../img/renewal/icon_arrow01.png) no-repeat;
+  bottom: 0;
+  content: "";
+  height: 14px;
+  right: 0;
+  position: absolute;
+  top: 45px;
+  width: 8px;
+}
+
+.home .particular .particluar-box li {
+  float: left;
+  margin: 0 20px 0 0;
+  text-align: center;
+  width: calc(25% - 20px);
+}
+
+.home .particular .particluar-box li:nth-child(-n + 4) {
+  border-bottom: 1px dotted #333;
+}
+
+.home .particular .particluar-box li:nth-child(4n) {
+  margin: 0;
+/*
+  width: 18%;
+*/
+  width: 25%;
+}
+
+.home .particular .particluar-box li:nth-child(4n-2) {
+/*
+  width: 21%;
+*/
+}
+
+.home .particular .particluar-box span {
+  color: #333;
+  font-size: 13px;
+  display: block;
+  margin: 8px 0 0;
+}
+
+/*	20171207追加特集	*/
+
+.home .recruit .recruit-top:before {
+  background: url(../img/renewal/icon_recruit.png) no-repeat;
+  content: "";
+  height: 26px;
+  position: absolute;
+  top: 5px;
+  width: 30px;
+}
+
+.home .recruit .recruit-box {
+  margin: 0;
+  padding: 20px 0 30px;
+}
+
+.home .recruit .recruit-box li {
+  float: left;
+  width: 47%;
+}
+
+.home .recruit .recruit-box li:first-child {
+  margin: 0 40px 0 0;
+}
+
+.home .recruit .recruit-box li a {
+  display: block;
+}
+
+.home .recruit .recruit-box li a:hover{
+  opacity: 0.6;
+}
+
+.home .recruit .recruit-box img{
+/*
+	border-top: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+	border-left: 1px solid #e5e5e5;
+	border-bottom: none;
+*/
+	border-radius: 5px 5px 0 0;
+	width: 100%;
+}
+
+.home .recruit .recruit-box span {
+  background-color: #feeedf;
+  display: table-cell;
+  vertical-align: middle;
+  height:62px;
+  width:325px;
+  margin: 0;
+  position: relative;
+  padding-left:60px;
+  font-size:17px;
+  line-height:20px;
+  color:#ee8935;
+  font-weight:bold;
+  border-radius: 0 0 5px 5px;
+}
+
+.home .recruit .recruit-box span:after{
+  content: "";
+  position: absolute;
+  background: url(../img/renewal/icon_pickup.png) no-repeat;
+  width: 38px;
+  height: 53px;
+  left: 10px;
+  top: 0%;
+  margin: 0;
+}
+
+.home .recruit .btn-block {
+  margin: 0;
+  text-align: center;
+  position: relative;
+}
+
+.home .recruit .recruit-btn {
+	background-color:#fff;
+	border: solid 1px #dc2611;
+	color: #dc2611;
+	display: inline-block;
+	height: 40px;
+	position: relative;
+	width: 370px;
+	font-size: 16px;
+}
+
+.home .recruit .recruit-btn:hover{
+	opacity: 0.6;
+}
+
+.home .recruit .recruit-btn::before {
+	background: url(../img/renewal/icon_arrow01.png) no-repeat;
+	bottom: 0;
+	content: "";
+	height: 13px;
+	right: 11px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	width: 7px;
+}
+
+
+/*	/20171207追加特集	*/
+
+
+
+
+
+.home .new-arrival .new-top:before {
+  background: url(../img/renewal/icon_new.png) no-repeat;
+  content: "";
+  height: 26px;
+  position: absolute;
+  top: 3px;
+  width: 26px;
+}
+
+.home .new-arrival .new-box {
+  background: #fff9f3;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+.home .new-arrival .new-box li {
+  float: left;
+  margin: 0 4% 0 0;
+  position: relative;
+  width: 48%;
+}
+
+.home .new-arrival .new-box li:after {
+  background: url(../img/renewal/icon_arrow01.png) no-repeat;
+  bottom: 0;
+  content: "";
+  height: 14px;
+  right: 10px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  width: 8px;
+}
+
+.home .new-arrival .new-box li:nth-child(2n) {
+  margin: 0;
+}
+
+.home .new-arrival .new-box li:nth-child(-n + 2) {
+  border-bottom: 1px dotted #333;
+}
+
+.home .new-arrival .new-box li a {
+  display: block;
+  padding: 20px 10px 20px 0;
+}
+
+.home .new-arrival .new-box li a:hover{
+  opacity: 0.6;
+  background: #fff;
+}
+
+.home .new-arrival .new-box li img,
+.home .new-arrival .new-box li span {
+  float: left;
+}
+
+.home .new-arrival .new-box li img {
+  margin:0 15px 0 0;
+}
+
+.home .new-arrival .new-box li span {
+  letter-spacing: -1px;
+  width: 65%;
+}
+
+.home .introduction .intro-top:before {
+  background: url(../img/renewal/icon_introduction.png) no-repeat;
+  content: "";
+  height: 26px;
+  position: absolute;
+  top: 5px;
+  width: 30px;
+}
+
+.home .introduction .intro-top h2 .logo {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.home .introduction .intro-box {
+  margin: 0;
+  padding: 20px 0 30px;
+}
+
+.home .introduction .intro-box li {
+  float: left;
+  width: 332px;
+}
+
+.home .introduction .intro-box li:first-child {
+  margin: 0 26px 0 0;
+}
+
+.home .introduction .intro-box li a {
+  display: block;
+}
+
+.home .introduction .intro-box li a:hover{
+  opacity: 0.6;
+}
+
+.home .introduction .intro-box img {
+  border-radius: 5px;
+}
+
+.home .introduction .intro-box span {
+  display: block;
+  margin: -3.3em 0 0;
+  padding: 1em 38px 1em 15px;
+  color: #fff;
+  line-height: 1.3;
+  position: relative;
+  background-color: rgba(0,0,0,.6);
+  border-radius: 0 0 5px 5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.home .introduction .intro-box span:after{
+  content: "";
+  position: absolute;
+  background: url(../img/renewal_job/rn_icon_arrow01_w.png) no-repeat;
+  background-size: 100%;
+  width: 8px;
+  height: 14px;
+  right: 20px;
+  top: 50%;
+  margin: -8px 0 0;
+}
+
+.home .introduction .intro-box b {
+	margin-top: 20px;
+	font-size: 10px;
+	font-weight: normal;
+	display: block;
+}
+
+.home .register-box a {
+  display: block;
+}
+.home .register-box02 {
+	text-align: center;
+}
+.home .register-box02 img {
+	margin-left: 25px;
+}
+
+
+.home .merit .merit-top:before {
+  background: url(../img/renewal/icon_merit.png) no-repeat;
+  content: "";
+  height: 26px;
+  position: absolute;
+  top: 4px;
+  width: 18px;
+}
+
+.home .merit .merit-text {
+  font-size: 14px;
+  letter-spacing: -0.9px;
+  margin: 20px 0 0;
+  line-height: 2.2;
+}
+
+.home .event .event-top:before {
+  background: url(../img/renewal/icon_event.png) no-repeat;
+  content: "";
+  height: 26px;
+  position: absolute;
+  top: 4px;
+  width: 26px;
+}
+
+.home .event-top {
+  margin: 0 auto 30px;
+}
+
+.home .event .event-box {
+  padding: 20px 0 0;
+}
+
+.home .event .event-box li{
+  float: left;
+  width: 332px;
+  margin: 0 0 40px;
+}
+
+.home .event .event-box li:nth-child(odd){
+  clear: both;
+  margin: 0 26px 0 0;
+}
+
+.home .event .event-box li a{
+  display: block;
+}
+
+.home .event .event-box li a:hover{
+  opacity: 0.7;
+}
+.home .event .event-box img {
+  border-radius: 5px;
+}
+.home .event .event-box span {
+  display: block;
+  margin: -3.3em 0 0;
+  padding: 1em 38px 1em 15px;
+  color: #fff;
+  line-height: 1.3;
+  position: relative;
+  background-color: rgba(0,0,0,.6);
+  border-radius: 0 0 5px 5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.home .event .event-box span:after{
+  content: "";
+  position: absolute;
+  background: url(../img/renewal_job/rn_icon_arrow01_w.png) no-repeat;
+  background-size: 100%;
+  width: 8px;
+  height: 14px;
+  right: 20px;
+  top: 50%;
+  margin: -8px 0 0;
+}
+.home .event .event-box b {
+	margin-top: 20px;
+	font-size: 10px;
+	font-weight: normal;
+	display: block;
+ }
+
+.home .search-list-area .search-list-block{
+  margin: 0 0 35px;
+}
+
+.home .search-link-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #f08a26;
+}
+
+.home .search-link-list {
+  list-style: none;
+  padding: 0;
+}
+
+.home .search-link-list li{
+  display: inline-block;
+  margin: 0 5px 5px 0;
+}
+
+.home .search-link-list li:first-child{
+/*
+  margin: 0;
+*/
+}
+
+.home .search-link-list li a{
+  display: block;
+  font-size: 14px;
+  padding: 0 25px 0 10px;
+  position: relative;
+  background: #ffeede;
+  border-radius: 15px;
+  color: #333;
+}
+
+.home .search-link-list li a:hover{
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.home .search-link-list li a:after {
+  background: url(../img/renewal/icon_arrow01.png) no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  content: "";
+  width: 5px;
+  height: 9px;
+  top: 50%;
+  right: 8px;
+  margin: -5px auto 0;
+  position: absolute;
+}
+
+.home .search-link-list li .current{
+  display: inline-block;
+  color: #f08a26;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.home .search-list-area .west{
+  position: relative;
+}
+
+.home .search-list-area .west .coming-soon {
+  background: rgba(187,187,187,0.85);
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 32px;
+  position: absolute;
+  top: -5px;
+  text-align: center;
+}
+
+.home .aside-global .register-left {
+  background: #03a0d5;
+  height: 75px;
+  position: relative;
+  text-align: center;
+  width: 210px;
+}
+
+.home .aside-global .register-left:after {
+  background: url(../img/renewal/icon_arrow02.png) no-repeat;
+  bottom: 0;
+  content: "";
+  height: 24px;
+  right: 10px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+.home .aside-global .register-left span {
+  color: #fff;
+  display: block;
+  font-size: 12px;
+}
+
+.home .aside-global .register-left .left-title {
+  color: #fbf0c8;
+  font-size: 24px;
+}
+
+.home .asideWidget-banner {
+  margin: 20px auto 0;
+}
+
+.home .asideWidget-banner:first-child{
+  margin: 0;
+}
+
+.home .asideWidget-banner a{
+  display: block;
+}
+
+
+
+.aside-head {
+  margin: 25px 0 -5px;
+  padding-bottom: 10px;
+  color: #ee675d;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.1;
+  text-align: left;
+  border-bottom: dotted 1px #ee675d;
+  position: relative;
+}
+.aside-head.pc {
+  display: block;
+}
+@media only screen and (max-width: 639px){
+  .aside-head.pc {
+    display: none;
+  }
+}
+
+
+.aside-head i {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px 0 0;
+  vertical-align: middle;
+  background-position: center center;
+  background-size: 100%;
+  display: inline-block;
+  position: relative;
+}
+.aside-head i.star {
+  background-image: url(/assets/img/renewal_job/rn_icon_star05.png);
+  top: -2px;
+}
+
+
+
+
+
+/*******************************
+  footer
+********************************/
+
+.footer-global .footer-map-link {
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+.footer-global .footer-map-link li{
+  display: inline-block;
+  border-left: 1px solid #333;
+  line-height: 12px;
+  padding: 0 5px;
+}
+
+.footer-global .footer-map-link li:first-child{
+  border-left: none;
+}
+
+.footer-global .footer-map-link li a{
+  font-size: 12px;
+}
+
+.footer-global .footer-map-link li a:hover{
+  opacity: 1;
+  text-decoration: underline;
+}
+
+
+/*******************************
+  clearfix
+********************************/
+
+.home .new-speak-media:after,
+.home .new-speak-media .media-right:after,
+.home .contentCover .media:after,
+.home .module-block ul:after,
+.home .register-box:after,
+.home .list-unstyled:after,
+.nav-global ul:after,
+.home .new-arrival .new-box li a:after,
+.home .event .event-box:after,
+.headerBar .container:after {
+  clear: both;
+  content: "";
+  display: block;
+  height: 0;
+  font-size: 0;
+  visibility: hidden;
+  overflow: hidden;
+}
+
+
+/*******************************
+  recommend-offers02
+********************************/
+/*.home .recommend-offers02 .owl-carousel-recommend { */
+.home .recommend-offers02 .recommend-offers02box {
+  padding: 30px 20px 20px;
+  background: #fff9f3;
+  margin-top: 10px;
+}
+.home .recommend-offers02 .owl-carousel-recommend {
+  padding: 0;
+}
+.home .recommend-offers02 .item {
+  width: 100%;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 15px;
+  border-radius: 3px;
+  box-shadow: 0 3px 0px rgba(0,0,0,.1);
+  list-style: none;
+}
+.home .recommend-offers02 .item a {
+  display: block;
+}
+.home .recommend-offers02 .item a:hover {
+  opacity: .7;
+  text-decoration: none;
+}
+.home .recommend-offers02 .tag_new {
+  background: #db241f;
+  margin-bottom: 3px;
+  padding: 3px 5px;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 10px;
+  display: inline-block;
+}
+.home .recommend-offers02 .tag_gyousyu {
+  background: #ff9933;
+  margin-bottom: 3px;
+  padding: 3px 5px;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 10px;
+  display: inline-block;
+}
+.home .recommend-offers02 .tag_point01,
+.home .recommend-offers02 .tag_point02 {
+  background: transparent;
+  margin-bottom: 3px;
+  padding: 2px 5px;
+  border-radius: 2px;
+  color: #ee675d;
+  border: 1px solid #ee675d;
+  box-sizing: border-box;
+  font-size: 10px;
+  display: inline-block;
+}
+.home .recommend-offers02 .img_wrap {
+  margin: 10px 0px;
+}
+.home .recommend-offers02 .catch {
+  color: #333;
+  font-weight: bold;
+  line-height: 1.3;
+  margin-bottom: 5px;
+}
+.home .recommend-offers02 .detail {
+  font-size: 12px;
+  color: #777;
+  line-height: 1.3;
+  margin: 10px 0px;
+}
+.home .recommend-offers02 .salary {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  background: #fff9f3;
+  padding: 10px;
+  color: #ee675d;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+.home .recommend-offers02 .salary p {
+  margin-bottom: 0;
+}
+.home .recommend-offers02 .salary span {
+  color: #b30000;
+  font-size: 18px;
+  padding: 0px 3px;
+}
+.home .recommend-offers02 .new-btn01 {
+  color: #ee675d !important;
+  border-color: #ee675d;
+}
+.home .recommend-offers02 .new-btn01:before {
+  background-image: url(/assets/img/renewal/icon_arrow05.png);
+  background-size: auto 13px;
+}
+.home .recommend-offers02 .new-btn01:hover {
+  text-decoration: none;
+}
+
+.home .recommend-offers02 .item a>*:last-child {
+  margin-bottom: 0;
+}
+.home .recommend-offers02 .text-center {
+  text-align: center;
+}
+.home .owl-carousel-pickup-company {
+  margin: 30px 0 0;
+}
+.home .owl-carousel-pickup-company.owl-carousel .owl-nav .owl-prev,
+.home .owl-carousel-pickup-company.owl-carousel .owl-nav .owl-next {
+  height: 104px;
+  top: 34px;
+}
+.home .recommend-offers02 .owl-theme .owl-nav [class*=owl-] {
+  background-color: #ee675d;
+}
+.home .recommend-offers02 .owl-theme .owl-dots .owl-dot.active span,
+.home .recommend-offers02 .owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #ee675d;
+}
+
+
+
+@media screen and (max-width: 749px) {
+  .home .recommend-offers02 .recommend-top:before {
+    display: none;
+  }
+  .home .module-block.recommend-offers02 .block-title h2 {
+    height: 20px;
+    border-bottom: none;
+    background: url(/assets/img/renewal_sp/img_txt_title01.png) no-repeat top left;
+    background-size: 275px auto;
+  }
+  .home .recommend-offers02 .recommend-top h2 img {
+    display: none;
+  }
+  .home .recommend-offers02 .recommend-offers02box {
+    padding: 20px 0 10px !important;
+  }
+  .home .recommend-offers02 .owl-carousel-recommend {
+    padding-bottom: 0 !important;
+  }
+  .home .recommend-offers02 .new-btn01 {
+    width: calc(100% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+
+/*******************************
+  recommend-offers03
+********************************/
+.home .recommend-offers03box {
+  margin: 20px 0 0 ;
+}
+.home .recommend-offers03box .swiper-slide {
+  font-size: 10px;
+  text-align: center;
+}
+.home .recommend-offers03box .swiper-slide a {
+  color: #777;
+  display: block;
+}
+.home .recommend-offers03box .swiper-slide a:hover {
+  opacity: .6;
+}
+.home .recommend-offers03box .swiper-slide img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto 5px;
+}
+.home .recommend-offers03box .swiper-container {
+  padding-bottom: 30px;
+}
+.home .recommend-offers03box .swiper-pagination {
+  bottom: 0;
+}
+.home .recommend-offers03box .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #D6D6D6;
+  opacity: 1;
+}
+.home .recommend-offers03box .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #db241f;
+}
+
+
+/*******************************
+  home bnr
+********************************/
+.home-bnr {
+  margin-bottom: 30px;
+}
+.home-bnr .row {
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-bottom: 10px;
+}
+.home-bnr [class^="col-"] {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+
+/*******************************
+  rn-head
+********************************/
+.rn-head01 {
+	margin: 0;
+	padding: 0 0 10px 36px;
+	color: #dc2611;
+	font-size: 28px;
+	font-size: 2.8rem;
+	font-weight: normal;
+	position: relative;
+	border-bottom: 2px solid #dc2611;
+	background-repeat: no-repeat;
+	background-position: left 0 top 3px;
+	background-size: 24px auto;
+}
+.rn-head01.rn-head-icon-balloon {
+	background-image: url(/assets/img/renewal_job/rn_icon_balloon.png);
+}
+.rn-head01.rn-head-icon-calendar31 {
+	background-image: url(/assets/img/renewal_job/rn_icon_calendar31.png);
+}
+.rn-head01.rn-head-icon-job {
+	background-image: url(/assets/img/renewal_job/rn_icon_job.png);
+}
+.rn-head01.rn-head-icon-new {
+	background-image: url(/assets/img/renewal_job/rn_icon_new.png);
+}
+.rn-head01.rn-head-icon-memo-check {
+	background-image: url(/assets/img/renewal_job/rn_icon_memo-check.png);
+}
+.rn-head01.rn-head-icon-balloon {
+	background-image: url(/assets/img/renewal_job/rn_icon_balloon.png);
+}
+.rn-head01.rn-head-icon-search {
+	background-image: url(/assets/img/renewal_job/rn_icon_search02.png);
+}
+.rn-head01.rn-head-icon-star {
+	background-image: url(/assets/img/renewal_job/rn_icon_star03.png);
+}
+@media screen and (max-width: 749px) {
+	.rn-head01 {
+		padding: 0 0 5px 24px;
+		color: #dc2611;
+		font-size: 20px;
+		font-size: 2.0rem;
+		font-weight: bold;
+		background-position: left 0 top 2px;
+		background-size: 16px auto;
+    }
+}
+
+/*******************************
+  rn2-home rn-head
+********************************/
+.rn2-home .rn-head01 {
+	padding: 1px 0 10px 34px;
+	color: #ef7065;
+	font-size: 20px;
+	font-size: 2.0rem;
+	font-weight: bold;
+	border-bottom: 2px solid #ef7065;
+	background-position: left 2px top 0px;
+	background-repeat: no-repeat;
+	background-size: 22px auto;
+}
+.rn2-home .rn-head01.rn-head-icon-balloon {
+	background-image: url(/assets/img/renewal_job/rn_icon_balloon02.png);
+}
+.rn2-home .rn-head01.rn-head-icon-calendar31 {
+	background-image: url(/assets/img/renewal_job/rn_icon_calendar31_02.png);
+}
+.rn2-home .rn-head01.rn-head-icon-job {
+	background-image: url(/assets/img/renewal_job/rn_icon_job02.png);
+}
+.rn2-home .rn-head01.rn-head-icon-memo-check {
+	background-image: url(/assets/img/renewal_job/rn_icon_memo-check03.png);
+}
+.rn2-home .rn-head01.rn-head-icon-search {
+	background-image: url(/assets/img/renewal_job/rn_icon_search03.png);
+}
+.rn2-home .rn-head01.rn-head-icon-star {
+	background-image: url(/assets/img/renewal_job/rn_icon_star06.png);
+}
+
+
+
+
+/*******************************
+  sitemap
+********************************/
+.sitemap .search-link-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.1;
+  color: #f08a26;
+  background: #FFF;
+}
+
+
+
+
+
+/*******************************
+  recommend-feature
+********************************/
+.home .recommend-feature {
+  margin: 0 -5px 30px;
+}
+.home .recommend-feature .rn-head01 {
+  margin: 0 5px 20px;
+  padding-bottom: 0;
+  border: none;
+}
+.home .recommend-feature .owl-carousel-recommend-feature,
+.home .recommend-feature .owl-carousel-recommend-feature-bottom {
+  margin-bottom: 0;
+  padding: 0;
+}
+.home .recommend-feature .owl-carousel-recommend-feature {
+  margin-bottom: 5px;
+}
+.home .owl-carousel-recommend-feature .item,
+.home .owl-carousel-recommend-feature-bottom .item {
+  width: 100%;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,.1);
+  list-style: none;
+}
+.home .owl-carousel-recommend-feature .item a,
+.home .owl-carousel-recommend-feature-bottom .item a {
+  display: block;
+  text-decoration: none;
+}
+.home .owl-carousel-recommend-feature .item a:hover,
+.home .owl-carousel-recommend-feature-bottom .item a:hover,
+.home .owl-carousel-recommend-feature .item a:active,
+.home .owl-carousel-recommend-feature-bottom .item a:active {
+  opacity: .7;
+  text-decoration: none;
+}
+.home .owl-carousel-recommend-feature .item.focus{
+  border: solid 3px #ee675d;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+.home .owl-carousel-recommend-feature .item .focus-content {
+  position: absolute;
+  top: -10px;
+  left: -3px;
+  width: 89px;
+  height: 91px;
+  overflow: hidden;
+  z-index: 10;
+  }
+.home .owl-carousel-recommend-feature .item .focus-ribbon {
+  display: inline-block;
+  position: absolute;
+  padding: 7px 0;
+  right: -23px;
+  top: 22px;
+  width: 160px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 16px;
+  background: #ee675d;
+  color: #fff;
+  letter-spacing: 0.05em;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.home .owl-carousel-recommend-feature .item img,
+.home .owl-carousel-recommend-feature-bottom .item img {
+  border-radius: 7px 7px 0 0;
+}
+.home .owl-carousel-recommend-feature .item p,
+.home .owl-carousel-recommend-feature-bottom .item p {
+  margin:0;
+  padding: 10px;
+  font-size: 10px;
+}
+.home .owl-carousel-recommend-feature-bottom .item .pic {
+  position: relative;
+}
+.home .owl-carousel-recommend-feature-bottom .item .pic:before {
+  width: 100%;
+  height: 100%;
+  border-radius: 7px 7px 0 0;
+  background: #8d684d;
+  opacity: .6;
+  display: block;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  content: "";
+}
+.home .owl-carousel-recommend-feature-bottom .item .pic b {
+  width: 100%;
+  padding: 0 5px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  -webkit-transform : translateY(-50%);
+  transform : translateY(-50%);
+  z-index: 3;
+}
+.home .owl-carousel-recommend-feature .owl-nav,
+.home .owl-carousel-recommend-feature-bottom .owl-nav {
+  margin: 0;
+}
+.home .owl-carousel-recommend-feature .owl-nav .owl-prev,
+.home .owl-carousel-recommend-feature .owl-nav .owl-next,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-prev,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-next {
+  width: 36px;
+  height: 36px;
+  border: solid 1px #ee675d;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,.1);
+  top: calc(50% - 10px - 18px);
+  opacity: 1;
+}
+.home .owl-carousel-recommend-feature .owl-nav .owl-prev:hover,
+.home .owl-carousel-recommend-feature .owl-nav .owl-next:hover,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-prev:hover,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-next:hover {
+  opacity: 1;
+}
+.home .owl-carousel-recommend-feature .owl-nav .owl-prev:active,
+.home .owl-carousel-recommend-feature .owl-nav .owl-next:active,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-prev:active,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-next:active {
+  background: #ee675d;
+}
+.home .owl-carousel-recommend-feature .owl-nav .owl-prev:active:after,
+.home .owl-carousel-recommend-feature .owl-nav .owl-next:active:after,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-prev:active:after,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-next:active:after {
+  border-color: #fff;
+}
+.home .owl-carousel-recommend-feature .owl-nav .owl-prev,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-prev {
+  left: -10px;
+}
+.home .owl-carousel-recommend-feature .owl-nav .owl-prev:after,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-prev:after {
+    width: 10px;
+    height: 10px;
+    border: 0px;
+    border-left: solid 1px #ee675d;
+    border-bottom: solid 1px #ee675d;
+    left: calc(50% - 3px);
+    top: calc(50% - 5px);
+}
+.home .owl-carousel-recommend-feature .owl-nav .owl-next,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-next {
+  right: -10px;
+}
+.home .owl-carousel-recommend-feature .owl-nav .owl-next:after,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-next:after {
+    width: 10px;
+    height: 10px;
+    border: 0px;
+    border-right: solid 1px #ee675d;
+    border-top: solid 1px #ee675d;
+    right: calc(50% - 3px);
+    top: calc(50% - 5px);
+}
+.home .owl-carousel-recommend-feature .owl-nav .owl-prev.disabled,
+.home .owl-carousel-recommend-feature .owl-nav .owl-next.disabled,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-prev.disabled,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-next.disabled {
+  opacity: .5;
+}
+.home .owl-carousel-recommend-feature .owl-nav .owl-prev.disabled:hover,
+.home .owl-carousel-recommend-feature .owl-nav .owl-next.disabled:hover,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-prev.disabled:hover,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-next.disabled:hover {
+  opacity: .5;
+}
+.home .owl-carousel-recommend-feature .owl-nav .owl-prev.disabled:active,
+.home .owl-carousel-recommend-feature .owl-nav .owl-next.disabled:active,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-prev.disabled:active,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-next.disabled:active {
+  background: #fff;
+}
+.home .owl-carousel-recommend-feature .owl-nav .owl-prev.disabled:active:after,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-prev.disabled:active:after,
+.home .owl-carousel-recommend-feature .owl-nav .owl-next.disabled:active:after,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-next.disabled:active:after {
+  border-color: #ee675d;
+}

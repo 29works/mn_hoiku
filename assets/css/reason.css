@@ -1,0 +1,269 @@
+@charset "UTF-8";
+/* マイナビ保育士：reason.css
+================================================== */
+/* added by omae 2019/7/25 */
+
+/*
+    /reason/css
+——————————————————————————————————————————————————————————————————*/
+
+ul.contentslist,
+ul.samplelist {
+  width: 100%;
+  display: inline-block;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+ul.contentslist li {
+  width: 49%;
+  display: inline-block;
+  border: #2b99e5 solid 1px;
+  border-radius: 5px;
+  position: relative;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.2;
+  padding: 15px 0 15px 40px;
+}
+ul.contentslist li::before {
+  content: '';
+  background-image: url(../img/useful/btn-mark.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  margin: 0 auto;
+  width: 20px;
+}
+ul.contentslist li:nth-child(even) {
+  margin-right: 0;
+}
+ul.contentslist li a {
+  display: block;
+  text-decoration: none;
+  color: #4f4f4f;
+  padding: 15px 0 15px 40px;
+}
+ul.contentslist li:hover {
+  background-color: #7ecef4;
+  transition-duration: 0.3s;
+}
+
+.ng-pattern-ttl {
+  background-color: #f08a26;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 0;
+  padding: 10px;
+}
+.ng-pattern-ttl span {
+  font-weight: bold;
+}
+.ng-pattern-txt {
+  border: 1px solid #f08a26;
+  padding: 10px;
+}
+
+ul.samplelist li {
+  width: 24%;
+  display: inline-block;
+  border: #99d6d2 solid 2px;
+  background-color: #fff;
+  border-radius: 5px;
+  position: relative;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+ul.samplelist li::before,
+.sample-ttl::before {
+  content: '';
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: 16px;
+  left: 8px;
+  top: 0;
+  bottom: 0;
+  margin: 0 auto;
+  width: 16px;
+}
+.newgraduate::before {
+  background-image: url(../img/useful/icon01.png);
+}
+.rookie::before {
+  background-image: url(../img/useful/icon02.png);
+}
+.experienced::before {
+  background-image: url(../img/useful/icon03.png);
+}
+.expert::before {
+  background-image: url(../img/useful/icon04.png);
+}
+.blank::before {
+  background-image: url(../img/useful/icon05.png);
+}
+.inexperience::before {
+  background-image: url(../img/useful/icon06.png);
+}
+.mother::before {
+  background-image: url(../img/useful/icon07.png);
+}
+.corporate::before {
+  background-image: url(../img/useful/icon08.png);
+}
+.public::before {
+  background-image: url(../img/useful/icon09.png);
+}
+.part::before {
+  background-image: url(../img/useful/icon10.png);
+}
+ul.samplelist li:nth-child(4n) {
+  margin-right: 0;
+}
+ul.samplelist li a {
+  display: block;
+  text-decoration: none;
+  color: #2cb1a8;
+  padding: 15px 0 15px 15px;
+  font-weight: bold;
+}
+ul.samplelist li:hover {
+  background-color: #99d6d2;
+  transition-duration: 0.3s;
+}
+ul.samplelist li a:hover {
+  color: #fff;
+}
+.sample-area {
+  background-color: #fff9f3;
+  padding: 10px;
+}
+.sample-ttl {
+  background-color: #99d6d2;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 10px 10px 10px 40px;
+  border-radius: 10px 10px 0 0;
+  position: relative;
+}
+.sample-txt {
+  border: 1px solid #99d6d2;
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+
+/*
+    求人一覧導線ボタン
+——————————————————————————————————————————————————————————————————*/
+.joboffer_conductor_btn a {
+  text-align: center;
+  display: block;
+}
+
+/*
+    テーブルA(囲み線＋背景色)
+——————————————————————————————————————————————————————————————————*/
+.useful-table-box *,
+.useful-table-box *:before,
+.useful-table-box *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.useful-table-box {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 8px;
+}
+.useful-table-box th,
+.useful-table-box td {
+  border: 1px solid #2b99e5;
+  padding: 24px;
+  line-height: 2;
+  font-size: 1.42rem;
+}
+.useful-table-box th {
+  width: 30%;
+  text-align: center;
+  background: #f6fbff;
+  border: solid #2b99e5;
+  border-width: 1px 0 1px 1px;
+  color: #2b99e5;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 24px 0;
+}
+
+@media only screen and (max-width: 639px) {
+  .usefulList .list .item .fig img,
+  .usefulSidebar img {
+    width: 100%;
+    height: auto;
+  }
+
+  .pcOnly {
+    display: none !important;
+  }
+
+  .spOnly {
+    display: initial;
+  }
+
+  .content-global .container {
+    padding: 0 10px;
+  }
+
+  .spInner {
+    padding: 0 10px;
+  }
+
+  .sp-view .aside-global {
+    display: initial;
+  }
+
+  /*
+    /reason/css
+——————————————————————————————————————————————————————————————————*/
+  ul.contentslist li {
+    width: 100%;
+    display: block;
+    font-size: 6vw;
+  }
+  ul.samplelist li {
+    width: 32%;
+    margin-right: 0;
+  }
+
+  /*
+    テーブルA(囲み線＋背景色)
+——————————————————————————————————————————————————————————————————*/
+  .useful-table-box {
+    margin: 0;
+  }
+  .useful-table-box th,
+  .useful-table-box td {
+    width: 100%;
+    display: block;
+    border-top: none;
+  }
+  .useful-table-box th {
+    padding: 12px 0;
+  }
+  .useful-table-box td {
+    padding: 12px;
+  }
+  .useful-table-box tr th {
+    border: 1px solid #2b99e5;
+  }
+}

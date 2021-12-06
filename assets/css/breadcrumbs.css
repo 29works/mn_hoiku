@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* マイナビ保育士　求人特集（パンくずリスト）：breadcrumbs.css
+================================================== */
+/* added by kato 2017/12/21 */
+
+
+/* パンくずリスト */
+
+.nav-site{
+	position: relative;
+}
+
+.nav-site li{
+	position: relative;
+	display: inline-block;
+	height:16px;
+	vertical-align: middle;
+	line-height:16px;
+	padding-right:10px;
+	padding-left:20px;
+}
+
+.nav-site li::before {
+	content: "";
+	position: absolute;
+	background: url(../img/common/ico-arrow4.png) no-repeat;
+	background-size:auto 14px;
+	line-height:14px;
+	width: 12px;
+	height: 14px;
+	top:0;
+	left: 0;
+	margin:0;
+/*	padding-left:20px; */
+}
+
+.nav-site li a {
+	color: #333;
+	text-decoration: none;
+/*	padding-left:20px; */
+}
+
+
+.nav-site li:first-child {
+/*	width:25px; */
+	padding-left: 0;
+}
+/*
+.nav-site li:first-child a {
+	width: 16px;
+	height: 16px;
+	padding-top: 16px;
+	overflow: hidden;
+	display: block;
+	z-index: 2;
+	position: relative;
+}
+.nav-site li:first-child:after {
+	content: "";
+  	position: absolute;
+	background: url(../img/common/ico-home.png) no-repeat;
+	background-size:auto 14px;
+	height: 14px;
+	top:0;
+	left:0;
+	margin:0;
+	padding-left:20px;
+}
+*/
+
+@media only screen and (max-width: 639px) {
+
+	.nav-site {
+		display: block !important;
+		width:100%;
+		padding:10px 10px 0 10px;
+		white-space:nowrap;
+		overflow-x:auto;
+		width:100%;
+	}
+
+}

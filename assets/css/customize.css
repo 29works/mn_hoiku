@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+.bottom-comment .bottom-comment-section-left h3.no06:before, .bottom-comment .bottom-comment-section-left h3.no06:after, .bottom-comment .bottom-comment-section-right h3.no06:before, .bottom-comment .bottom-comment-section-right h3.no06:after{
+    background-image: url(/assets/img/renewal_job/bottom-comment/no06.png);
+}

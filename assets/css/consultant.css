@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* 後で削除 */
+@media screen and (min-width:769px)  {
+  body {
+    margin-top: 120px;
+  }
+}
+
+/*--------------------------------------------------
+  mainTtlArea
+--------------------------------------------------*/
+.content-global {
+  background: white;
+}
+.mainTtlCenter {
+  width: 100%;
+  height: auto;
+  background-color: #E5FFFF;
+}
+.mainTtlArea {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.textArea h1 {
+  color: #19CECD;
+  line-height: 1.4;
+  font-weight: 600;
+}
+.textArea {
+
+}
+
+#consultant .mainTtlBox h2 {
+  color: #dc2611;
+  font-size: 22px;
+  font-weight : bold
+}
+
+#consultant .mainTtlBox h2 > span {
+  color: #19CECD;
+  font-size: 20px;
+}
+
+.lick__container {
+  width: 750px;
+}
+
+.flick-panel {
+  overflow-x: auto;
+  overflow-y: hidden;
+  left: 0;
+}
+
+.title_box {
+  color: #19CECD;
+  background: #F5F6F8;
+}
+.consultant_item_wrap {
+  display: block;
+  margin-right: 5px;
+  text-align: center;
+}
+.consultant_item {
+  border: 1px solid #EAEAEA;
+}
+
+.consultant_item:first-child {
+  border-radius: 24px 0 0 24px;
+}
+
+.list_consultant {
+  display: flex;
+}
+
+
+
+F.T O.T S.T E.Y
+Y.S O.K T.K T.A I.A S.M T.N K.M
+O.K S.H T.K F.S M.R M.A M.M M.Y
+I.T T.Y S.T K.R F.M B.R M.D

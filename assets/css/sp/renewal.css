@@ -1,0 +1,3290 @@
+@charset "UTF-8";
+
+/*******************************
+  common
+********************************/
+
+body.home {
+  background: #fff;
+  min-width: 320px;
+}
+
+.home img {
+  width: 100%;
+}
+
+.home a,a:hover, .home a:active {
+  color: #333333;
+}
+
+.home a:hover, .home a:focus {
+  text-decoration: none;
+}
+
+.sp-view .footer-global{
+  display: none;
+}
+
+.sp-view .contentCover{
+  display: none;
+}
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.sp-view{
+  padding: 55px 0 0;
+}
+
+/* header */
+
+
+.sp_header-global img{
+  width: 100%;
+  height: auto;
+}
+
+.header-global .menuWrap img {
+  width: 100%;
+}
+
+.header-global a,a:hover, .header-global a:active {
+  color: #333333;
+}
+
+.header-global a:hover, .header-global a:focus {
+  text-decoration: none;
+}
+
+.header-global .navbar-global {
+  padding: 5px 0 0;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background:#fff;
+  z-index: 10;
+}
+
+.header-global .container .navbar-header {
+  margin: 0;
+  position: relative;
+}
+
+.header-global .container .navbar-header .header-left {
+  position: absolute;
+  width: 50px;
+  top: 0;
+  left: 0;
+}
+
+.header-global .container .navbar-header .header-right {
+  position: absolute;
+  width: 50px;
+  top: 0;
+  right: 0;
+}
+
+.header-global .container .navbar-header .header-left .left-img,
+.header-global .container .navbar-header .header-right .right-img {
+  display: block;
+}
+
+.header-global .container .navbar-header .header-center {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 0 5px;
+}
+
+.header-global .container .navbar-header .header-center .center-img {
+  display: inline-block;
+  width: 173px;
+}
+
+.header-global .container .navbar-header .header-center .center-img img{
+  width: 100%;
+  height: auto;
+}
+
+
+
+/* right-menu*/
+
+.header-global #right-menu {
+	position: fixed;
+	top:0;
+	right:0;
+	width:100%;
+	height:100%;
+	min-height:100%;
+	z-index: 9999;
+	display: none;
+}
+.header-global #right-menu .menuWrap{
+	width:100%;
+	height:100%;
+	min-height:100%;
+	background-color: rgba(0,0,0,0.7);
+  position: absolute;
+}
+
+.header-global #right-menu .closeBtn {
+	float:left;
+	width:57px;
+	margin-right: -57px;
+	z-index:3;
+}
+
+.header-global #right-menu .closeBtn a span{
+	position: relative;
+}
+
+.header-global #right-menu .closeBtn a span:after {
+  background: url(../../img/renewal_sp/icon_close.png) no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  content: "";
+  height: 25px;
+  margin: auto;
+  position: absolute;
+  right: -38px;
+  top: 50px;
+  width: 25px;
+}
+
+.header-global #right-menu .leftinn{
+	float:right;
+	width:100%;
+	margin: 0 auto;
+	height:100%;
+	min-height:100%;
+	z-index:0;
+}
+.header-global #right-menu .leftinn2{
+  background-color: #fff;
+  height:100%;
+	margin-left: 50px;
+	min-height:100%;
+	overflow:auto;
+	width:100%;
+}
+
+.header-global #right-menu .leftinn2 .menu-top {
+  padding: 15px 65px 0 15px;
+}
+
+.header-global #right-menu .leftinn2 .menu-top a {
+  display: block;
+  margin:0 auto 15px;
+}
+
+.header-global #right-menu .leftinn2 .menu-top .aplly {
+  position: relative;
+}
+
+.header-global #right-menu .leftinn2 .menu-top .login {
+  background: #ffc109;
+  color: #fff;
+  font-size: 14px;
+  height: 48px;
+  line-height: 48px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+
+}
+
+.header-global #right-menu .leftinn2 .menu-top .login:after {
+  background: url(../../img/renewal_sp/icon_arrow05.png) no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  content: "";
+  height: 12px;
+  right: 10px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  width: 7px;
+}
+
+.header-global #right-menu .leftinn2 .menu-top .login span {
+  padding: 0 10px 0 0;
+}
+
+.header-global #right-menu .leftinn2 .menu-search {
+  padding: 0 0 120px;
+}
+
+.header-global #right-menu .leftinn2 .menu-search form {
+  padding: 20px 0;
+}
+
+.header-global #right-menu .leftinn2 .menu-search .area-check,
+.header-global #right-menu .leftinn2 .menu-search .employment-check {
+  padding: 0;
+}
+
+.header-global #right-menu .leftinn2 .menu-search .employment-check {
+  margin: 25px auto 0;
+}
+
+.header-global #right-menu .leftinn2 .menu-search .check-title {
+  border-bottom: #dc2611 solid 1px;
+  color: #dc2611;
+  font-weight: bold;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 0 0 15px;
+}
+
+.header-global #right-menu .leftinn2 .menu-search .area-check .area,
+.header-global #right-menu .leftinn2 .menu-search .employment-check .employment {
+  border-bottom: #9e9e9e dotted 1px;
+  font-size: 14px;
+}
+
+.header-global #right-menu .leftinn2 .menu-search .custom-control-check {
+  position: relative;
+}
+
+.header-global #right-menu .leftinn2 .menu-search .custom-control-check:before {position: absolute;
+  bottom: 0;
+  left: 30px;
+  display: block;
+  margin: auto;
+  width: 8px;
+  height: 13px;
+  border-right: 3px solid #e5e5e5;
+  border-bottom: 3px solid #e5e5e5;
+  content: '';
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition: opacity 0.1s linear;
+  transition: opacity 0.1s linear;
+  position: absolute;
+  top: 40px;
+  z-index: 1;
+}
+
+.header-global #right-menu .leftinn2 .menu-search .custom-control-input:checked + span:before {
+  border-right: 3px solid #dc2611;
+  border-bottom: 3px solid #dc2611;
+}
+
+.custom-checkbox .custom-control-description {
+  display: block;
+  line-height: 45px;
+  padding: 0 0 0 55px;
+  position: relative;
+  top: 0;
+}
+
+.header-global #right-menu .leftinn2 .menu-search .custom-control-input:checked ~ .custom-control-description {
+  background: #ffdeda;
+}
+
+.header-global #right-menu .leftinn2 .menu-search .custom-checkbox {
+  display: block;
+  font-weight: normal;
+  margin: 0 auto 1px;
+}
+
+.header-global #right-menu .leftinn2 .menu-search .custom-checkbox .custom-control-input {
+  display: none;
+}
+
+.header-global #right-menu .leftinn2 .menu-search .search-btn-block {
+  background: rgba(255,255,255,0.8);
+  padding: 15px 65px 15px 15px;
+  position: fixed;
+  bottom: 0;
+  z-index: 9999;
+  width: 100%;
+}
+
+.header-global #right-menu .leftinn2 .menu-search .search-btn-block .search-btn {
+  background: #dc2611;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  height: 45px;
+  width: 100%;
+  font-weight: bold;
+  position: relative;
+}
+
+.header-global #right-menu .leftinn2 .menu-search .search-btn-block .search-btn:before {
+  background: url(../../img/renewal_sp/icon_search02.png) no-repeat;
+  background-size: 100%;
+  content: "";
+  height: 21px;
+  left: 15px;
+  position: absolute;
+  top: 50%;
+  margin: -10px 0 0;
+  width: 21px;
+}
+
+
+.header-global #right-menu .leftinn2 .menu-search .search-btn-block .clear-btn {
+  background: #fff;
+  border: #dc2611 solid 1px;
+  color: #dc2611;
+  font-size: 14px;
+  height: 45px;
+  margin: 15px auto 0;
+  width: 100%;
+}
+/* left-menu*/
+
+.header-global #left-menu {
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	min-height:100%;
+	z-index: 9999;
+	display: none;
+}
+.header-global #left-menu .menuWrap{
+	width:100%;
+	height:100%;
+	min-height:100%;
+	background-color: rgba(0,0,0,0.7);
+  position: absolute;
+}
+.header-global #left-menu .closeBtn {
+	float:left;
+	width:57px;
+	margin-right: -57px;
+	z-index:3;
+}
+.header-global #left-menu .closeBtn a{
+  display: block;
+  height: 42px;
+  margin: 6px;
+  position: absolute;
+  right: 3px;
+  top: -6px;
+  width: 42px;
+}
+
+.header-global #left-menu .closeBtn a span{
+	position: relative;
+}
+
+.header-global #left-menu .closeBtn a span:after {
+  background: url(../../img/renewal_sp/icon_close.png) no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  content: "";
+  height: 25px;
+  margin: auto;
+  position: absolute;
+  right: -38px;
+  top: 50px;
+  width: 25px;
+}
+
+.header-global #left-menu .leftinn{
+	float:right;
+	width:100%;
+	margin: 0 auto;
+	height:100%;
+	min-height:100%;
+	z-index:0;
+}
+.header-global #left-menu .leftinn2{
+  background-color: #fff;
+  height:100%;
+  margin-left: -50px;
+	min-height:100%;
+	overflow:auto;
+	width:100%;
+}
+
+.header-global #left-menu .leftinn2 .menu-top {
+  padding: 15px 15px 15px 65px;
+}
+
+.header-global #left-menu .leftinn2 .menu-top a {
+  display: block;
+  margin:0 auto 15px;
+}
+
+.header-global #left-menu .leftinn2 .menu-top .aplly {
+  position: relative;
+}
+
+.header-global #left-menu .leftinn2 .menu-top .login {
+  background: #ffc109;
+  color: #fff;
+  font-size: 14px;
+  height: 48px;
+  line-height: 48px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.header-global #left-menu .leftinn2 .menu-top .login:after {
+  background: url(../../img/renewal_sp/icon_arrow05.png) no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  content: "";
+  height: 12px;
+  margin: auto;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  width: 7px;
+}
+
+.header-global #left-menu .leftinn2 .menu-top .login span {
+  padding: 0 10px 0 0;
+}
+
+.header-global #left-menu .leftinn2 .menu {
+  font-size: 14px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-global #left-menu .leftinn2 .menu .main,
+.header-global #left-menu .leftinn2 .menu .sub {
+  height: 45px;
+  line-height: 45px;
+  position: relative;
+}
+
+.header-global #left-menu .leftinn2 .menu .main:after,
+.header-global #left-menu .leftinn2 .menu .sub:after {
+  background: url(../../img/renewal_sp/icon_arrow01.png) no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  content: "";
+  height: 14px;
+  right: 10px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  width: 8px;
+}
+
+.header-global #left-menu .leftinn2 .menu .main {
+  background: #ffeede;
+  font-weight: bold;
+  padding: 0 0 0 65px;
+}
+
+.header-global #left-menu .leftinn2 .menu .sub {
+  padding: 0 0 0 80px;
+}
+
+.header-global #left-menu .leftinn2 .menu .sub.second {
+  padding: 0 0 0 110px;
+}
+
+.header-global #left-menu .leftinn2 .menu .sub a {
+  border-bottom: #aaaaaa dotted 1px;
+}
+
+.header-global #left-menu .leftinn2 .menu a {
+  display: block;
+}
+
+.header-global #left-menu .leftinn2 .menu-footer {
+  margin: 10px auto 20px 50px;
+}
+
+.header-global #left-menu .leftinn2 .menu-footer .footer-text {
+  font-size: 14px;
+  padding: 0 0 0 15px;
+}
+
+.header-global #left-menu .leftinn2 .menu-footer .sns-area {
+  margin: 30px 0 0;
+  text-align: center;
+}
+
+.header-global #left-menu .leftinn2 .menu-footer .sns-img {
+  display: inline-block;
+  margin: 0 10px;
+  text-align: center;
+  width: 40px;
+}
+
+/* .sp_header-global */
+
+
+.sp_header-global img{
+  width: 100%;
+  height: auto;
+}
+
+.sp_header-global .menuWrap img {
+  width: 100%;
+}
+
+.sp_header-global a,a:hover, .sp_header-global a:active {
+  color: #333333;
+}
+
+.sp_header-global a:hover, .sp_header-global a:focus {
+  text-decoration: none;
+}
+
+.sp_header-global .navbar-global {
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background:#fff;
+  z-index: 10;
+  top: 0;
+}
+.sp_header-global .navbar-global.navbar-global-noscroll {
+    position: relative;
+    margin-top: -65px;
+    margin-bottom: 5px;
+}
+.sp_header-global .navbar-global .container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.sp_header-global .container .navbar-header {
+  margin: 0;
+  position: relative;
+}
+
+.sp_header-global .container .navbar-header .header-left {
+  position: absolute;
+  width: 50px;
+  top: 0;
+  left: 0;
+}
+
+.sp_header-global .container .navbar-header .header-right {
+  position: absolute;
+  width: 150px;
+  top: 0;
+  right: 0;
+  font-size: 0;
+}
+.sp_header-global .container .navbar-header .right-inner {
+  text-align: right;
+}
+
+
+.sp_header-global .container .navbar-header .header-left .left-img,
+.sp_header-global .container .navbar-header .header-right .right-img,
+.sp_header-global .container .navbar-header .header-right .left-img {
+  width: 50px;
+  padding: 10px 0;
+  text-align: center;
+  display: inline-block;
+  border-left: solid 1px #ccc;
+}
+.sp_header-global .container .navbar-header .header-right .right-img img,
+.sp_header-global .container .navbar-header .header-right .left-img img {
+  width: auto;
+  height: 40px;
+}
+.sp_header-global .container .navbar-header .header-right .left-img.sp-menu {
+  background-color: #ffefde;
+
+}
+
+.sp_header-global .container .navbar-header .header-center {
+/*
+  text-align: center;
+  line-height: 60px;
+*/
+  height: 60px;
+  margin: 0;
+}
+
+.sp_header-global .container .navbar-header .header-center .center-img {
+  display: inline-block;
+  width: 173px;
+}
+
+.sp_header-global .container .navbar-header .header-center .center-img img{
+  width: 100%;
+  height: auto;
+}
+.sp_header-global .container .navbar-header .header-center .left-img {
+  margin: 18px 0 0 10px;
+  display: inline-block;
+  width: 145px;
+}
+
+.sp_header-global .container .navbar-header .header-center .left-img img{
+  width: 100%;
+  height: auto;
+}
+
+
+
+/* right-menu*/
+
+.sp_header-global #right-menu {
+  position: fixed;
+  top:0;
+  right:0;
+  width:100%;
+  height:100%;
+  min-height:100%;
+  z-index: 9999;
+  display: none;
+}
+.sp_header-global #right-menu .menuWrap{
+  width:100%;
+  height:100%;
+  min-height:100%;
+  background-color: rgba(0,0,0,0.7);
+  position: absolute;
+}
+
+.sp_header-global #right-menu .closeBtn {
+  float:left;
+  width:57px;
+  margin-right: -57px;
+  z-index:3;
+}
+
+.sp_header-global #right-menu .closeBtn a span{
+  position: relative;
+}
+
+.sp_header-global #right-menu .closeBtn a span:after {
+  background: url(../../img/renewal_sp/icon_close.png) no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  content: "";
+  height: 25px;
+  margin: auto;
+  position: absolute;
+  right: -38px;
+  top: 50px;
+  width: 25px;
+}
+
+.sp_header-global #right-menu .leftinn{
+  float:right;
+  width:100%;
+  margin: 0 auto;
+  height:100%;
+  min-height:100%;
+  z-index:0;
+}
+.sp_header-global #right-menu .leftinn2{
+  background-color: #fff;
+  height:100%;
+  margin-left: 50px;
+  min-height:100%;
+  overflow:auto;
+  width:calc(100% - 50px);
+  -webkit-overflow-scrolling: touch;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu-top {
+  padding: 15px;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu-top a {
+/*
+  display: block;
+  margin:0 auto 15px;
+*/
+}
+.sp_header-global #right-menu .leftinn2 .menu-bottom {
+  padding: 15px;
+}
+.sp_header-global #right-menu .leftinn2 .menu-bottom a {
+  display: block;
+  margin:0 auto 15px;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu-top .aplly {
+  position: relative;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu-top .login {
+  background: #ffc109;
+  color: #fff;
+  font-size: 14px;
+  height: 48px;
+  line-height: 48px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+
+}
+
+.sp_header-global #right-menu .leftinn2 .menu-top .login:after {
+  background: url(../../img/renewal_sp/icon_arrow05.png) no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  content: "";
+  height: 12px;
+  right: 10px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  width: 7px;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu-top .login span {
+  padding: 0 10px 0 0;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu-top ul {
+  line-height: 140%;
+  font-size: 11px;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu-search {
+  padding: 0 0 120px;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu-search form {
+  padding: 20px 0;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu-search .area-check,
+.sp_header-global #right-menu .leftinn2 .menu-search .employment-check {
+  padding: 0;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu-search .employment-check {
+  margin: 25px auto 0;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu-search .check-title {
+  border-bottom: #dc2611 solid 1px;
+  color: #dc2611;
+  font-weight: bold;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 0 0 15px;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu-search .area-check .area,
+.sp_header-global #right-menu .leftinn2 .menu-search .employment-check .employment {
+  border-bottom: #9e9e9e dotted 1px;
+  font-size: 14px;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu-search .custom-control-check {
+  position: relative;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu-search .custom-control-check:before {position: absolute;
+  bottom: 0;
+  left: 30px;
+  display: block;
+  margin: auto;
+  width: 8px;
+  height: 13px;
+  border-right: 3px solid #e5e5e5;
+  border-bottom: 3px solid #e5e5e5;
+  content: '';
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition: opacity 0.1s linear;
+  transition: opacity 0.1s linear;
+  position: absolute;
+  top: 40px;
+  z-index: 1;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu-search .custom-control-input:checked + span:before {
+  border-right: 3px solid #dc2611;
+  border-bottom: 3px solid #dc2611;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu-search .custom-control-input:checked ~ .custom-control-description {
+  background: #ffdeda;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu-search .custom-checkbox {
+  display: block;
+  font-weight: normal;
+  margin: 0 auto 1px;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu-search .custom-checkbox .custom-control-input {
+  display: none;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu-search .search-btn-block {
+  background: rgba(255,255,255,0.8);
+  padding: 15px 65px 15px 15px;
+  position: fixed;
+  bottom: 0;
+  z-index: 9999;
+  width: 100%;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu-search .search-btn-block .search-btn {
+  background: #dc2611;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  height: 45px;
+  width: 100%;
+  font-weight: bold;
+  position: relative;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu-search .search-btn-block .search-btn:before {
+  background: url(../../img/renewal_sp/icon_search02.png) no-repeat;
+  background-size: 100%;
+  content: "";
+  height: 21px;
+  left: 15px;
+  position: absolute;
+  top: 50%;
+  margin: -10px 0 0;
+  width: 21px;
+}
+
+
+.sp_header-global #right-menu .leftinn2 .menu-search .search-btn-block .clear-btn {
+  background: #fff;
+  border: #dc2611 solid 1px;
+  color: #dc2611;
+  font-size: 14px;
+  height: 45px;
+  margin: 15px auto 0;
+  width: 100%;
+}
+
+.sp_header-global #right-menu .rn-search-btn {
+  background: #dc2611;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 5px;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+.sp_header-global #right-menu .rn-search-btn:before {
+  width: 21px;
+  height: 21px;
+  margin: -10px 0 0;
+  background: url(../../img/renewal_sp/icon_search02.png) no-repeat;
+  background-size: 100%;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 15px;
+}
+.sp_header-global #right-menu .leftinn2 .menu {
+  font-size: 14px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu .main,
+.sp_header-global #right-menu .leftinn2 .menu .sub {
+  height: 45px;
+  line-height: 45px;
+  position: relative;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu .main:after,
+.sp_header-global #right-menu .leftinn2 .menu .sub:after {
+  background: url(../../img/renewal_sp/icon_arrow01.png) no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  content: "";
+  height: 14px;
+  right: 10px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  width: 8px;
+}
+.sp_header-global #right-menu .leftinn2 .menu .main.noarrow:after,
+.sp_header-global #right-menu .leftinn2 .menu .sub.noarrow:after {
+  display: none;
+}
+.sp_header-global #right-menu .leftinn2 .menu .main {
+  background: #ffeede;
+  font-weight: bold;
+  padding: 0 0 0 15px;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu .sub {
+  padding: 0 0 0 30px;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu .sub.second {
+  padding: 0 0 0 45px;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu .sub a {
+  border-bottom: #aaaaaa dotted 1px;
+  padding-right: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu a {
+  display: block;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu-footer {
+  margin: 10px auto 20px;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu-footer .footer-text {
+  font-size: 14px;
+  padding: 0 0 0 15px;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu-footer .sns-area {
+  margin: 30px 0 0;
+  text-align: center;
+}
+
+.sp_header-global #right-menu .leftinn2 .menu-footer .sns-img {
+  display: inline-block;
+  margin: 0 10px;
+  text-align: center;
+  width: 40px;
+}
+
+
+.sp_header-global .right-support {
+  margin: 0 0 15px;
+  padding: 20px 20px 15px 85px;
+  font-size: 10px;
+  border: solid 1px #7d7d7d;
+  border-radius: 5px;
+  background: #ebf9ff url(/assets/img/renewal_job/rn_icon_support01.png) left 10px bottom 0 no-repeat;
+  background-size: 63px auto;
+  display: block;
+}
+.sp_header-global .right-support b {
+  color: #00abeb;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.sp_header-global .right-register-login {
+  font-size: 10px;
+  border: solid 1px #aaaaaa;
+  border-radius: 5px;
+  background-color: #fff4f0;
+  display: flex;
+}
+.sp_header-global .right-register-login .right-register,
+.sp_header-global .right-register-login .right-login {
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sp_header-global .right-register-login .right-register .text,
+.sp_header-global .right-register-login .right-login .text {
+  font-size: 10px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.sp_header-global .right-register-login .right-register .text b span,
+.sp_header-global .right-register-login .right-login .text b span {
+  font-size: 10px;
+}
+
+.sp_header-global .right-register-login .right-register {
+  border-right: solid 1px #ccc;
+}
+.sp_header-global .right-register-login .right-register img {
+  width: 30px;
+  height: auto;
+  margin-left: 5px;
+}
+.sp_header-global .right-register-login .right-register .text b {
+  color: #f08a26;
+  font-size: 14px;
+}
+
+.sp_header-global .right-register-login .right-login img {
+  width: 46px;
+  height: auto;
+  margin-left: 5px;
+}
+.sp_header-global .right-register-login .right-login .text b {
+  color: #e83e28;
+  font-size: 14px;
+  line-height: 1.5;
+}
+@media only screen and (max-width: 374px) {
+  .sp_header-global .right-support {
+    padding: 10px 10px 5px 46px;
+    background-size: 30px auto;
+    background-position: left 5px bottom 0;
+  }
+  .sp_header-global .right-register-login {
+    justify-content: center;
+    align-items: center;
+  }
+  .sp_header-global .right-register-login .right-register,
+  .sp_header-global .right-register-login .right-login {
+    display: block;
+    text-align: center;
+  }
+  .sp_header-global .right-register-login .right-register .text b,
+  .sp_header-global .right-register-login .right-login .text b {
+    display: block;
+  }
+}
+
+
+
+/* left-menu*/
+
+.sp_header-global #left-menu {
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  min-height:100%;
+  z-index: 9999;
+  display: none;
+}
+.sp_header-global #left-menu .menuWrap{
+  width:100%;
+  height:100%;
+  min-height:100%;
+  background-color: rgba(0,0,0,0.7);
+  position: absolute;
+}
+.sp_header-global #left-menu .closeBtn {
+  float:left;
+  width:57px;
+  margin-right: -57px;
+  z-index:3;
+}
+.sp_header-global #left-menu .closeBtn a{
+  display: block;
+  height: 42px;
+  margin: 6px;
+  position: absolute;
+  right: 3px;
+  top: -6px;
+  width: 42px;
+}
+
+.sp_header-global #left-menu .closeBtn a span{
+  position: relative;
+}
+
+.sp_header-global #left-menu .closeBtn a span:after {
+  background: url(../../img/renewal_sp/icon_close.png) no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  content: "";
+  height: 25px;
+  margin: auto;
+  position: absolute;
+  right: -38px;
+  top: 50px;
+  width: 25px;
+}
+
+.sp_header-global #left-menu .leftinn{
+  float:right;
+  width:100%;
+  margin: 0 auto;
+  height:100%;
+  min-height:100%;
+  z-index:0;
+}
+.sp_header-global #left-menu .leftinn2{
+  background-color: #fff;
+  height:100%;
+  margin-left: -50px;
+  min-height:100%;
+  overflow:auto;
+  width:100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+.sp_header-global #left-menu .leftinn2 .menu-top {
+  padding: 15px 15px 15px 65px;
+}
+
+.sp_header-global #left-menu .leftinn2 .menu-top a {
+  display: block;
+  margin:0 auto 15px;
+}
+.sp_header-global #left-menu .leftinn2 .menu-top .aplly {
+  position: relative;
+}
+
+.sp_header-global #left-menu .leftinn2 .menu-top .login {
+  background: #ffc109;
+  color: #fff;
+  font-size: 14px;
+  height: 48px;
+  line-height: 48px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.sp_header-global #left-menu .leftinn2 .menu-top .login:after {
+  background: url(../../img/renewal_sp/icon_arrow05.png) no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  content: "";
+  height: 12px;
+  margin: auto;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  width: 7px;
+}
+
+.sp_header-global #left-menu .leftinn2 .menu-top .login span {
+  padding: 0 10px 0 0;
+}
+
+.sp_header-global #left-menu .leftinn2 .menu-top ul {
+  line-height: 140%;
+  font-size: 11px;
+}
+.sp_header-global #left-menu .leftinn2 .hd-note-text {
+  line-height: 140%;
+  font-size: 11px;
+}
+
+.sp_header-global #left-menu .leftinn2 .menu {
+  font-size: 14px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sp_header-global #left-menu .leftinn2 .menu .main,
+.sp_header-global #left-menu .leftinn2 .menu .sub {
+  height: 45px;
+  line-height: 45px;
+  position: relative;
+}
+
+.sp_header-global #left-menu .leftinn2 .menu .main:after,
+.sp_header-global #left-menu .leftinn2 .menu .sub:after {
+  background: url(../../img/renewal_sp/icon_arrow01.png) no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  content: "";
+  height: 14px;
+  right: 10px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  width: 8px;
+}
+.sp_header-global #left-menu .leftinn2 .menu .main.noarrow:after,
+.sp_header-global #left-menu .leftinn2 .menu .sub.noarrow:after {
+  display: none;
+}
+.sp_header-global #left-menu .leftinn2 .menu .main {
+  background: #ffeede;
+  font-weight: bold;
+  padding: 0 0 0 65px;
+}
+
+.sp_header-global #left-menu .leftinn2 .menu .sub {
+  padding: 0 0 0 80px;
+}
+
+.sp_header-global #left-menu .leftinn2 .menu .sub.second {
+  padding: 0 0 0 110px;
+}
+
+.sp_header-global #left-menu .leftinn2 .menu .sub a {
+  border-bottom: #aaaaaa dotted 1px;
+	padding-right: 20px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.sp_header-global #left-menu .leftinn2 .menu a {
+  display: block;
+}
+
+.sp_header-global #left-menu .leftinn2 .menu-footer {
+  margin: 10px auto 20px 50px;
+}
+
+.sp_header-global #left-menu .leftinn2 .menu-footer .footer-text {
+  font-size: 14px;
+  padding: 0 0 0 15px;
+}
+
+.sp_header-global #left-menu .leftinn2 .menu-footer .sns-area {
+  margin: 30px 0 0;
+  text-align: center;
+}
+
+.sp_header-global #left-menu .leftinn2 .menu-footer .sns-img {
+  display: inline-block;
+  margin: 0 10px;
+  text-align: center;
+  width: 40px;
+}
+
+
+
+/* main */
+
+.home .main-global{
+  padding: 50px 0 0;
+}
+
+.home .main-global .container {
+  padding: 10px 10px 0;
+}
+
+.home .slider-wrapper > .bxslider > li:nth-child(n+2){
+  display: none;
+}
+.home .slider-wrapper .bxslider > li>*:nth-child(2){
+  margin-top: 10px;
+  display: block;
+}
+
+
+/* mv */
+
+.home .main-global .container .mv-block {
+  margin: 0 auto 30px;
+}
+
+.home .main-global .container .mv-block .top {
+  margin: 0 0 10px -10px;
+}
+
+.home .main-global .container .mv-block .middle {
+  margin: 0 0 5px;
+}
+
+.home .main-global .container .mv-block a {
+  display: block;
+}
+
+.home .main-global .container .mv-block .action-rollover {
+  margin: 0 auto 5px;
+  position: relative;
+}
+
+.home .main-global .container .mv-block .bottom:after {
+  background: url(../../img/renewal_sp/icon_arrow03.png) no-repeat;
+  background-size: 100%;
+}
+
+/* お知らせ */
+
+.home .main-global .container .news-block {
+  background: #f1f1f1;
+  font-size: 14px;
+  padding: 7px 10px;
+  margin: 0 auto 15px;
+}
+
+.home .main-global .container .news-block .news-left {
+  float: left;
+  position: relative;
+  top: 10px;
+  width: 71px;
+}
+
+.home .main-global .container .news-block .news-left .left-img {
+  display: block;
+  width: 71px;
+}
+
+.home .main-global .container .news-block .news-right {
+  border-left: 1px dotted #9e9e9e;
+  float: left;
+  letter-spacing: -1px;
+  margin: 0 0 0 3%;
+  padding: 0 0 0 3%;
+  width: 70%;
+  font-size: 3vw;
+}
+
+
+.home .main-global .container .acd-check{
+    display: none;
+}
+.home .main-global .container .acd-label{
+    display: block;
+    margin-bottom: 1px;
+    font-size: 3vw;
+}
+.home .main-global .container .acd-label img{
+    width: 20%;
+}
+.home .main-global .container .acd-content{
+    height: 0;
+    opacity: 0;
+    padding: 0 10px;
+    transition: .7s;
+    visibility: hidden;
+    font-size: 3vw;
+}
+.home .main-global .container .acd-check:checked + .acd-label + .acd-content{
+    height: auto;
+    opacity: 1;
+    padding: 10px;
+    visibility: visible;
+}
+
+.home .module-block {
+  margin: 35px auto 0;
+}
+
+.home .module-block .block-title h2 {
+  border-bottom: 2px solid #dc2611;
+  margin: 20px auto 0;
+  padding: 0 0 10px;
+}
+
+/* おすすめ求人 */
+
+.home .module-block.recommend-offers {
+  margin: 75px auto 0;
+}
+
+.home .module-block.recommend-offers .block-title h2 {
+  border-bottom: 2px solid #dc2611;
+  margin: 0 auto;
+  padding: 0 0 14px;
+}
+
+.home .module-block.recommend-offers .recommend-top .title-text {
+  width: 227px;
+}
+
+.home .module-block.recommend-offers .whole-slide {
+  background: #fff9f3;
+  padding: 20px 10px 1px;
+}
+
+.home .module-block.recommend-offers .whole-slide .slide-block .left {
+  float: left;
+  width: 70px;
+}
+
+.home .module-block.recommend-offers .whole-slide .slide-block .new:before {
+  background: url(../../img/renewal_sp/icon_new.png) no-repeat;
+  background-size: 90%;
+  content: "";
+  height: 22px;
+  position: absolute;
+  width: 40px;
+  z-index: 10;
+}
+
+.home .module-block.recommend-offers .whole-slide .slide-block .right {
+  float: left;
+  font-size: 14px;
+  margin: 0 0 0 10px;
+  position: relative;
+  width: 64%;
+}
+
+.home .module-block.recommend-offers .whole-slide .slide-block .right:after {
+  background: url(../../img/renewal_sp/icon_arrow01.png) no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  content: "";
+  height: 14px;
+  margin: auto;
+  position: absolute;
+  right: -20px;
+  top: 0;
+  width: 8px;
+}
+
+.home .module-block.recommend-offers .whole-slide .recruit-item {
+  border-bottom: 1px dotted #aaaaaa;
+  display: block;
+  margin: 0 auto 15px;
+  padding: 0 0 15px;
+  position: relative;
+}
+
+/* カンタン検索 */
+
+.home .module-block.easy-search .easy-top .title-text {
+  width: 293px;
+}
+
+.home .module-block .search-box {
+  background: #fff9f3;
+  padding: 35px 10px 30px;
+}
+
+.home .module-block .search-box .search-img-box .search-img {
+  margin: 0 auto 20px;
+  position: relative;
+}
+
+.home .module-block .search-box .search-img-box .search-img span {
+  float: left;
+  width: 68px;
+}
+
+.home .module-block.easy-search #brief-panel .search-img-box .search-img .edit-select select {
+  background: #fff;
+  border: 1px solid #aaaaaa;
+  border-radius: 0;
+  height: 45px;
+  line-height: 45px;
+  text-align: left;
+  padding: 0 10px;
+  box-sizing: border-box;
+  width: 100%;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.home .module-block.easy-search #brief-panel .search-img-box .search-img .edit-select{
+  width: 69%;
+  float: left;
+  position: relative;
+  padding: 10px 0 0;
+  margin: 0 0 0 15px;
+}
+
+.home .module-block.easy-search #brief-panel .search-img-box .search-img .edit-select:before{
+  background: url(../../img/renewal_sp/icon_arrow04.png) no-repeat;
+  background-size: 100%;
+  content: "";
+  height: 8px;
+  position: absolute;
+  right: 15px;
+  top: 30px;
+  width: 14px;
+}
+
+.home .module-block.easy-search .search-btn-block {
+  margin: 30px 0 0;
+}
+
+.home .module-block .search-box .search-btn-block:before {
+  border: none;
+  width: 100%;
+}
+
+.home .module-block .search-box .search-btn-block .search-btn {
+  background: #dc2611;
+  border: none;
+  color: #fff;
+  height: 45px;
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.home .module-block .search-box .search-btn-block span {
+  display: block;
+  position: relative;
+
+}
+
+.home .module-block .search-box .search-btn-block .search:after {
+  background: url(../../img/renewal_sp/icon_search02.png) no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  content: "";
+  height: 21px;
+  left: 15px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  width: 21px;
+}
+
+
+.home .module-block .search-box .search-btn-block .clear-btn {
+  background: #fff;
+  border: #dc2611 solid 1px;
+  color: #dc2611;
+  height: 45px;
+  margin: 15px auto 0;
+  width: 100%;
+  font-size: 14px;
+}
+
+
+
+/* 詳細検索 */
+
+.module-block.detail-search .detail-top .title-text {
+  width: 293px;
+}
+
+.module-block.detail-search #detail-panel .detail-button {
+  background: #fff;
+  border: #dc2611 solid 1px;
+  color: #dc2611;
+  font-size: 14px;
+  height: 45px;
+  line-height: 45px;
+  position: relative;
+  text-align: center;
+  display: block;
+}
+
+.module-block.detail-search #detail-panel .detail-button:after {
+  background: url(../../img/renewal_sp/icon_arrow01.png) no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  content: "";
+  height: 14px;
+  margin: auto;
+  position: absolute;
+  right: 11px;
+  top: 0;
+  width: 8px;
+}
+
+/* こだわり条件 */
+
+.home .module-block.particular .particular-top .title-text {
+  width: 293px;
+}
+
+.home .module-block.particular  ul {
+  background: #fff9f3;
+  padding: 30px 10px;
+}
+
+.home .module-block.particular  ul li {
+  border-bottom: #aaaaaa dotted 1px;
+  float: left;
+  font-size: 13px;
+  padding: 0 0 10px;
+  position: relative;
+  text-align: center;
+  width: 47%;
+  margin: 0 15px 15px 0;
+}
+
+.home .module-block.particular  ul li:after {
+  background: url(../../img/renewal_sp/icon_arrow01.png) no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  content: "";
+  height: 14px;
+  position: absolute;
+  right: 4px;
+  top: 22px;
+  width: 8px;
+}
+
+.home .module-block.particular ul li:nth-last-child(2),
+.home .module-block.particular ul li:last-child {
+  border: none;
+  margin: 0 15px 0 0;
+  padding: 0;
+}
+
+.home .module-block.particular ul li:nth-child(2n) {
+  margin: 0;
+}
+
+.home .module-block.particular ul li .left {
+  width: 45px;
+}
+
+.home .module-block.particular ul li .right {
+  display: block;
+  padding: 10px 0 0;
+}
+
+.home .module-block.particular ul li .right.long-text {
+  letter-spacing: -1.3px;
+}
+
+/* 勤務地と雇用形態 */
+
+.home .module-block.search-list-area {
+  margin: 25px auto 0;
+}
+
+.home .module-block.search-list-area .search-list-box .search-link-title {
+  color: #f08a26;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 auto 8px;
+}
+
+.home .module-block.search-list-area .search-list-box .search-link-list {
+  margin: 0 auto 20px;
+}
+
+.home .module-block.search-list-area .search-list-box .search-link-list li {
+  display: inline-block;
+  margin: 0 7px 7px 0;
+}
+
+.home .module-block.search-list-area .search-list-box .search-link-list li a {
+  background: #ffeede;
+  border-radius: 15px;
+  display: block;
+  font-size: 14px;
+  padding: 0 22px 0 10px;
+  position: relative;
+}
+
+.home .module-block.search-list-area .search-list-box .search-link-list li a:after {
+  background: url(../../img/renewal_sp/icon_arrow01.png) no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  content: "";
+  width: 5px;
+  height: 9px;
+  margin: -5px auto 0;
+  position: absolute;
+  top: 50%;
+  right: 8px;
+}
+
+.home .module-block.search-list-area .search-list-box .west {
+  position: relative;
+}
+
+.home .module-block.search-list-area .search-list-box .west .coming-soon {
+  background: rgba(187,187,187,0.9);
+  color: #fff;
+  font-size: 16px;
+  height: 64px;
+  line-height: 64px;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  width: 300px;
+}
+
+.home .module-block.search-list-area .search-list-box .employment .search-link-list {
+  margin: 0 auto 5px;
+}
+
+.home .module-block.search-list-area .search-list-box .employment .search-link-list li {
+  margin: 0 7px 10px 0;
+}
+
+/*　　20171206　追加　　*/
+/* 求人特集 */
+
+.home .module-block.recruit .recruit-top .title-text {
+  width: 109px;
+}
+
+.home .module-block .recruit-box {
+  background: #fff;
+  padding: 20px 0 30px 0;
+}
+
+.home .module-block .recruit-box li {
+  margin: 0 0 15px 0;
+}
+
+.home .module-block .recruit-box li a {
+  display: block;
+}
+
+.home .module-block .recruit-box li:last-child {
+  border: none;
+  margin: 0;
+}
+
+.home .recruit .recruit-box img{
+/*
+	border-top: 1px solid #e5e5e5;
+	border-right: 1px solid #e5e5e5;
+	border-left: 1px solid #e5e5e5;
+	border-bottom: none;
+*/
+  border-radius: 5px 5px 0 0;
+	width: 100%;
+}
+
+.home .recruit .recruit-box {
+  width:100%;
+}
+
+.home .recruit .recruit-box span {
+  background-color: #feeedf;
+  border-radius:  0 0 5px 5px;
+  display: table-cell;
+  vertical-align: middle;
+  height:72px;
+  width:1960px;
+  margin: 0;
+  position: relative;
+  padding:0 20px 0 70px;
+  font-size:20px;
+  line-height:26px;
+  color:#ee8935;
+  font-weight:bold;
+}
+
+.home .recruit .recruit-box span:after{
+  content: "";
+  position: absolute;
+  background: url(../../img/renewal_sp/icon_pickup.png) no-repeat;
+  width: 45px;
+  height: 62px;
+  left: 10px;
+  top: 0%;
+  margin: 0;
+}
+
+.home .recruit .btn-block{
+
+}
+
+.home .recruit .recruit-btn{
+	background: #fff;
+	border: #dc2611 solid 1px;
+	color: #dc2611;
+	font-size: 14px;
+	height: 45px;
+	line-height: 45px;
+	position: relative;
+	text-align: center;
+	display: block;
+}
+
+.home .recruit .recruit-btn::after{
+	background: url(../../img/renewal_sp/icon_arrow01.png) no-repeat;
+	background-size: 100%;
+	bottom: 0;
+	content: "";
+	height: 14px;
+	margin: auto;
+	position: absolute;
+	right: 11px;
+	top: 0;
+	width: 8px;
+}
+/*　　/20171206　追加　　*/
+
+/* 新着情報 */
+/* イベント・セミナー情報 */
+
+.home .module-block.new-arrival .new-top .title-text {
+  width: 109px;
+}
+
+.home .module-block .topic-box {
+  background: #fff9f3;
+  margin-top: 20px;
+  padding: 30px 0 15px 10px;
+}
+
+.home .module-block .topic-box li .left {
+  float: left;
+  width: 70px;
+}
+
+.home .module-block .topic-box li .right {
+  float: left;
+  font-size: 14px;
+  letter-spacing: -0.9px;
+  margin: 0 0 0 10px;
+  width: 63%;
+}
+
+.home .module-block .topic-box li {
+  border-bottom: 1px dotted #aaaaaa;
+  margin: 0 auto 15px;
+  padding: 0 0 15px;
+  position: relative;
+}
+
+.home .module-block .topic-box li a {
+  display: block;
+}
+
+.home .module-block .topic-box li:before {
+  background: url(../../img/renewal_sp/icon_arrow01.png) no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  content: "";
+  height: 14px;
+  margin: auto;
+  position: absolute;
+  right: 10px;
+  top: -10px;
+  width: 8px;
+}
+
+.home .module-block .topic-box li:last-child {
+  border: none;
+  margin: 0;
+}
+
+.home .module-block .topic-box02 {
+  margin: 20px 0 0;
+  padding: 0;
+}
+.home .module-block .topic-box02 li {
+  margin: 0 0 30px;
+  padding: 0;
+}
+.home .module-block .topic-box02 li:last-child {
+  margin-bottom: 0;
+}
+.home .module-block .topic-box02 li img {
+  border-radius: 5px;
+}
+.home .module-block .topic-box02 li span {
+  display: block;
+  margin: -3.3em 0 0;
+  padding: 1em 38px 1em 15px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.3;
+  position: relative;
+  background-color: rgba(0,0,0,.6);
+  border-radius: 0 0 5px 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.home .module-block .topic-box02 li span:after{
+  content: "";
+  position: absolute;
+  background: url(../../img/renewal_job/rn_icon_arrow01_w.png) no-repeat;
+  background-size: 100%;
+  width: 8px;
+  height: 14px;
+  right: 20px;
+  top: 50%;
+  margin: -8px 0 0;
+}
+.home .module-block .topic-box02 li b {
+  margin-top: 20px;
+  font-size: 10px;
+  font-weight: normal;
+  display: block;
+ }
+
+
+
+.home .module-block.event .event-top img{
+  width: 228px;
+}
+
+.home .module-block.event .event-box li + li{
+  margin: 20px 0 0;
+}
+
+.home .module-block.event .event-box li a {
+  display: block;
+  font-size: 16px;
+  padding: 10px 0;
+  position: relative;
+}
+
+.home .module-block.event .event-box li a:after {
+  background: url(../../img/renewal_sp/icon_arrow01.png) no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  content: "";
+  height: 14px;
+  position: absolute;
+  right: 0;
+  top: 15px;
+  width: 8px;
+}
+
+.home .module-block.event .event-box li .event-text {
+  border-top: #cccccc dotted 1px;
+  font-size: 14px;
+  padding: 22px 0 0;
+}
+
+/* マイナビ保育士の特徴 */
+
+.home .module-block.character h2 {
+/*  margin:0 auto 55px; */
+  margin-bottom: 35px;
+}
+
+.home .module-block.character .character-top .title-text {
+  width: 291px;
+}
+
+.home .module-block.character .character-block {
+  margin: 0 0 85px;
+  position: relative;
+  padding: 0 0 10px;
+}
+
+.home .module-block.character .character-block .chara-img {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.home .module-block.character .character-block .character-text {
+  font-size: 14px;
+  letter-spacing: -1px;
+  margin: 0 15px;
+}
+
+.home .module-block.character .character-block .character-link {
+  font-size: 14px;
+  height: 45px;
+  line-height: 45px;
+  position: relative;
+  text-align: center;
+  margin: 0 15px 15px;
+}
+
+.home .module-block.character .character-block .character-link:after {
+  background: url(../../img/renewal_sp/icon_arrow05.png) no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  content: "";
+  height: 14px;
+  margin: auto;
+  position: absolute;
+  right: 11px;
+  top: 0;
+  width: 7px;
+}
+
+.home .module-block.character .character-block .character-link a {
+  color: #fff;
+  display: block;
+}
+
+.home .module-block.character .character-block.chara01 .character-link a {
+  background: #f08a26;
+}
+
+
+.home .module-block.character .character-block.chara01 {
+  border: 2px solid #f08a26;
+}
+
+.home .module-block.character .character-block.chara01:before{
+  position: absolute;
+  content: "";
+  background: url(../../img/renewal_sp/security-icon01.png) no-repeat;
+  background-size: 100%;
+  width: 50px;
+  height: 50px;
+  left: 50%;
+  top: -25px;
+  margin: 0 0 0 -25px;
+}
+
+.home .module-block.character .character-block.chara01:after{
+  position: absolute;
+  content: "";
+  background: url(../../img/renewal_sp/security-area-bottom01.jpg) no-repeat;
+  background-size: 100%;
+  width: 56px;
+  height: 29px;
+  left: 50%;
+  bottom: -28px;
+  margin: 0 0 0 -26px;
+}
+
+.home .module-block.character .character-block.chara02 .character-link a {
+  background: #18a73e;
+}
+
+.home .module-block.character .character-block.chara02 {
+  border: 2px solid #18a73e;
+}
+
+.home .module-block.character .character-block.chara02:before{
+  position: absolute;
+  content: "";
+  background: url(../../img/renewal_sp/security-icon02.png) no-repeat;
+  background-size: 100%;
+  width: 50px;
+  height: 50px;
+  left: 50%;
+  top: -25px;
+  margin: 0 0 0 -25px;
+}
+
+.home .module-block.character .character-block.chara02:after{
+  position: absolute;
+  content: "";
+  background: url(../../img/renewal_sp/security-area-bottom02.jpg) no-repeat;
+  background-size: 100%;
+  width: 56px;
+  height: 29px;
+  left: 50%;
+  bottom: -28px;
+  margin: 0 0 0 -26px;
+}
+
+.home .module-block.character .brand-block{
+  border:2px solid #03a0d5;
+  position: relative;
+  margin: 0 0 50px;
+  padding: 0 0 10px;
+}
+
+.home .module-block.character .brand-block:before{
+  position: absolute;
+  content: "";
+  background: url(../../img/renewal_sp/security-icon03.png) no-repeat;
+  background-size: 100%;
+  width: 50px;
+  height: 50px;
+  left: 50%;
+  top: -25px;
+  margin: 0 0 0 -25px;
+}
+
+.home .module-block.character .brand-block:after{
+  position: absolute;
+  content: "";
+  background: url(../../img/renewal_sp/security-area-bottom03.jpg) no-repeat;
+  background-size: 100%;
+  width: 56px;
+  height: 29px;
+  left: 50%;
+  bottom: -28px;
+  margin: 0 0 0 -26px;
+}
+
+.home .module-block.character .brand-block .brand-img {
+  display: block;
+  margin: 30px auto 50px;
+  text-align: center;
+}
+
+.home .module-block.character .brand-block .brand-img img{
+  width: 128px;
+}
+
+.home .module-block.character .brand-block .brand-link {
+  font-size: 14px;
+  height: 45px;
+  line-height: 45px;
+  position: relative;
+  text-align: center;
+  margin: 0 15px 15px;
+}
+
+.home .module-block.character .brand-block .brand-link:after {
+  background: url(../../img/renewal_sp/icon_arrow05.png) no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  content: "";
+  height: 14px;
+  margin: auto;
+  position: absolute;
+  right: 11px;
+  top: 0;
+  width: 7px;
+}
+
+.home .module-block.character .brand-block .brand-link a {
+  color: #fff;
+  display: block;
+  background: #03a0d5;
+}
+
+.home .module-block.character .brand-block .brand-text {
+  font-size: 14px;
+  letter-spacing: -1px;
+  margin: 0 15px;
+}
+
+.home .module-block.character .privacy-block .img-block {
+  margin: 0 auto 15px;
+  text-align: center;
+}
+
+.home .module-block.character .privacy-block .privacy-img {
+  margin: 0 8px;
+}
+
+.home .module-block.character .privacy-block .img01 {
+  width: 50px;
+}
+
+.home .module-block.character .privacy-block .img02 {
+  width: 47px;
+}
+
+.home .module-block.character .privacy-block .privacy-text {
+  font-size: 14px;
+}
+
+.home .module-block.character .privacy-block .img03 {
+  margin: 20px auto 0;
+}
+
+.home .regist-banner{
+  margin: 0 0 30px;
+}
+
+
+/* 転職支援サービスのメリット */
+
+.home .module-block.merit .merit-top .title-text {
+  width: 270px;
+}
+
+.home .module-block.merit .merit-text {
+  margin-top: 20px;
+  font-size: 15px;
+  letter-spacing: -1.4px;
+  line-height: 2em;
+}
+
+.home .module-block.merit .block-title h2{
+  margin: 20px auto 28px;
+}
+
+/* ページ最下部コンテンツ */
+
+.home .module-block.bottom {
+  margin: 35px auto 30px;
+}
+
+.home .module-block.bottom a {
+  display: block;
+}
+
+.home .module-block.bottom .facebook,
+.home .module-block.bottom .google {
+  margin: 0 auto 15px;
+}
+
+.home .module-block.bottom span {
+  color: #03a0d5;
+  display: block;
+  font-size: 14px;
+  margin: 25px auto 12px;
+  text-align: center;
+}
+
+.home .module-block.bottom span.black {
+  color: #333;
+}
+
+/* フッター */
+
+.footer-global .footer-link{
+  text-align: center;
+  margin: 30px 0 20px;
+}
+
+.footer-global .footer-link .footer-link-icon01{
+  display: inline-block;
+  width: 75px;
+}
+
+.footer-global .footer-link .footer-link-icon02{
+  display: inline-block;
+  width: 72px;
+  margin: 0 0 0 40px;
+}
+
+.footer-global .footer_copyright{
+  background: none;
+  color: #333;
+  padding: 10px 0;
+  border-top: 1px solid #333333;
+  margin: 30px 0 0;
+}
+
+footer img {
+  width: 100%;
+}
+
+footer a,a:hover, .home a:active {
+  color: #333333;
+}
+
+footer a:hover, .home a:focus {
+  text-decoration: none;
+}
+
+footer .nav-scroll {
+  bottom: 20px;
+  position: fixed;
+  right: 5px;
+  z-index: 8;
+  width: 45px;
+  height: 45px;
+}
+
+footer .nav-scroll a {
+  background: none;
+  border: none;
+  display: block;
+  width: 45px;
+  height: 45px;
+}
+
+.nav-scroll a:hover, .nav-scroll a:focus {
+  background: none;
+}
+
+footer .nav-scroll a.rollover:after {
+  border: none;
+}
+
+footer .container {
+  background: #ffeede;
+  text-align: center;
+  padding: 10px 10px 0;
+}
+
+footer .container .top-text {
+  color: #f08a26;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+footer .container .tel-text {
+  background: #f08a26;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  height: 45px;
+  line-height: 48px;
+  display: block;
+  margin: 0 0 5px;
+}
+
+footer .container .tel-text span {
+  font-size: 10px;
+  font-weight: normal;
+  margin: 0 8px 0 0;
+  vertical-align: middle;
+}
+
+footer .container .schedule {
+  font-size: 11px;
+  letter-spacing: 0.4px;
+  margin: 0 auto 15px;
+}
+
+/* sp_footer-global */
+
+.sp_footer-global .footer-link{
+  text-align: center;
+  margin: 30px 0 20px;
+}
+
+.sp_footer-global .footer-link .footer-link-icon01{
+  display: inline-block;
+  width: 75px;
+}
+
+.sp_footer-global .footer-link .footer-link-icon02{
+  display: inline-block;
+  width: 72px;
+  margin: 0 0 0 40px;
+}
+
+.sp_footer-global .footer_copyright{
+  background: none;
+  color: #333;
+  padding: 10px 0;
+  border-top: 1px solid #333333;
+  margin: 30px 0 0;
+}
+
+
+/*******************************
+  clearfix
+********************************/
+
+.header-global .container .navbar-header:after,
+.header-global .container .navbar-header .header-left:after,
+.sp_header-global .container .navbar-header:after,
+.sp_header-global .container .navbar-header .header-left:after,
+.home .main-global .container .news-block:after,
+.home .module-block.easy-search #brief-panel .search-img-box .search-img:after,
+.home .module-block.particular .particular-list:after,
+.home .module-block .topic-box .topic:after,
+.home .module-block.recommend-offers .whole-slide .slide-block .recruit-item:after,
+.home .module-block .topic-box li a:after{
+  clear: both;
+  content: "";
+  display: block;
+  height: 0;
+  font-size: 0;
+  visibility: hidden;
+  overflow: hidden;
+}
+
+
+
+
+/*******************************
+  recommend-offers02
+********************************/
+.home .module-block.recommend-offers02 {
+  margin: 0 auto;
+}
+
+.home .module-block.recommend-offers02 .block-title h2 {
+  margin: 0 auto;
+/*
+  border-bottom: 2px solid #dc2611;
+  padding: 0 0 14px;
+*/
+}
+.home .module-block.recommend-offers02 .recommend-top .title-text {
+/*  width: 227px; */
+  width: 275px;
+}
+/* .home .recommend-offers02 .owl-carousel-recommend { */
+.home .recommend-offers02 .recommend-offers02box {
+  padding: 20px 0 10px;
+  background: #fff9f3;
+}
+ .home .rn2-home .recommend-offers02 .recommend-offers02box {
+  margin-top: 20px;
+}
+
+.home .recommend-offers02 .owl-carousel-recommend {
+  padding-bottom: 10px;
+}
+.home .recommend-offers02 .item {
+  width: 100%;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 15px;
+  border-radius: 3px;
+  box-shadow: 0 3px 0px rgba(0,0,0,.1);
+}
+.home .recommend-offers02 .tag_new {
+  background: #db241f;
+  margin-bottom: 3px;
+  padding: 3px 5px;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 10px;
+  display: inline-block;
+}
+.home .recommend-offers02 .tag_gyousyu {
+  background: #ff9933;
+  margin-bottom: 3px;
+  padding: 3px 5px;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 10px;
+  display: inline-block;
+}
+.home .recommend-offers02 .tag_point01,
+.home .recommend-offers02 .tag_point02 {
+  background: transparent;
+  margin-bottom: 3px;
+  padding: 2px 5px;
+  border-radius: 2px;
+  color: #ee675d;
+  border: 1px solid #ee675d;
+  box-sizing: border-box;
+  font-size: 10px;
+  display: inline-block;
+}
+.home .recommend-offers02 .img_wrap {
+  margin: 10px 0px;
+}
+.home .recommend-offers02 .catch {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.3;
+  margin-bottom: 5px;
+}
+.home .recommend-offers02 .detail {
+  font-size: 11px;
+  color: #777;
+  line-height: 1.3;
+  margin: 10px 0px;
+}
+.home .recommend-offers02 .salary {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  background: #fff9f3;
+  padding: 3px 5px;
+  color: #ee675d;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+.home .recommend-offers02 .salary p {
+  margin-bottom: 0;
+}
+.home .recommend-offers02 .salary span {
+  color: #b30000;
+  font-size: 16px;
+  padding: 0px 3px;
+}
+.home .recommend-offers02 .new-btn01 {
+  color: #ee675d !important;
+  border-color: #ee675d;
+}
+.home .recommend-offers02 .new-btn01:before {
+  background-image: url(/assets/img/renewal/icon_arrow05.png);
+  background-size: auto 14px;
+}
+.home .recommend-offers02 .new-btn01:hover {
+  text-decoration: none;
+}
+.home .recommend-offers02 .item a>*:last-child {
+  margin-bottom: 0;
+}
+.home .recommend-offers02 .new-btn01 {
+  width: calc(100% - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.home .module-block.pickup-company-top-block {
+
+}
+.home .module-block.pickup-company-block {
+	margin-top: 0;
+}
+
+.home .module-block.pickup-company-block .title-text {
+/*  width: 227px; */
+  width: 275px;
+}
+.home .module-block.pickup-company-block .owl-carousel-pickup-company {
+  margin: 15px 0 0;
+}
+.home .recommend-offers02 .owl-theme .owl-nav [class*=owl-] {
+  background-color: #ee675d;
+}
+.home .recommend-offers02 .owl-theme .owl-dots .owl-dot.active span,
+.home .recommend-offers02 .owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #ee675d;
+}
+
+
+
+
+/*******************************
+  recommend-offers03
+********************************/
+.home .recommend-offers03box {
+  margin: 15px 0 0 ;
+}
+.home .recommend-offers03box .swiper-slide {
+  font-size: 10px;
+  text-align: center;
+}
+.home .recommend-offers03box .swiper-slide a {
+  color: #777;
+  display: block;
+}
+.home .recommend-offers03box .swiper-slide a:hover {
+  opacity: .6;
+}
+.home .recommend-offers03box .swiper-slide img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto 5px;
+}
+.home .recommend-offers03box .swiper-container {
+  padding-bottom: 30px;
+}
+.home .recommend-offers03box .swiper-pagination {
+  bottom: 0;
+}
+.home .recommend-offers03box .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #D6D6D6;
+  opacity: 1;
+}
+.home .recommend-offers03box .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #db241f;
+}
+
+
+
+
+/*******************************
+  rn-head
+********************************/
+.rn-head01 {
+  margin: 0;
+  padding: 0 0 5px 24px;
+  color: #dc2611;
+  font-size: 20px;
+  font-size: 2.0rem;
+  font-weight: bold;
+  position: relative;
+  border-bottom: 2px solid #dc2611;
+  background-repeat: no-repeat;
+  background-position: left 0 top 2px;
+  background-size: 16px auto;
+}
+.rn-head01.rn-head-icon-balloon {
+  background-image: url(/assets/img/renewal_job/rn_icon_balloon.png);
+}
+.rn-head01.rn-head-icon-calendar31 {
+  background-image: url(/assets/img/renewal_job/rn_icon_calendar31.png);
+}
+.rn-head01.rn-head-icon-job {
+  background-image: url(/assets/img/renewal_job/rn_icon_job.png);
+}
+.rn-head01.rn-head-icon-new {
+  background-image: url(/assets/img/renewal_job/rn_icon_new.png);
+}
+.rn-head01.rn-head-icon-memo-check {
+  background-image: url(/assets/img/renewal_job/rn_icon_memo-check.png);
+}
+.rn-head01.rn-head-icon-balloon {
+  background-image: url(/assets/img/renewal_job/rn_icon_balloon.png);
+}
+.rn-head01.rn-head-icon-search {
+  background-image: url(/assets/img/renewal_job/rn_icon_search02.png);
+}
+.rn-head01.rn-head-icon-star {
+  background-image: url(/assets/img/renewal_job/rn_icon_star03.png);
+}
+
+/*******************************
+  rn2-home rn-head
+********************************/
+.rn2-home .rn-head01 {
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-left: 34px;
+  color: #333;
+  border-bottom: 2px solid #ef7065;
+  background-position: left 10px top 2px;
+}
+.rn2-home .rn-head01 b {
+  color: #ef7065;
+}
+.rn2-home .rn-head01.rn-head-icon-balloon {
+  background-image: url(/assets/img/renewal_job/rn_icon_balloon02.png);
+}
+.rn2-home .rn-head01.rn-head-icon-calendar31 {
+  background-image: url(/assets/img/renewal_job/rn_icon_calendar31_02.png);
+}
+.rn2-home .rn-head01.rn-head-icon-job {
+  background-image: url(/assets/img/renewal_job/rn_icon_job02.png);
+}
+.rn2-home .rn-head01.rn-head-icon-memo-check {
+  background-image: url(/assets/img/renewal_job/rn_icon_memo-check03.png);
+}
+.rn2-home .rn-head01.rn-head-icon-search {
+  background-image: url(/assets/img/renewal_job/rn_icon_search03.png);
+}
+.rn2-home .rn-head01.rn-head-icon-star {
+  background-image: url(/assets/img/renewal_job/rn_icon_star06.png);
+}
+
+
+
+
+
+
+/*******************************
+  rn-btn
+********************************/
+a.rn-btn01,
+button.rn-btn01 {
+/*  padding: 15px 0 12px calc(2.6em + 30px); */
+  padding: 25px 0 22px calc(2.6em + 30px);
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.3;
+  border-radius: 5px;
+  background-color: #00abeb;
+  position: relative;
+  display: block;
+}
+a.rn-btn01:after,
+button.rn-btn01:after {
+  background: url(../../img/renewal_sp/icon_arrow05.png) no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  content: "";
+  height: 14px;
+  margin: auto;
+  position: absolute;
+  right: 11px;
+  top: 0;
+  width: 8px;
+}
+a.rn-btn01 s,
+button.rn-btn01 s{
+  width: 2.6em;
+  height: 2.6em;
+  padding-top: .8em;
+  color: #e83e28;
+  text-align: center;
+  text-decoration: none;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 1.3em);
+  left: 15px;
+}
+a.rn-btn01 b,
+button.rn-btn01 b{
+  font-size: 18px;
+  font-weight: bold;
+}
+@media screen and (max-width: 374px) {
+  a.rn-btn01 b,
+  button.rn-btn01 b{
+    font-size: 16px;
+  }
+}
+
+
+a.rn-btn01 span b,
+button.rn-btn01 span b {
+  font-size: 14px;
+}
+a.rn-btn01:active,
+button.rn-btn01:active {
+  color: #fff;
+}
+
+a.rn-btn02,
+button.rn-btn02 {
+  width: 100%;
+  padding: 8px 0 5px;
+  color: #ff9933;
+  font-size: 13px;
+  text-align: center;
+  line-height: 1.3;
+  border-radius: 5px;
+  border: solid 1px #ff9933;
+  background-color: #fff;
+  position: relative;
+  display: block;
+}
+a.rn-btn02:after,
+button.rn-btn02:after {
+  background: url(../../img/renewal_sp/icon_arrow06.png) no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  content: "";
+  height: 14px;
+  margin: auto;
+  position: absolute;
+  right: 11px;
+  top: 0;
+  width: 8px;
+}
+a.rn-btn02 b,
+button.rn-btn02 b {
+  font-size: 17px;
+  font-weight: bold;
+}
+a.rn-btn02:active,
+button.rn-btn02:active {
+  color: #ff9933;
+}
+a.rn-btn03,
+button.rn-btn03 {
+  width: 100%;
+  padding: 13px 0 10px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.3;
+  background-color: #ee675d;
+  border: 0;
+  border-radius: 5px;
+  display: block;
+}
+a.rn-btn03:active,
+button.rn-btn03:active {
+  color: #fff;
+}
+
+a.rn-btn04,
+button.rn-btn04 {
+  width: 100%;
+  padding: 13px 0 10px;
+  color: #ee675d;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.3;
+  border-radius: 5px;
+  border: solid 1px #ee675d;
+  background-color: #fff;
+  position: relative;
+  display: block;
+}
+a.rn-btn04:after,
+button.rn-btn04:after {
+  background: url(../../img/renewal_sp/icon_arrow07.png) no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  content: "";
+  height: 14px;
+  margin: auto;
+  position: absolute;
+  right: 11px;
+  top: 0;
+  width: 8px;
+}
+a.rn-btn04:active,
+button.rn-btn04:active {
+  color: #ee675d;
+}
+
+a.rn-btn05,
+button.rn-btn05 {
+  width: 85%;
+  margin: 0 auto;
+  padding: 10px 0 7px;
+  color: #ff9933;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.3;
+  border-radius: 2em;
+  border: solid 1px #ff9933;
+  background-color: #fff;
+  position: relative;
+  display: block;
+}
+a.rn-btn05:after,
+button.rn-btn05:after {
+  background: url(../../img/renewal_sp/icon_arrow06.png) no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  content: "";
+  height: 14px;
+  margin: auto;
+  position: absolute;
+  right: 11px;
+  top: 0;
+  width: 8px;
+}
+a.rn-btn05:active,
+button.rn-btn05:active {
+  color: #ff9933;
+}
+
+
+/* 追加見出し */
+.home .easy-search02 .rn-head01.rn-head-icon-search,
+.home .detail-search02 .rn-head01.rn-head-icon-search,
+.home .particular02 .rn-head01.rn-head-icon-search {
+  margin: 0 -10px 10px;
+  padding-left: calc(24px + 15px);
+  padding-right: 10px;
+  color: #333333;
+  background-image: url(/assets/img/renewal_job/rn_icon_search03.png);
+  background-position: left 15px top 2px;
+}
+.home .easy-search02 .rn-head01.rn-head-icon-search b,
+.home .detail-search02 .rn-head01.rn-head-icon-search b,
+.home .particular02 .rn-head01.rn-head-icon-search b {
+  color: #ee675d;
+}
+
+
+/* カンタン検索02 */
+.home .easy-search02 .search-box02 {
+  padding: 20px;
+  background-color: #ffeede;
+}
+.home .easy-search02 .search-box02 .select-area,
+.home .easy-search02 .search-box02 .select-style,
+.home .easy-search02 .search-box02 .select-content,
+.home .easy-search02 .search-box02 .select-wage {
+  margin: 0 0 15px;
+  position: relative;
+
+}
+.home .easy-search02 .search-box02 .select-area:before,
+.home .easy-search02 .search-box02 .select-style:before,
+.home .easy-search02 .search-box02 .select-content:before,
+.home .easy-search02 .search-box02 .select-wage:before {
+  width: 21px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  position: absolute;
+  left: 18px;
+  content: "";
+}
+.home .easy-search02 .search-box02 .select-area:before {
+  height: 25px;
+  top: 9px;
+  background-image: url(../../img/renewal_job/rn_icon_area03.png);
+}
+.home .easy-search02 .search-box02 .select-style:before {
+  height: 25px;
+  top: 9px;
+  background-image: url(../../img/renewal_job/rn_icon_style02.png);
+}
+.home .easy-search02 .search-box02 .select-content:before {
+  height: 18px;
+  top: 14px;
+  background-image: url(../../img/renewal_job/rn_icon_content02.png);
+}
+.home .easy-search02 .search-box02 .select-wage:before {
+  height: 21px;
+  top: 11px;
+  background-image: url(../../img/renewal_job/rn_icon_wage04.png);
+}
+
+.home .easy-search02 .search-box02 .select-area:after,
+.home .easy-search02 .search-box02 .select-style:after,
+.home .easy-search02 .search-box02 .select-content:after,
+.home .easy-search02 .search-box02 .select-wage:after {
+  background: url(../../img/renewal_sp/icon_arrow04.png) no-repeat;
+  background-size: 100%;
+  content: "";
+  height: 8px;
+  position: absolute;
+  right: 15px;
+  top: 19px;
+  width: 12px;
+}
+.home .easy-search02 .search-box02 .select-area select,
+.home .easy-search02 .search-box02 .select-style select,
+.home .easy-search02 .search-box02 .select-content select,
+.home .easy-search02 .search-box02 .select-wage select {
+  color: #a2a2a2;
+  background: #fff;
+  border: 1px solid #626262;
+  border-radius: 5px;
+  height: 45px;
+  line-height: 45px;
+  text-align: left;
+  padding: 0 10px 0 60px;
+  box-sizing: border-box;
+  width: 100%;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+ }
+.home .easy-search02 .search-box02 .select-area select.js-selected,
+.home .easy-search02 .search-box02 .select-style select.js-selected,
+.home .easy-search02 .search-box02 .select-content select.js-selected,
+.home .easy-search02 .search-box02 .select-wage select.js-selected {
+  color: #333;
+}
+.home .easy-search02 .search-box02 .rn-btn03 {
+  width: 80%;
+  display: inline-block;
+}
+
+/* こだわり検索02 */
+.home .particular02 .particular-list02 {
+  background-color: #ffeede;
+  display: flex;
+  flex-wrap: wrap;
+}
+.home .particular02 .particular-list02 li {
+  width: 50%;
+  border-top: dotted 1px #ccc;
+  border-right: dotted 1px #ccc;
+  background-color: #ffeede;
+  display: flex;
+}
+.home .particular02 .particular-list02 li:first-child,
+.home .particular02 .particular-list02 li:nth-child(2) {
+  border-top: none;
+}
+.home .particular02 .particular-list02 li:nth-child(2n) {
+  border-right: none;
+}
+.home .particular02 .particular-list02 li a {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.home .particular02 .particular-list02 li a>span img {
+  width: auto;
+  height: 50px;
+  margin: 0 auto 5px;
+  display: block;
+}
+
+
+
+
+/* modal */
+.modal-header-search .modal-dialog {
+  margin: 20px;
+}
+.modal-header-search .modal-content {
+  border-radius: 5px;
+}
+.modal-header-search .modal-header {
+  padding: 50px 20px 25px;
+  text-align: center;
+  position: relative;
+  border-bottom: none;
+}
+.modal-header-search .modal-header .close {
+  float: none;
+  opacity: 1;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+
+}
+.modal-header-search .modal-header .close img {
+  width: 22px;
+  height: auto;
+}
+
+.modal-header-search .modal-header .modal-title {
+  color: #5d5d5d;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.1;
+
+}
+.modal-header-search .modal-header .modal-title i {
+  width: 21px;
+  height: 21px;
+  margin: 0 10px 0 0;
+  vertical-align: middle;
+  background-image: url(/assets/img/renewal_job/rn_icon_search04.png);
+  background-position: center center;
+  background-size: 100%;
+  display: inline-block;
+}
+.modal-header-search .modal-header .modal-title b {
+  color: #00abeb;
+}
+.modal-header-search .modal-body {
+  padding: 0 20px 50px;
+}
+.modal-header-search .select-area,
+.modal-header-search .select-style,
+.modal-header-search .select-content {
+  margin: 0 0 15px;
+  position: relative;
+
+}
+.modal-header-search .select-area:before,
+.modal-header-search .select-style:before,
+.modal-header-search .select-content:before {
+  width: 21px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  position: absolute;
+  left: 18px;
+  content: "";
+}
+.modal-header-search .select-area:before {
+  height: 25px;
+  top: 9px;
+  background-image: url(../../img/renewal_job/rn_icon_area03.png);
+}
+.modal-header-search .select-style:before {
+  height: 25px;
+  top: 9px;
+  background-image: url(../../img/renewal_job/rn_icon_style02.png);
+}
+.modal-header-search .select-content:before {
+  height: 18px;
+  top: 14px;
+  background-image: url(../../img/renewal_job/rn_icon_content02.png);
+}
+
+.modal-header-search .select-area:after,
+.modal-header-search .select-style:after,
+.modal-header-search .select-content:after {
+  background: url(../../img/renewal_sp/icon_arrow04.png) no-repeat;
+  background-size: 100%;
+  content: "";
+  height: 8px;
+  position: absolute;
+  right: 15px;
+  top: 19px;
+  width: 12px;
+}
+.modal-header-search .select-area select,
+.modal-header-search .select-style select,
+.modal-header-search .select-content select {
+  color: #a2a2a2;
+  background: #fff9f3;
+  border: 1px solid #ffc2a8;
+  border-radius: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: left;
+  padding: 0 10px 0 60px;
+  box-sizing: border-box;
+  width: 100%;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+ }
+.modal-header-search .select-area select.js-selected,
+.modal-header-search .select-style select.js-selected,
+.modal-header-search .select-content select.js-selected {
+  color: #333;
+}
+
+
+
+/*******************************
+  recommend-feature
+********************************/
+.owl-carousel {
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+}
+.home .recommend-feature {
+  margin: 20px -10px 30px -50px;
+  padding-left: 10px;
+}
+.home .recommend-feature .rn-head01 {
+  margin: 0 0 20px;
+  padding-left: calc(24px + 50px - 5px);
+  padding-right: 10px;
+  background-position: left calc(50px - 5px) top 2px;
+}
+.home .recommend-feature .owl-carousel-recommend-feature,
+.home .recommend-feature .owl-carousel-recommend-feature-bottom {
+  margin-bottom: 0;
+  padding: 0;
+}
+.home .recommend-feature .owl-carousel-recommend-feature {
+  margin-bottom: 5px;
+}
+.home .owl-carousel-recommend-feature .item,
+.home .owl-carousel-recommend-feature-bottom .item {
+  width: 100%;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px rgba(0,0,0,.1);
+  list-style: none;
+}
+.home .owl-carousel-recommend-feature .item a,
+.home .owl-carousel-recommend-feature-bottom .item a {
+  display: block;
+  text-decoration: none;
+}
+.home .owl-carousel-recommend-feature .item a:hover,
+.home .owl-carousel-recommend-feature-bottom .item a:hover,
+.home .owl-carousel-recommend-feature .item a:active,
+.home .owl-carousel-recommend-feature-bottom .item a:active {
+  opacity: .7;
+  text-decoration: none;
+}
+.home .owl-carousel-recommend-feature .item.focus{
+  border: solid 3px #ee675d;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.home .owl-carousel-recommend-feature .item .focus-content {
+  position: absolute;
+  top: -23px;
+  left: -3px;
+  width: 70px;
+  height: 90px;
+  overflow: hidden;
+  z-index: 10;
+  }
+.home .owl-carousel-recommend-feature .item .focus-ribbon {
+  display: inline-block;
+  position: absolute;
+  padding: 7px 0;
+  right: -16px;
+  top: 28px;
+  width: 120px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 16px;
+  background: #ee675d;
+  color: #fff;
+  letter-spacing: 0.05em;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.home .owl-carousel-recommend-feature .item img,
+.home .owl-carousel-recommend-feature-bottom .item img {
+  border-radius: 3px 3px 0 0;
+}
+.home .owl-carousel-recommend-feature .item p {
+  margin:0;
+  padding: 10px;
+  font-size: 12px;
+}
+.home .owl-carousel-recommend-feature-bottom .item p {
+  margin:0;
+  padding: 10px;
+  font-size: 10px;
+}
+.home .owl-carousel-recommend-feature-bottom .item .pic {
+  position: relative;
+}
+.home .owl-carousel-recommend-feature-bottom .item .pic:before {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px 3px 0 0;
+  background: #8d684d;
+  opacity: .6;
+  display: block;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  content: "";
+}
+.home .owl-carousel-recommend-feature-bottom .item .pic b {
+  width: 100%;
+  padding: 0 5px;
+  color: #fff;
+  font-size: 3.3vw;
+  line-height: 1.3;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  -webkit-transform : translateY(-50%);
+  transform : translateY(-50%);
+  z-index: 3;
+}
+.home .owl-carousel-recommend-feature .owl-nav,
+.home .owl-carousel-recommend-feature-bottom .owl-nav {
+  margin: 0;
+}
+.home .owl-carousel-recommend-feature .owl-nav .owl-prev,
+.home .owl-carousel-recommend-feature .owl-nav .owl-next,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-prev,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-next {
+  width: 36px;
+  height: 36px;
+  border: solid 1px #ee675d;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,.1);
+  top: calc(50% - 10px - 18px);
+  opacity: 1;
+}
+.home .owl-carousel-recommend-feature .owl-nav .owl-prev:hover,
+.home .owl-carousel-recommend-feature .owl-nav .owl-next:hover,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-prev:hover,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-next:hover {
+  opacity: 1;
+}
+.home .owl-carousel-recommend-feature .owl-nav .owl-prev:active,
+.home .owl-carousel-recommend-feature .owl-nav .owl-next:active,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-prev:active,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-next:active {
+  background: #ee675d;
+}
+.home .owl-carousel-recommend-feature .owl-nav .owl-prev:active:after,
+.home .owl-carousel-recommend-feature .owl-nav .owl-next:active:after,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-prev:active:after,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-next:active:after {
+  border-color: #fff;
+}
+.home .owl-carousel-recommend-feature .owl-nav .owl-prev,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-prev {
+/*  left: -10px; */
+  display: none;
+}
+.home .owl-carousel-recommend-feature .owl-nav .owl-prev:after,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-prev:after {
+    width: 10px;
+    height: 10px;
+    border: 0px;
+    border-left: solid 1px #ee675d;
+    border-bottom: solid 1px #ee675d;
+    left: calc(50% - 3px);
+    top: calc(50% - 5px);
+}
+.home .owl-carousel-recommend-feature .owl-nav .owl-next,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-next {
+  right: 0px;
+}
+.home .owl-carousel-recommend-feature .owl-nav .owl-next:after,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-next:after {
+    width: 10px;
+    height: 10px;
+    border: 0px;
+    border-right: solid 1px #ee675d;
+    border-top: solid 1px #ee675d;
+    right: calc(50% - 3px);
+    top: calc(50% - 5px);
+}
+.home .owl-carousel-recommend-feature .owl-nav .owl-prev.disabled,
+.home .owl-carousel-recommend-feature .owl-nav .owl-next.disabled,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-prev.disabled,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-next.disabled {
+  opacity: .5;
+}
+.home .owl-carousel-recommend-feature .owl-nav .owl-prev.disabled:hover,
+.home .owl-carousel-recommend-feature .owl-nav .owl-next.disabled:hover,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-prev.disabled:hover,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-next.disabled:hover {
+  opacity: .5;
+}
+.home .owl-carousel-recommend-feature .owl-nav .owl-prev.disabled:active,
+.home .owl-carousel-recommend-feature .owl-nav .owl-next.disabled:active,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-prev.disabled:active,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-next.disabled:active {
+  background: #fff;
+}
+.home .owl-carousel-recommend-feature .owl-nav .owl-prev.disabled:active:after,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-prev.disabled:active:after,
+.home .owl-carousel-recommend-feature .owl-nav .owl-next.disabled:active:after,
+.home .owl-carousel-recommend-feature-bottom .owl-nav .owl-next.disabled:active:after {
+  border-color: #ee675d;
+}
