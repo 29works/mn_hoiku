@@ -646,6 +646,7 @@
   }
   .aside-global .sp-asideWidget-banner-block .module-block.bottom a.sns-img img {
     width: 30vw;
+    padding-right: 4px;
   }
   .module-block .text-center {
     display: flex;
