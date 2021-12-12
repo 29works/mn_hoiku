@@ -6,6 +6,26 @@
   }
 }
 
+.pc {
+  display: block;
+}
+.sp {
+  display: none;
+}
+
+@media only screen and (max-width: 639px) {
+  .pc {
+    display: none;
+  }
+  .sp {
+    display: block;
+  }
+  .sp-view {
+    padding-top: 80px;
+  }
+}
+
+
 /*--------------------------------------------------
   mainTtlArea
 --------------------------------------------------*/
@@ -30,60 +50,433 @@
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
+@media only screen and (max-width: 639px) {
+  .content-global {
+    background: #F9F8F8;
+  }
+  .mainTtlCenter {
+    margin-top: 6px;
+  }
+  .mainTtlArea {
+    align-items: flex-end;
+    width: 100%;
+  }
+  .textArea {
+    padding-left: 16px;
+    width: 50%;
+  }
+  .textArea h1 {
+    margin: 6px 0 3px;
+    font-size: 5vw;
+  }
+  .mainTtlArea img {
+    width: 50%;
+  }
+  .textArea p {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .mainTtlArea .textArea br.sp {
+    display: none;
+  }
+}
 .textArea h1 {
   color: #19CECD;
   line-height: 1.4;
   font-weight: 600;
 }
-.textArea {
-
-}
-
-#consultant .mainTtlBox h2 {
+.flick_mainTtl {
+  margin: 30px 0;
   color: #dc2611;
   font-size: 22px;
   font-weight : bold
 }
-
-#consultant .mainTtlBox h2 > span {
+.flick_mainTtl span {
   color: #19CECD;
-  font-size: 20px;
+  font-size: 18px;
 }
-
-.lick__container {
-  width: 750px;
+#consultant .flick_mainTtl {
+  margin: 0 0 60px;
 }
-
+#consultant .consultant-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#consultant .consultant-staff {
+  margin-bottom: 60px;
+  width: 218px;
+  background: white;
+  border: 1px solid #EAEAF1;
+  border-radius: 16px;
+  box-shadow: 0px 0px 6px #dbdbdbc2;
+}
+#consultant .staff-ttl {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 116px;
+  text-align: center;
+}
+#consultant .staff-ttl img {
+  position: absolute;
+  top: -20px;
+}
+#consultant .staff-ttl small {
+  color: #5e5e5e;
+  font-size: 10px;
+  font-weight: 500;
+}
+#consultant .staff-initial {
+  position: relative;
+  margin: 4px auto 8px;
+  color: #19CECD;
+  font-weight: 600;
+}
+#consultant .staff-ttl::after {
+  position: absolute;
+  content: '';
+  right: 14px;
+  bottom: 14px;
+  width: 8px;
+  height: 14px;
+  background: url(/assets/img/consultant/gray-arrow.svg);
+}
+#consultant .staff-message {
+  padding: 16px;
+  height: 135px;
+  color: #5e5e5e;
+  background: #F5F6F8;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.6;
+  border-radius: 0 0 16px 16px;
+}
+@media only screen and (max-width: 639px) {
+  #consultant {
+    padding: 0 6px;
+  }
+  #consultant .consultant-staff {
+    width: 48%;
+  }
+  #consultant .staff-message {
+    min-height: 135px;
+    height: auto;
+  }
+}
+.flick__container {
+  position: relative;
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.flick__container .flick_mainTtl {
+  padding: 0 10px;
+}
 .flick-panel {
-  overflow-x: auto;
-  overflow-y: hidden;
-  left: 0;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
 }
-
+.flick-panel::-webkit-scrollbar {
+  display:none;
+}
+.flick_wrap {
+  padding: 8px;
+}
 .title_box {
+  margin: 0 auto;
+  width: 80%;
+  border-radius: 30px;
   color: #19CECD;
   background: #F5F6F8;
+  font-size: 13px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 639px) {
+  .flick_mainTtl {
+    font-size: 1.3em;
+  }
 }
 .consultant_item_wrap {
   display: block;
-  margin-right: 5px;
+  margin-right: 14px;
   text-align: center;
 }
-.consultant_item {
-  border: 1px solid #EAEAEA;
+.consultant_item_wrap:hover,
+.consultant-staff a:hover,
+.consultant-cv-btn:hover {
+  text-decoration: none;
 }
-
+.consultant_item {
+}
 .consultant_item:first-child {
   border-radius: 24px 0 0 24px;
 }
-
 .list_consultant {
   display: flex;
+  padding: 19px 20px;
+  width: 3700px;
+  min-width: fit-content;
+  border: 1px solid #EAEAF1;
+  border-radius: 24px;
+  box-shadow: 0px 0px 6px #dbdbdbc2;
+}
+.thumb_box {
+  margin-bottom: 8px;
+}
+.thumb_box,
+#consultant .consultant-staff,
+.consultant-cv-btn {
+  -webkit-transform:scale(1);
+  -moz-transform:scale(1);
+  -ms-transform:scale(1); 
+  -o-transform:scale(1);  
+  transform:scale(1);
+  -webkit-transition:.3s;
+  -moz-transition:.3s;
+  -ms-transition:.3s;
+  -o-transition:.3s;
+  transition:.3s;
+}
+.thumb_box:hover,
+#consultant .consultant-staff:hover,
+.consultant-cv-btn:hover {
+  -webkit-transform:scale(1.2);
+  -moz-transform:scale(1.2);
+  -ms-transform:scale(1.2);   
+  -o-transform:scale(1.2);
+  transform:scale(1.2);
+}
+
+/* consultant-page */
+.consultant-page .consultant-staff {
+  margin-top: 112px;
+  padding: 0 30px 30px;
+  background: #F5F6F9;
+  border: 1px solid #E9E9E8;
+  border-radius: 16px;
+}
+.consultant-page .consultant-staff .staff-name {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 180px;
+  text-align: center;
+}
+.consultant-page .consultant-staff .staff-name img {
+  position: relative;
+  width: 168px;
+  top: -30px;
+}
+.consultant-page .staff-name .staff-initial {
+  margin: 0 auto;
+  color: #19CECD;
+  font-size: 35px;
+  font-weight: bold;
+}
+.consultant-page .staff-message {
+  margin-top: 30px;
+  background: white;
+  border: 1px solid #19CECD;
+  border-radius: 18px;
+}
+.consultant-page .staff-message-ttl {
+  margin: 0;
+  padding: 24px;
+  color: #19CECD;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.7;
+  background: #ccffff80;
+  border-radius: 16px 16px 0 0;
+}
+.consultant-page .staff-message-text {
+  padding: 30px;
+}
+.consultant-page .staff-message-text .text {
+  padding-top: 5px;
+  font-size: 15px;
+  line-height: 1.8;
+}
+.consultant-page .message-single, .message-selfintro {
+  position: relative;
+  padding-left: 15px;
+  font-size: 19px;
+  font-weight: bold;
+}
+.consultant-page .message-single::before, .message-selfintro::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  width: 5px;
+  height: 22px;
+  background: #19CECD;
+  border-radius: 4px;
+}
+.consultant-page .message-selfintro {
+  margin-top: 40px;
+}
+
+.consultant-page .consultant_item .thumb_box {
+  position: relative;
 }
 
 
 
-F.T O.T S.T E.Y
-Y.S O.K T.K T.A I.A S.M T.N K.M
-O.K S.H T.K F.S M.R M.A M.M M.Y
-I.T T.Y S.T K.R F.M B.R M.D
+/* .consultant-page #consultant-page00*/
+.consultant-page .consultant_item .thumb_box img {
+  filter: contrast(0.5);
+}
+.consultant-page #consultant-page01 .consultant_item:first-of-type .thumb_box img,
+.consultant-page #consultant-page02 .consultant_item:nth-child(2) .thumb_box img,
+.consultant-page #consultant-page03 .consultant_item:nth-child(3) .thumb_box img,
+.consultant-page #consultant-page04 .consultant_item:nth-child(4) .thumb_box img,
+.consultant-page #consultant-page05 .consultant_item:nth-child(5) .thumb_box img,
+.consultant-page #consultant-page06 .consultant_item:nth-child(6) .thumb_box img,
+.consultant-page #consultant-page07 .consultant_item:nth-child(7) .thumb_box img,
+.consultant-page #consultant-page08 .consultant_item:nth-child(8) .thumb_box img,
+.consultant-page #consultant-page09 .consultant_item:nth-child(9) .thumb_box img,
+.consultant-page #consultant-page10 .consultant_item:nth-child(10) .thumb_box img,
+.consultant-page #consultant-page11 .consultant_item:nth-child(11) .thumb_box img,
+.consultant-page #consultant-page12 .consultant_item:nth-child(12) .thumb_box img,
+.consultant-page #consultant-page13 .consultant_item:nth-child(13) .thumb_box img,
+.consultant-page #consultant-page14 .consultant_item:nth-child(14) .thumb_box img,
+.consultant-page #consultant-page15 .consultant_item:nth-child(15) .thumb_box img,
+.consultant-page #consultant-page16 .consultant_item:nth-child(16) .thumb_box img,
+.consultant-page #consultant-page17 .consultant_item:nth-child(17) .thumb_box img,
+.consultant-page #consultant-page18 .consultant_item:nth-child(18) .thumb_box img,
+.consultant-page #consultant-page19 .consultant_item:nth-child(19) .thumb_box img,
+.consultant-page #consultant-page20 .consultant_item:nth-child(20) .thumb_box img,
+.consultant-page #consultant-page21 .consultant_item:nth-child(21) .thumb_box img,
+.consultant-page #consultant-page22 .consultant_item:nth-child(22) .thumb_box img,
+.consultant-page #consultant-page23 .consultant_item:nth-child(23) .thumb_box img,
+.consultant-page #consultant-page24 .consultant_item:nth-child(24) .thumb_box img,
+.consultant-page #consultant-page25 .consultant_item:nth-child(25) .thumb_box img,
+.consultant-page #consultant-page26 .consultant_item:nth-child(26) .thumb_box img,
+.consultant-page #consultant-page27 .consultant_item:nth-child(27) .thumb_box img,
+.consultant-page #consultant-page28 .consultant_item:nth-child(28) .thumb_box img,
+.consultant-page #consultant-page29 .consultant_item:nth-child(29) .thumb_box img,
+.consultant-page #consultant-page30 .consultant_item:nth-child(30) .thumb_box img,
+.consultant-page #consultant-page31 .consultant_item:nth-child(31) .thumb_box img,
+.consultant-page #consultant-page32 .consultant_item:nth-child(32) .thumb_box img,
+.consultant-page #consultant-page33 .consultant_item:nth-child(33) .thumb_box img,
+.consultant-page #consultant-page34 .consultant_item:nth-child(34) .thumb_box img,
+.consultant-page #consultant-page35 .consultant_item:nth-child(35) .thumb_box img,
+.consultant-page #consultant-page36 .consultant_item:nth-child(36) .thumb_box img,
+.consultant-page #consultant-page37 .consultant_item:nth-child(37) .thumb_box img,
+.consultant-page #consultant-page38 .consultant_item:nth-child(38) .thumb_box img,
+.consultant-page #consultant-page39 .consultant_item:nth-child(39) .thumb_box img {
+  filter: none;
+}
+.consultant-page #consultant-page01 .consultant_item:first-of-type .thumb_box::before,
+.consultant-page #consultant-page02 .consultant_item:nth-child(2) .thumb_box::before,
+.consultant-page #consultant-page03 .consultant_item:nth-child(3) .thumb_box::before,
+.consultant-page #consultant-page04 .consultant_item:nth-child(4) .thumb_box::before,
+.consultant-page #consultant-page05 .consultant_item:nth-child(5) .thumb_box::before,
+.consultant-page #consultant-page06 .consultant_item:nth-child(6) .thumb_box::before,
+.consultant-page #consultant-page07 .consultant_item:nth-child(7) .thumb_box::before,
+.consultant-page #consultant-page08 .consultant_item:nth-child(8) .thumb_box::before,
+.consultant-page #consultant-page09 .consultant_item:nth-child(9) .thumb_box::before,
+.consultant-page #consultant-page10 .consultant_item:nth-child(10) .thumb_box::before,
+.consultant-page #consultant-page11 .consultant_item:nth-child(11) .thumb_box::before,
+.consultant-page #consultant-page12 .consultant_item:nth-child(12) .thumb_box::before,
+.consultant-page #consultant-page13 .consultant_item:nth-child(13) .thumb_box::before,
+.consultant-page #consultant-page14 .consultant_item:nth-child(14) .thumb_box::before,
+.consultant-page #consultant-page15 .consultant_item:nth-child(15) .thumb_box::before,
+.consultant-page #consultant-page16 .consultant_item:nth-child(16) .thumb_box::before,
+.consultant-page #consultant-page17 .consultant_item:nth-child(17) .thumb_box::before,
+.consultant-page #consultant-page18 .consultant_item:nth-child(18) .thumb_box::before,
+.consultant-page #consultant-page19 .consultant_item:nth-child(19) .thumb_box::before,
+.consultant-page #consultant-page20 .consultant_item:nth-child(20) .thumb_box::before,
+.consultant-page #consultant-page21 .consultant_item:nth-child(21) .thumb_box::before,
+.consultant-page #consultant-page22 .consultant_item:nth-child(22) .thumb_box::before,
+.consultant-page #consultant-page23 .consultant_item:nth-child(23) .thumb_box::before,
+.consultant-page #consultant-page24 .consultant_item:nth-child(24) .thumb_box::before,
+.consultant-page #consultant-page25 .consultant_item:nth-child(25) .thumb_box::before,
+.consultant-page #consultant-page26 .consultant_item:nth-child(26) .thumb_box::before,
+.consultant-page #consultant-page27 .consultant_item:nth-child(27) .thumb_box::before,
+.consultant-page #consultant-page28 .consultant_item:nth-child(28) .thumb_box::before,
+.consultant-page #consultant-page29 .consultant_item:nth-child(29) .thumb_box::before,
+.consultant-page #consultant-page30 .consultant_item:nth-child(30) .thumb_box::before,
+.consultant-page #consultant-page31 .consultant_item:nth-child(31) .thumb_box::before,
+.consultant-page #consultant-page32 .consultant_item:nth-child(32) .thumb_box::before,
+.consultant-page #consultant-page33 .consultant_item:nth-child(33) .thumb_box::before,
+.consultant-page #consultant-page34 .consultant_item:nth-child(34) .thumb_box::before,
+.consultant-page #consultant-page35 .consultant_item:nth-child(35) .thumb_box::before,
+.consultant-page #consultant-page36 .consultant_item:nth-child(36) .thumb_box::before,
+.consultant-page #consultant-page37 .consultant_item:nth-child(37) .thumb_box::before,
+.consultant-page #consultant-page38 .consultant_item:nth-child(38) .thumb_box::before,
+.consultant-page #consultant-page39 .consultant_item:nth-child(39) .thumb_box::before {
+  position: absolute;
+  content: 'ME!';
+  padding: 0 10px;
+  top: -10px;
+  left: 14px;
+  color: white;
+  background: #19CECD;
+  font-size: 12px;
+  border-radius: 16px;
+}
+
+
+/* #onsultant-cv */
+#consultant-cv {
+  margin-top: 60px;
+  text-align: center;
+}
+#consultant-cv img {
+  width: 450px;
+}
+.consultant-cv-wrap {
+  padding: 30px;
+  background: #F5F6F9;
+  border: 2px solid #FF930F;
+  border-radius: 16px;
+}
+.consultant-cv-wrap h2 {
+  margin-top: 0;
+  color: #1A191A;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+.consultant-cv-wrap h2 span {
+  background: #1ce6e687;
+}
+.consultant-cv-wrap h3 {
+  margin-top: 5px;
+  color: #19CECD;
+  font-size: 18px;
+  font-weight: 600;
+}
+.consultant-cv-btn {
+  display: block;
+  margin: 0 auto 7px;
+  padding: 18px 15px;
+  width: fit-content;
+  min-width: 500px;
+  color: white;
+  background: #FF930F;
+  border-radius: 300px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.consultant-cv-btn:hover {
+  color: white;
+  filter: drop-shadow(2px 3px 9px rgb(145, 145, 145));
+}
