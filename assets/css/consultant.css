@@ -66,7 +66,7 @@
     width: 50%;
   }
   .textArea h1 {
-    margin: 6px 0 3px;
+    margin: 8px 0 3px;
     font-size: 5vw;
   }
   .mainTtlArea img {
@@ -204,6 +204,9 @@
   font-weight: bold;
 }
 @media only screen and (max-width: 639px) {
+  .flick__container {
+    width: 100%;
+  }
   .flick_mainTtl {
     font-size: 1.3em;
   }
@@ -235,6 +238,7 @@
 .thumb_box {
   margin-bottom: 8px;
 }
+
 .thumb_box,
 #consultant .consultant-staff,
 .consultant-cv-btn {
@@ -249,14 +253,17 @@
   -o-transition:.3s;
   transition:.3s;
 }
-.thumb_box:hover,
-#consultant .consultant-staff:hover,
-.consultant-cv-btn:hover {
-  -webkit-transform:scale(1.2);
-  -moz-transform:scale(1.2);
-  -ms-transform:scale(1.2);   
-  -o-transform:scale(1.2);
-  transform:scale(1.2);
+
+@media screen and (min-width: 768px) {
+  .thumb_box:hover,
+  #consultant .consultant-staff:hover,
+  .consultant-cv-btn:hover {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+  }
 }
 
 /* consultant-page */
@@ -335,7 +342,6 @@
 .consultant-page .consultant_item .thumb_box {
   position: relative;
 }
-
 
 
 /* .consultant-page #consultant-page00*/
