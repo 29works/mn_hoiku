@@ -53,7 +53,7 @@
 @media only screen and (max-width: 639px) {
   .content-global .container {
     padding: 0;
-    background: #F9F8F8;
+    /* background: #F9F8F8; */
   }
   .content-global .container .css-pz3g2y-BreadcrumbStyle {
     padding: 5px;
@@ -164,7 +164,7 @@
 }
 @media only screen and (max-width: 639px) {
   #consultant {
-    padding: 0 6px;
+    padding: 0 16px;
   }
   #consultant .consultant-staff {
     width: 48%;
