@@ -564,11 +564,16 @@
     font-size: 12px;
     text-align: left;
   }
-  .aside-global .sp-asideWidget-banner-block .module-block.bottom .facebook {
-    margin: 0 16px 16px 16px;
+  .aside-global .sp-asideWidget-banner-block .module-block.bottom .facebook,
+  .aside-global .sp-asideWidget-banner-block .module-block.bottom .follow
+  {
+    margin: 0 16px 40px 16px;
+  }
+  .aside-global .sp-asideWidget-banner-block .module-block.bottom .apply {
+    margin: 0 16px;
   }
   .aside-global .sp-asideWidget-banner-block .module-block.bottom span {
-    margin: 18px 0 10px;
+    margin: 38px 0 14px;
     padding: 0 16px;
     color: #DD2713;
     font-size: 1.3em;
@@ -584,6 +589,6 @@
   .module-block .text-center {
     display: flex;
     justify-content: space-between;
-    padding: 0 16px;
+    padding: 0 16px 10px;
   }
 }
