@@ -447,7 +447,7 @@
 }
 @media only screen and (max-width: 639px) {
   .consultant-page .consultant-staff {
-    padding: 0 14px 14px;
+    padding: 0 16px 50px;
     background: #EBECED;
     border: 2px solid #D9D9D9;
     border-radius:0;
@@ -563,5 +563,27 @@
     margin-top: 13px;
     font-size: 12px;
     text-align: left;
+  }
+  .aside-global .sp-asideWidget-banner-block .module-block.bottom .facebook {
+    margin: 0 16px 16px 16px;
+  }
+  .aside-global .sp-asideWidget-banner-block .module-block.bottom span {
+    margin: 18px 0 10px;
+    padding: 0 16px;
+    color: #DD2713;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: left;
+  }
+  .aside-global .sp-asideWidget-banner-block .module-block.bottom a.sns-img {
+    margin: 0;
+  }
+  .aside-global .sp-asideWidget-banner-block .module-block.bottom a.sns-img img {
+    width: 92%;
+  }
+  .module-block .text-center {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
   }
 }
