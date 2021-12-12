@@ -150,7 +150,7 @@
   bottom: 14px;
   width: 8px;
   height: 14px;
-  background: url(/../assets/img/consultant/gray-arrow.svg);
+  background: url(/../../assets/img/consultant/gray-arrow.svg);
 }
 #consultant .staff-message {
   padding: 16px;
@@ -499,7 +499,7 @@
   right: 30px;
   width: 104px;
   height: 104px;
-  background: url(/../assets/img/consultant/consultant-cv-pro.svg) no-repeat;
+  background: url(/../../assets/img/consultant/consultant-cv-pro.svg) no-repeat;
   animation-name: huwahuwa;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
