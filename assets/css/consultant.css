@@ -206,7 +206,6 @@
   font-size: 13px;
   font-weight: bold;
 }
-
 .consultant_item_wrap {
   display: block;
   margin-right: 14px;
@@ -216,8 +215,6 @@
 .consultant-staff a:hover,
 .consultant-cv-btn:hover {
   text-decoration: none;
-}
-.consultant_item {
 }
 .consultant_item:first-child {
   border-radius: 24px 0 0 24px;
@@ -241,6 +238,9 @@
   .flick_mainTtl {
     margin: 18px 0 10px;
     font-size: 1.3em;
+  }
+  .flick_wrap {
+    padding: 16px;
   }
 }
 .thumb_box,
