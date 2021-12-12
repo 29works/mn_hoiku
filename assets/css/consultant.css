@@ -147,7 +147,7 @@
   bottom: 14px;
   width: 8px;
   height: 14px;
-  background: url(/assets/img/consultant/gray-arrow.svg);
+  background: url(../assets/img/consultant/gray-arrow.svg);
 }
 #consultant .staff-message {
   padding: 16px;
