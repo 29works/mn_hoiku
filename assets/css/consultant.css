@@ -542,7 +542,7 @@
   .consultant-cv-btn.sp {
     display: block;
     margin: 0 auto 7px;
-    padding: 18px 15px;
+    padding: 25px 15px;
     min-width: fit-content;
     color: white;
     background: #FF930F;
@@ -584,7 +584,7 @@
     margin: 0;
   }
   .aside-global .sp-asideWidget-banner-block .module-block.bottom a.sns-img img {
-    width: 95%;
+    width: 30vw;
   }
   .module-block .text-center {
     display: flex;
