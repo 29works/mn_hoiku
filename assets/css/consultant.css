@@ -150,7 +150,7 @@
   bottom: 14px;
   width: 8px;
   height: 14px;
-  background: url(../assets/img/consultant/gray-arrow.svg);
+  background: url(/../assets/img/consultant/gray-arrow.svg);
 }
 #consultant .staff-message {
   padding: 16px;
@@ -486,10 +486,34 @@
   width: 450px;
 }
 .consultant-cv-wrap {
+  position: relative;
   padding: 30px;
   background: #F5F6F9;
   border: 2px solid #FF930F;
   border-radius: 16px;
+}
+.consultant-cv-wrap::after {
+  position: absolute;
+  content: '';
+  top: -66px;
+  right: 30px;
+  width: 104px;
+  height: 104px;
+  background: url(/../assets/img/consultant/consultant-cv-pro.svg) no-repeat;
+  animation-name: huwahuwa;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1.5s;
+}
+@keyframes huwahuwa {
+  0% {
+      transform: translate(0,0px);
+  }
+
+  100% {
+      transform: translate(0,-20px)
+  }
 }
 .consultant-cv-wrap h2 {
   margin-top: 0;
@@ -540,15 +564,52 @@
     line-height: 1.4;
   }
   .consultant-cv-btn.sp {
+    position: relative;
     display: block;
     margin: 0 auto 7px;
     padding: 25px 15px;
     min-width: fit-content;
-    color: white;
-    background: #FF930F;
     border-radius: 300px;
     font-size: 15px;
     font-weight: 600;
+    color: white;
+    background: #FF930F;
+    overflow: hidden;
+  }
+  .consultant-cv-btn.sp::after {
+    content: '';
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    width: 50px;
+    height: 50px;
+    background-image: linear-gradient(100deg,  rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 0) 0%);
+    
+    animation-name: shiny;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  @keyframes shiny {
+    0% {
+        transform: scale(0) rotate(25deg);
+        opacity: 0;
+    }
+
+    50% {
+        transform: scale(1) rotate(25deg);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(50) rotate(25deg);
+        opacity: 0;
+    }
+  }
+  .consultant-cv-wrap::after {
+    top: -55px;
+    right: -12px;
+    background-size: 80%;
   }
   .consultant-cv-btn.pc {
     display: none;
