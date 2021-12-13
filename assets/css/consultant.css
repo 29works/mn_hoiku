@@ -192,6 +192,55 @@
   overflow-x: scroll;
   -ms-overflow-style: none;
 }
+.scrl_btn {
+  text-align: center;
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  background-color: #13B3A1;
+  color: #fff;
+  font-size: 21px;
+  cursor: pointer;
+  line-height: 1.5;
+  opacity: 0.4;
+}
+#scrl_btn_wrap {
+  position: relative;
+}
+#scrl_btn_before {
+  position: absolute;
+  top: 0;
+  bottom: 16px;
+  left: -25px;
+  margin: auto;
+}
+#scrl_btn_after {
+  position: absolute;
+  top: 0;
+  bottom: 16px;
+  right: -25px;
+  margin: auto;
+}
+#scrl_btn_before span,
+#scrl_btn_after span {  
+  padding: 13px 19px;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  color: #ee675d;
+  background-color: #ffffff80;
+  border-radius: 50%;
+  box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 16%);
+}
+#scrl_btn_before span::after{
+  font-family: swiper-icons;
+  content: 'prev';
+}
+#scrl_btn_after span::after {
+  font-family: swiper-icons;
+  content: 'next';
+}
 .flick-panel::-webkit-scrollbar {
   display:none;
 }

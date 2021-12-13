@@ -51,3 +51,24 @@ function ScrollWindow(elem) {
 	var elemtop = rect.top + window.pageYOffset;
 	document.documentElement.scrollTop = elemtop - 150;
 }
+
+
+// flick-anchor 横スクロール
+$(function() {
+  var rightbutton = $('#scrl_btn_after');
+  var leftbutton = $('#scrl_btn_before');
+      //右へ
+      rightbutton.click(function () {
+      $('#flick-anchor').animate({
+          scrollLeft: $('#flick-anchor').scrollLeft() + 900
+      }, 300, 'swing');
+      return false;
+      });
+      //左へ
+      leftbutton.click(function () {
+      $('#flick-anchor').animate({
+          scrollLeft: $('#flick-anchor').scrollLeft() - 900
+      }, 300, 'swing');
+      return false;
+      });
+});
