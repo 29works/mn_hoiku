@@ -44,7 +44,7 @@ jQuery.prototype.mousedragscrollable = function () {
 };
 $(".flick-panel").mousedragscrollable();
 
-//flick-anchor ページ内リンクスクロール
+//flick-anchor ジャンプ先の位置調整
 function ScrollWindow(elem) {
 	const element = document.getElementById(elem);
 	const rect = element.getBoundingClientRect();
@@ -53,7 +53,7 @@ function ScrollWindow(elem) {
 }
 
 
-// flick-anchor 横スクロール
+// flick-anchor pc ボタン　
 $(function() {
   const rightbutton = $('#scrl_btn_after');
   const leftbutton = $('#scrl_btn_before');
