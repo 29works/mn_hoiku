@@ -46,17 +46,17 @@ $(".flick-panel").mousedragscrollable();
 
 //flick-anchor ページ内リンクスクロール
 function ScrollWindow(elem) {
-	var element = document.getElementById(elem);
-	var rect = element.getBoundingClientRect();
-	var elemtop = rect.top + window.pageYOffset;
+	const element = document.getElementById(elem);
+	const rect = element.getBoundingClientRect();
+	const elemtop = rect.top + window.pageYOffset;
 	document.documentElement.scrollTop = elemtop - 150;
 }
 
 
 // flick-anchor 横スクロール
 $(function() {
-  var rightbutton = $('#scrl_btn_after');
-  var leftbutton = $('#scrl_btn_before');
+  const rightbutton = $('#scrl_btn_after');
+  const leftbutton = $('#scrl_btn_before');
       //右へ
       rightbutton.click(function () {
       $('#flick-anchor').animate({
