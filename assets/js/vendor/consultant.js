@@ -48,24 +48,24 @@ $(".flick-panel").mousedragscrollable();
 function ScrollWindow(elem) {
 	const element = document.getElementById(elem);
 	const rect = element.getBoundingClientRect();
-	const elemtop = rect.top + window.pageYOffset;
-	document.documentElement.scrollTop = elemtop - 150;
+	const elemTop = rect.top + window.pageYOffset;
+	document.documentElement.scrollTop = elemTop - 150;
 }
 
 
 // flick-anchor pc ボタン　
 $(function() {
-  const rightbutton = $('#scrl_btn_after');
-  const leftbutton = $('#scrl_btn_before');
+  const rightButton = $('#scrl_btn_after');
+  const leftButton = $('#scrl_btn_before');
       //右へ
-      rightbutton.click(function () {
+      rightButton.click(function () {
       $('#flick-anchor').animate({
           scrollLeft: $('#flick-anchor').scrollLeft() + 900
       }, 300, 'swing');
       return false;
       });
       //左へ
-      leftbutton.click(function () {
+      leftButton.click(function () {
       $('#flick-anchor').animate({
           scrollLeft: $('#flick-anchor').scrollLeft() - 900
       }, 300, 'swing');
