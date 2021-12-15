@@ -55,8 +55,8 @@ function ScrollWindow(elem) {
 
 // flick-anchor pc ボタン　
 $(function() {
-  const rightButton = $('#scrl_btn_after');
-  const leftButton = $('#scrl_btn_before');
+  const rightButton = $('#scrlBtnAfter');
+  const leftButton = $('#scrlBtnBefore');
       //右へ
       rightButton.click(function () {
       $('#flick-anchor').animate({
