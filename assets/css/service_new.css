@@ -222,11 +222,17 @@ a:hover {
 	#service-voice p {
 		text-align: left;
 	}
-
 	.module-block .text-center {
 		display: flex;
 		justify-content: space-between;
 		padding: 0 16px 10px;
+	}
+	.what-support__inner::after {
+		width: 100%;
+		height: 100px;
+		right: -19px;
+		top: -20px;
+		background-size: 100%;
 	}
 }
 @media only screen and (max-width: 361px) {
@@ -1311,7 +1317,8 @@ a:hover {
 	.what-support__inner {
 		flex-direction: column-reverse;
 		padding: 20px;
-		width: 100%;
+		width: 90%;
+		margin: 10px auto;
 	}
 	.what-support__inner img {
 		width: 93%;
