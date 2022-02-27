@@ -83,8 +83,7 @@ a:hover {
 	padding-bottom: 70px;
 }
 #service-merit section,
-#service-guide section,
-#service-voice section {
+#service-guide section {
 	padding: 80px 0 0;
 }
 #service-merit p,
@@ -1808,6 +1807,10 @@ h3 span {
 	width: 900px;
 	margin: 0 auto;
 }
+#service-merit .reliability h2 span.what-tag {
+	background: white;
+	color: #19cecd;
+}
 @media only screen and (max-width: 639px) {
 	.reliability__inner {
 		flex-direction: column;
@@ -1816,10 +1819,7 @@ h3 span {
 		width: 90%;
 		margin: 20px 20px 0 20px;
 	}
-	#service-merit .reliability h2 span.what-tag {
-		background: white;
-		color: #19cecd;
-	}
+
 	.reliability__text {
 		width: 100%;
 		padding: 20px;
@@ -2062,21 +2062,18 @@ label.accordion-open span {
 #service-guide .cv01 {
 	margin-top: 70px;
 }
-
 #service-guide .flow {
 	background: #d3faf8;
 	padding-bottom: 70px;
 }
-
 .flow .highlighter {
+	color: #19cecd;
 	font-weight: bold;
-	/* background: hsl(180deg 80% 51% / 40%); */
 }
 .flow h2::before {
 	left: -253px;
 	bottom: 88px;
 }
-
 .flow h2 {
 	color: #241833;
 	font-weight: 600;
@@ -2095,7 +2092,6 @@ label.accordion-open span {
 	display: flex;
 	margin-bottom: 40px;
 }
-
 #service-guide .head__item {
 	padding: 10px;
 	text-align: center;
