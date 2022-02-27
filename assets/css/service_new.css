@@ -1362,6 +1362,7 @@ a:hover {
 	.what-support__inner {
 		flex-direction: column-reverse;
 		padding: 20px;
+		width: 100%;
 	}
 	.what-support__inner img {
 		width: 93%;
@@ -2304,7 +2305,7 @@ label.accordion-open span {
 		color: #19cecd;
 	}
 
-	#service-guide .head__item:nth-of-type(3).head-item-no::before {
+	#service-guide .head-item-no::before {
 		right: -29px;
 	}
 }
