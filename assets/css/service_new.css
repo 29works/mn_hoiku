@@ -2300,6 +2300,10 @@ label.accordion-open span {
 	.flow .highlighter {
 		color: #19cecd;
 	}
+
+	#service-guide .head__item:nth-of-type(3).head-item-no::before {
+		right: -29px;
+	}
 }
 
 /* ===================================================================
