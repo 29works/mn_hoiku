@@ -1583,8 +1583,10 @@ h3 span {
 		justify-content: space-between;
 		padding-bottom: 30px;
 	}
+	.merit ul li div {
+		background: #f5f6f9;
+	}
 	.merit ul li div p {
-		/* color: #241833; */
 		border-left: 3px solid #0000001f;
 		padding-left: 20px;
 	}
