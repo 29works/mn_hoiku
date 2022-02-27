@@ -26,66 +26,17 @@
 * # service-guide
 * # service-voice
 
-
-
-* # UTILITY CLASSES
-* # TYPOGRAPHY
-*   ## base type styles
-*   ## additional typography & helper classes
-*   ## lists
-*   ## spacing
-* # PRELOADER
-*   ## page loaded
-* # FORM
-*   ## style placeholder text
-*   ## change autocomplete styles in Chrome
-* # BUTTONS
-* # COMPONENTS
-*   ## alert box
-* # SHARE & REUSABLE STYLES
-*   ## custom block grid STACK breakpoints
-*   ## media classes
-*   ## entries
-*   ## pagination
-*   ## social list blocks
-*   ## likeus box
-*   ## contactform7 overrides
-* # PAGE WRAP
-* # HEADER STYLES
-*   ## header logo
-*   ## header-toggle
-*   ## main-navigation
-*   ## off-canvas menu
-* # SEARCH BLOCK
-* # PAGEHEADER
-* # PAGE CONTENT
-*   ## content ads
-*   ## 404
-*   ## primary column
-*   ## secondary column
-*   ## sidebar text ad
-*   ## sidebar link list
-*   ## comment section
-*   ## single post ad
-*   ## related posts
-* # ADSECTION
-* # FOOTER
-*   ## footer main
-*   ## footer bottom
-*   ## footer copyright
-*
-* ==================================================================== */
+==================================================================== */
 
 /* ====================================================================
  * # NORMALIZE
  *
  *
  * -------------------------------------------------------------------- */
-@charset "UTF-8";
+
 body {
 	color: #1a191a;
 }
-/* 実装の時　削除 */
 @media screen and (min-width: 769px) {
 	body {
 		margin-top: 120px;
@@ -553,8 +504,6 @@ a:hover {
 		left: -57px;
 		position: relative;
 		width: 223px;
-	}
-	.blogcard-merit .blogcard_thumbnail img {
 	}
 	.blogcard-voice .blogcard_thumbnail img {
 		left: -44px;
