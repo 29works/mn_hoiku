@@ -201,10 +201,13 @@ a:hover {
 	#service-voice h2 {
 		width: 100%;
 		line-height: 1.35;
-		font-size: 25px;
+		font-size: 23px;
 		padding-bottom: 10px;
+		letter-spacing: 0.5px;
 	}
-
+	.what-tag {
+		font-size: 15px;
+	}
 	.serv-desc {
 		font-size: 14px;
 	}
@@ -511,6 +514,10 @@ a:hover {
 		position: relative;
 		width: 223px;
 	}
+	.blogcard-merit .blogcard_thumbnail img {
+		left: -48px;
+	}
+
 	.blogcard-voice .blogcard_thumbnail img {
 		left: -44px;
 	}
@@ -2225,11 +2232,12 @@ label.accordion-open span {
 	}
 	#service-guide .head__item p {
 		width: 120px;
-		font-size: 14px;
+		font-size: 13.5px;
 		background: #f5f6f9;
 		padding: 10px;
 		border-radius: 0 0 8px 8px;
 		text-align: center;
+		letter-spacing: -0.5px;
 	}
 	#service-guide .head__item img {
 		padding: 10px;
@@ -2250,7 +2258,7 @@ label.accordion-open span {
 	.flow__item-text::before {
 		position: absolute;
 		content: '';
-		width: 94%;
+		width: 98%;
 		height: 155px;
 		background-color: #d3faf8;
 		border-radius: 16px;
