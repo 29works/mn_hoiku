@@ -142,7 +142,8 @@ a:hover {
 	font-size: 15px;
 }
 #service-merit h1,
-#service-guide h1 {
+#service-guide h1,
+#service-voice h1 {
 	position: relative;
 	padding: 26px 0;
 	color: #1a191a;
@@ -237,9 +238,11 @@ a:hover {
 		width: 100%;
 	}
 	#service-merit h1,
-	#service-guide h1,
-	#service-voice h1 {
+	#service-guide h1 {
 		padding: 8px 0 20px;
+	}
+	#service-voice h1 {
+		padding: 8px 0;
 	}
 	#service-top h2,
 	#service-merit h2,
@@ -559,8 +562,7 @@ a:hover {
 		display: none;
 	}
 	#service-merit .blogcard_title,
-	#service-guide .blogcard_title,
-	#service-voice .blogcard_title {
+	#service-guide .blogcard_title {
 		font-size: 18px;
 		padding: 0 0 14px 26px;
 	}
@@ -1208,6 +1210,9 @@ a:hover {
 #service-guide .mainTtlCenter {
 	background-color: #ffe4e3;
 }
+#service-voice .mainTtlCenter {
+	background-color: #fff1cc;
+}
 @media only screen and (max-width: 767px) {
 	#service-merit h3 {
 		margin-bottom: 14px;
@@ -1275,12 +1280,11 @@ a:hover {
 		line-height: 1.5;
 	}
 	#service-merit .serv-desc,
-	#service-guide .serv-desc {
+	#service-guide .serv-desc,
+	#service-voice .serv-desc {
 		margin-top: 10px;
 		line-height: 1.4;
 		text-align: center;
-	}
-	#service-guide .serv-desc {
 	}
 	#service-merit img.mv-illust {
 		width: 80%;
@@ -2309,9 +2313,7 @@ label.accordion-open span {
 #service-voice .service__wrap {
 	width: 920px;
 }
-#service-voice .mainTtlCenter {
-	background-color: #fff1cc;
-}
+
 #service-voice .service-nav ul li:nth-of-type(3):after {
 	content: '';
 	height: 3px;
@@ -2330,10 +2332,7 @@ label.accordion-open span {
 	position: absolute;
 	bottom: 0;
 }
-#service-voice .mainTtlArea {
-	flex-direction: column;
-	height: 480px;
-}
+
 #service-voice .mainTtlCenter {
 	background-image: url(../../assets/img/service/service-voice-bg.png);
 	background-position: center bottom;
@@ -2342,6 +2341,9 @@ label.accordion-open span {
 #service-voice .cv01.pc {
 	padding: 0;
 	margin: 70px 0;
+}
+#service-voice h3.blogcard_title {
+	font-size: 20px;
 }
 
 #service-voice p {
@@ -2373,11 +2375,11 @@ label.accordion-open span {
 #service-voice .mv-merit img:nth-of-type(2) {
 	margin-right: 140px;
 }
-#service-voice h1 {
+/* #service-voice h1 {
 	position: relative;
-	padding: 30px 0 0 82px;
+	padding: 30px 0;
 	color: #1a191a;
-}
+} */
 #service-voice h1::after {
 	content: '';
 	position: absolute;
@@ -2440,8 +2442,7 @@ label.accordion-open span {
 }
 #service-voice .blogcard-merit .blogcard_thumbnail,
 #service-voice .blogcard-guide .blogcard_thumbnail,
-#service-voice .blogcard-merit .blogcard_thumbnail,
-#service-voice .blogcard-guide .blogcard_thumbnail {
+#service-voice .blogcard-merit .blogcard_thumbnail {
 	height: 217px;
 	width: 100%;
 	border-radius: 16px 16px 0 0;
@@ -2570,7 +2571,7 @@ label.accordion-open span {
 }
 .voicelist-item-img img {
 	display: block;
-	width: 240px;
+	width: 177px;
 	max-width: 100%;
 	margin: 0 auto;
 }
@@ -2583,10 +2584,6 @@ label.accordion-open span {
 	position: relative;
 	text-align: center;
 }
-/* .voicelist-item-txt .blue {
-	font-weight: bold;
-	color: var(--blue);
-} */
 .voicelist-item-txt .small {
 	font-size: 11px;
 	display: block;
@@ -2602,6 +2599,21 @@ label.accordion-open span {
 }
 
 @media only screen and (max-width: 767px) {
+	#service-voice .service__wrap {
+		width: 100%;
+	}
+	#service-voice h1::after {
+		width: 120%;
+		background-size: 124vw;
+		left: -83px;
+		right: 0;
+		top: 71px;
+		z-index: -1;
+	}
+	#service-voice .textArea,
+	#service-voice .mv-merit {
+		width: 100%;
+	}
 	.voice {
 		padding: 40px 0;
 		background: #ffead9;
@@ -2622,8 +2634,9 @@ label.accordion-open span {
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
 		-ms-flex-direction: column;
-		flex-direction: column;
+		flex-direction: row;
 		margin: 0 auto;
+		flex-wrap: nowrap;
 	}
 	.voicelist li {
 		width: 95%;
@@ -2654,6 +2667,7 @@ label.accordion-open span {
 		-ms-flex: 1;
 		flex: 1;
 		margin-left: 10px;
+		margin-top: 0;
 	}
 	.voicelist-item-body {
 		-webkit-box-flex: 1;
@@ -2682,24 +2696,128 @@ label.accordion-open span {
 	.o-scroll {
 		overvoice-x: auto;
 		overvoice-y: hidden;
+		overflow: scroll;
+		background: #fff1cc;
+		padding: 20px 0;
 	}
 	.o-scroll::-webkit-scrollbar {
 		display: none;
 	}
+
+	.voicelist {
+		flex-direction: row;
+	}
 	.o-scroll__container {
 		position: relative;
-		display: inline-grid;
-		grid-auto-voice: column;
 		z-index: 1;
 		box-sizing: border-box;
 		padding-right: 20px;
 		padding-bottom: 20px;
-		align-items: end;
+		align-items: stretch;
+		display: flex;
+		width: 100%;
+		flex-wrap: nowrap;
 	}
 	.o-scroll__container li {
 		width: 270px;
 	}
+	#service-voice .voicelist-item {
+		flex-direction: column;
+		background: none;
+		border: none;
+		width: 300px;
+		height: 100%;
+	}
+	#service-voice .voicelist li {
+		width: 320px;
+		margin: 0 20px;
+	}
+	.voicelist-item__head {
+		width: 100%;
+		flex-direction: column-reverse;
+	}
+	.voicelist-item__head__text {
+		background: white;
+		border: 2px solid #ffe3a3;
+		border-bottom-style: none;
+		width: 100%;
+		padding: 0 14px;
+		border-radius: 16px 16px 0 0;
+	}
+	.voicelist-item__body {
+		width: 100%;
+		height: 100%;
+		padding: 16px 16px;
+		background: white;
+		border: 2px solid #ffe3a3;
+		border-radius: 0 0 16px 16px;
+		border-top-style: none;
+	}
+	#service-voice .voicelist-item__title {
+		font-size: 18px;
+		text-align: center;
+	}
+	#service-voice .success {
+		font-size: 14px;
+		padding: 2px 12px;
+	}
 	.voicelist-item-label {
 		border-bottom: none;
+	}
+	#service-voice img.mv-illust {
+		width: 50%;
+	}
+	#service-voice .mv-merit img {
+		width: 20%;
+	}
+	#service-voice .mv-merit {
+		justify-content: center;
+		flex-direction: row;
+		bottom: 50px;
+	}
+	#service-voice .mv-merit img:nth-of-type(2) {
+		margin-right: 40px;
+	}
+	#service-voice .blogcard-wrap {
+		background: white;
+		padding: 10px 0;
+	}
+	#service-voice .blogcard-wrap .service__wrap {
+		flex-direction: column;
+	}
+	#service-voice .blogcard {
+		width: 90%;
+		height: 160px;
+		margin: 40px auto;
+	}
+	#service-voice .blogcard_thumbnail img {
+		height: 158px;
+		left: -57px;
+		position: relative;
+		width: 223px;
+		bottom: 0;
+	}
+	#service-voice .blogcard-merit .blogcard_thumbnail,
+	#service-voice .blogcard-guide .blogcard_thumbnail,
+	#service-voice .blogcard-voice .blogcard_thumbnail {
+		width: 36%;
+		height: 158px;
+		overflow: hidden;
+	}
+	#service-voice .blogcard a {
+		flex-direction: row;
+	}
+	#service-voice h3.blogcard_title {
+		font-size: 18px;
+		padding: 0 0 14px 26px;
+	}
+	#service-voice .blogcard_content {
+		padding-bottom: 0;
+	}
+	#service-voice .profile {
+		text-align: center;
+	}
+	#service-voice .voicelist-item__text {
+		line-height: 1.4;
 	}
 }
