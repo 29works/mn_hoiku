@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="172.327" height="40.213" viewBox="0 0 172.327 40.213">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_562" data-name="長方形 562" width="23.508" height="23.357" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="mv-guide02-sp" transform="translate(-0.001 -3.138)">
+    <rect id="長方形_130" data-name="長方形 130" width="172.327" height="40.213" rx="10" transform="translate(0.001 3.138)" fill="#fff"/>
+    <g id="グループ_1868" data-name="グループ 1868" transform="translate(-4.135 4)">
+      <g id="グループ_1895" data-name="グループ 1895" transform="translate(-4.701 9.168)">
+        <rect id="長方形_155" data-name="長方形 155" width="121.114" height="11.46" transform="translate(52.05 7.694)" fill="#a2efef"/>
+        <text id="すぐ転職したい方" transform="translate(111.849 13)" fill="#060000" font-size="15" font-family="HiraKakuProN-W6, Hiragino Kaku Gothic ProN" letter-spacing="-0.02em"><tspan x="-58.95" y="0">すぐ転職したい方</tspan></text>
+      </g>
+      <g id="グループ_2824" data-name="グループ 2824" transform="translate(15.934 3.138)">
+        <circle id="楕円形_54" data-name="楕円形 54" cx="14.607" cy="14.607" r="14.607" transform="translate(-3.798)" fill="none"/>
+        <g id="グループ_2754" data-name="グループ 2754" transform="translate(-0.946 3.724)">
+          <g id="グループ_2753" data-name="グループ 2753" clip-path="url(#clip-path)">
+            <path id="パス_22717" data-name="パス 22717" d="M10.956.289a8.734,8.734,0,1,0,3.705,14.86l1.6,1.6.639-.639L15.293,14.5A8.733,8.733,0,0,0,10.956.289" transform="translate(0 0)" fill="#acacae"/>
+            <path id="パス_22718" data-name="パス 22718" d="M27.728,23.111A6.477,6.477,0,1,1,23.111,15.2a6.477,6.477,0,0,1,4.617,7.911" transform="translate(-12.729 -12.729)" fill="#8fbddb"/>
+            <path id="パス_22719" data-name="パス 22719" d="M112.312,111.312h0a1.581,1.581,0,0,1-2.237,0l-4.515-4.515a1.582,1.582,0,0,1,2.237-2.237l4.515,4.515a1.582,1.582,0,0,1,0,2.237" transform="translate(-89.267 -88.418)" fill="#5083a5"/>
+            <path id="パス_22720" data-name="パス 22720" d="M55.477,26.124a.527.527,0,0,1-.494-.344,4.464,4.464,0,0,0-4.432-2.972.527.527,0,0,1-.083-1.051,5.594,5.594,0,0,1,5.5,3.657.528.528,0,0,1-.494.71" transform="translate(-42.455 -18.474)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

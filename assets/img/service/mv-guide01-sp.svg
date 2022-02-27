@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="222.44" height="45.568" viewBox="0 0 222.44 45.568">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_638" data-name="長方形 638" width="35.372" height="34.568" transform="translate(495 549)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="mv-guide01-sp" transform="translate(-4.519 0.547)">
+    <rect id="長方形_130" data-name="長方形 130" width="222.44" height="45.568" rx="10" transform="translate(4.519 -0.547)" fill="#fff"/>
+    <g id="グループ_1868" data-name="グループ 1868" transform="translate(19.055 4)">
+      <g id="グループ_1895" data-name="グループ 1895" transform="translate(5.831 9.168)">
+        <rect id="長方形_155" data-name="長方形 155" width="165.069" height="11.46" transform="translate(29.004 7.694)" fill="#a2efef"/>
+        <text id="相談しながら決めたい方" transform="translate(110.004 13)" fill="#060000" font-size="15" font-family="HiraKakuProN-W6, Hiragino Kaku Gothic ProN" letter-spacing="-0.02em"><tspan x="-81" y="0">相談しながら決めたい方</tspan></text>
+      </g>
+      <g id="マスクグループ_196" data-name="マスクグループ 196" transform="translate(-501.536 -549.547)" clip-path="url(#clip-path)">
+        <g id="グループ_2823" data-name="グループ 2823" transform="translate(497.124 553.542)">
+          <path id="合体_70" data-name="合体 70" d="M0,9.21A8.11,8.11,0,0,1,2.4,3.565L.635.635,4.516,1.876A13.262,13.262,0,0,1,11.433,0c6.315,0,11.433,4.123,11.433,9.21s-5.119,9.21-11.433,9.21S0,14.3,0,9.21Z" transform="translate(31.125 18.42) rotate(180)" fill="#c1c1c1"/>
+          <g id="グループ_2822" data-name="グループ 2822" transform="translate(0 6.351)">
+            <path id="合体_71" data-name="合体 71" d="M4.312,16.416.063,17.774l1.987-3.3A8.008,8.008,0,0,1,0,9.21C0,4.124,5.119,0,11.432,0S22.867,4.124,22.867,9.21s-5.119,9.21-11.436,9.21A13.2,13.2,0,0,1,4.312,16.416Z" transform="translate(0 0)" fill="#d6d6d6"/>
+            <circle id="楕円形_140" data-name="楕円形 140" cx="0.953" cy="0.953" r="0.953" transform="translate(5.399 7.94)" fill="#060000"/>
+            <circle id="楕円形_141" data-name="楕円形 141" cx="0.953" cy="0.953" r="0.953" transform="translate(10.481 7.94)" fill="#060000"/>
+            <circle id="楕円形_142" data-name="楕円形 142" cx="0.953" cy="0.953" r="0.953" transform="translate(15.562 7.94)" fill="#060000"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -141,6 +141,12 @@ a:hover {
 #service-voice p {
 	font-size: 15px;
 }
+#service-merit h1,
+#service-guide h1 {
+	position: relative;
+	padding: 26px 0;
+	color: #1a191a;
+}
 #service-top h2,
 #service-merit h2,
 #service-guide h2,
@@ -151,6 +157,7 @@ a:hover {
 	text-align: center;
 	font-weight: 600;
 }
+
 #service-merit h3,
 #service-guide h3,
 #service-voice h3 {
@@ -229,6 +236,11 @@ a:hover {
 	.suits-me {
 		width: 100%;
 	}
+	#service-merit h1,
+	#service-guide h1,
+	#service-voice h1 {
+		padding: 8px 0 20px;
+	}
 	#service-top h2,
 	#service-merit h2,
 	#service-guide h2,
@@ -238,6 +250,7 @@ a:hover {
 		font-size: 25px;
 		padding-bottom: 10px;
 	}
+
 	.serv-desc {
 		font-size: 14px;
 	}
@@ -245,7 +258,9 @@ a:hover {
 		background-size: 63px;
 		left: -90px;
 	}
-	#service-merit .textArea h1 {
+	#service-merit .textArea h1,
+	#service-guide .textArea h1,
+	#service-voice .textArea h1 {
 		font-size: 6.5vw;
 	}
 	#service-merit p,
@@ -329,6 +344,12 @@ a:hover {
 	line-height: 1.4;
 	font-weight: 600;
 }
+#service-merit .mainTtlArea,
+#service-guide .mainTtlArea,
+#service-voice .mainTtlArea {
+	flex-direction: column;
+	height: 480px;
+}
 @media only screen and (max-width: 639px) {
 	.content-global .container {
 		padding: 0;
@@ -351,6 +372,12 @@ a:hover {
 	.textArea p {
 		font-size: 11px;
 		line-height: 1.6;
+	}
+	#service-merit .mainTtlArea,
+	#service-guide .mainTtlArea,
+	#service-voice .mainTtlArea {
+		width: 100%;
+		height: 390px;
 	}
 }
 @media only screen and (max-width: 350px) {
@@ -502,6 +529,7 @@ a:hover {
 		height: 160px;
 		margin: 40px auto;
 	}
+	.blogcard-merit .blogcard_thumbnail,
 	.blogcard-guide .blogcard_thumbnail,
 	.blogcard-voice .blogcard_thumbnail {
 		width: 36%;
@@ -513,12 +541,16 @@ a:hover {
 	.blogcard-voice .blogcard_thumbnail {
 		background-color: #ffd682;
 	}
+
+	.blogcard-merit .blogcard_thumbnail img,
 	.blogcard-guide .blogcard_thumbnail img,
 	.blogcard-voice .blogcard_thumbnail img {
 		height: 158px;
 		left: -57px;
 		position: relative;
 		width: 223px;
+	}
+	.blogcard-merit .blogcard_thumbnail img {
 	}
 	.blogcard-voice .blogcard_thumbnail img {
 		left: -44px;
@@ -532,8 +564,12 @@ a:hover {
 		font-size: 18px;
 		padding: 0 0 14px 26px;
 	}
-	.blogcard-guide h3.blogcard_title span.sp {
+	.blogcard-guide h3.blogcard_title span.sp,
+	#service-guide .blogcard_title {
 		color: #1a191a;
+	}
+	#service-guide .blogcard_title span {
+		color: #ff930f;
 	}
 }
 /* --------------------------------------------------------------------
@@ -1122,11 +1158,6 @@ a:hover {
 #service-merit .mainTtlCenter {
 	background-color: #ffead9;
 }
-#service-merit h1 {
-	position: relative;
-	padding: 26px 0;
-	color: #1a191a;
-}
 
 #service-merit section.cv02 {
 	padding-top: 70px;
@@ -1144,10 +1175,7 @@ a:hover {
 #service-merit .voice ul li .profile {
 	font-size: 13px;
 }
-#service-merit .mainTtlArea {
-	flex-direction: column;
-	height: 480px;
-}
+
 #service-merit .mainTtlCenter {
 	background-image: url(../../assets/img/service/service-merit-bg.png);
 	background-position: center bottom;
@@ -1177,6 +1205,9 @@ a:hover {
 	background: white;
 	padding: 80px 0;
 }
+#service-guide .mainTtlCenter {
+	background-color: #ffe4e3;
+}
 @media only screen and (max-width: 767px) {
 	#service-merit h3 {
 		margin-bottom: 14px;
@@ -1189,50 +1220,67 @@ a:hover {
 		background: #ffead9;
 		padding: 0 16px 70px;
 	}
+	#service-guide section.service-cv {
+		background: #ffe4e3;
+		padding: 0 16px 70px;
+	}
+
 	#service-merit .service__container {
 		background: #ffead9;
 	}
-	#service-merit .mainTtlCenter {
+	#service-guide .service__container {
+		background: #ffe4e3;
+	}
+	#service-merit .mainTtlCenter,
+	#service-guide .mainTtlCenter,
+	#service-voice .mainTtlCenter {
 		background-color: #eff0f5;
 		background-size: cover;
 	}
-	#service-merit .mainTtlArea {
-		width: 100%;
-		height: 340px;
-	}
-	#service-merit .mv-merit {
+
+	#service-merit .mv-merit,
+	#service-guide .mv-merit,
+	#service-voice .mv-merit {
 		flex-direction: column;
 		align-items: center;
 		width: 100%;
-		margin-top: 0;
+		margin-top: -10px;
 	}
-	#service-merit .mv-merit img {
+	#service-merit .mv-merit img,
+	#service-guide .mv-merit img,
+	#service-voice .mv-merit img {
 		width: 57%;
 		margin-bottom: 8px;
 	}
+
 	#service-merit .mv-merit img:first-of-type,
-	#service-merit .mv-merit img:last-of-type {
+	#service-merit .mv-merit img:last-of-type,
+	#service-guide .mv-merit img:first-of-type {
 		bottom: 0;
 		margin-right: 20%;
 	}
-	#service-merit .mv-merit img:nth-of-type(2) {
+	#service-merit .mv-merit img:nth-of-type(2),
+	#service-guide .mv-merit img:nth-of-type(2) {
 		margin-left: 20%;
 	}
 	#service-merit .mv-merit img:last-of-type {
 		width: 70%;
 	}
-	#service-merit h1 {
-		padding: 8px 0;
+
+	#service-merit .what-service p,
+	#service-guide .what-service p,
+	#service-voice .what-service p {
+		padding: 0 16px 16px;
+		font-size: 16px;
+		line-height: 1.5;
 	}
-	#service-merit .serv-desc {
+	#service-merit .serv-desc,
+	#service-guide .serv-desc {
 		margin-top: 10px;
 		line-height: 1.4;
 		text-align: center;
 	}
-	#service-merit .what-service p {
-		padding: 0 16px 16px;
-		font-size: 16px;
-		line-height: 1.5;
+	#service-guide .serv-desc {
 	}
 	#service-merit img.mv-illust {
 		width: 80%;
@@ -1807,7 +1855,7 @@ h3 span {
 	}
 	.reliability__text {
 		width: 100%;
-    padding: 20px;s
+		padding: 20px;
 	}
 }
 /* ===================================================================
@@ -1827,28 +1875,18 @@ h3 span {
 #service-guide img.mv-illust {
 	width: 52%;
 	position: absolute;
-	bottom: -22px;
+	bottom: -21px;
 }
-#service-guide .mainTtlArea {
-	flex-direction: column;
-	height: 480px;
-}
+
 #service-guide .mainTtlCenter {
 	background-image: url(../../assets/img/service/service-guide-bg.png);
 	background-position: center bottom;
 	background-repeat-y: no-repeat;
 }
-#service-guide section {
-	padding: 80px 0 0;
-}
 
 #service-guide p {
 	font-size: 15px;
 	line-height: 1.55;
-}
-
-#service-guide .mainTtlCenter {
-	background-color: #ffe4e3;
 }
 
 #service-guide .textArea {
@@ -1867,20 +1905,6 @@ h3 span {
 	position: relative;
 	bottom: -30px;
 }
-#service-guide h1 {
-	position: relative;
-	padding: 30px 0 0 65px;
-	color: #1a191a;
-}
-
-#service-guide h2 {
-	position: relative;
-	text-align: center;
-	font-weight: 600;
-	width: 800px;
-	margin: 0 auto;
-	padding-left: 86px;
-}
 
 #service-guide h1::before {
 	bottom: 86px;
@@ -1890,13 +1914,40 @@ h3 span {
 #service-guide h2::before {
 	margin: auto;
 }
-
 #service-guide .what-service p {
 	font-size: 18px;
 }
 #service-guide .what-service h2::before {
 	left: 40px;
 	bottom: 27px;
+}
+
+@media only screen and (max-width: 639px) {
+	#service-guide h1 {
+		padding-bottom: 0;
+	}
+	#service-guide .textArea {
+		width: 100%;
+	}
+	#service-guide .mv-merit {
+		margin: -20px 0;
+	}
+	#service-guide .mv-merit img {
+		width: 47%;
+	}
+	#service-guide .mv-merit img:nth-of-type(2) {
+		width: 40%;
+	}
+	#service-guide img.mv-illust {
+		width: 64%;
+	}
+	#service-guide .serv-desc {
+		text-align: center;
+		font-size: 12px;
+	}
+	#service-guide .what-service .serv-desc {
+		font-size: 14px;
+	}
 }
 
 .accordion label {
@@ -1921,11 +1972,6 @@ h3 span {
 	/* Question部分 */
 	.accordion-open {
 		display: block;
-		padding: 10px;
-		background: #52a261;
-		cursor: pointer;
-		margin: 5px 0;
-		font-weight: 700;
 	}
 
 	/* Answer部分は最初は表示しない */
@@ -1942,10 +1988,30 @@ h3 span {
 	.accordion-hidden:checked + .accordion-open + .accordion-close {
 		height: auto;
 		opacity: 1;
-		padding: 10px;
-		background: #55acee;
-		font-weight: 700;
+		background: #ffffff;
+		/* font-weight: 700; */
+		border-radius: 16px;
+		width: 90%;
+		margin: 16px auto;
+		padding: 16px;
+		text-align: left;
 	}
+}
+label.accordion-open {
+	position: relative;
+	padding: 15px;
+	width: 288px;
+	height: 110px;
+	font-size: 23px;
+	font-weight: 600;
+	line-height: 1.5;
+	border: 5px solid #19cecd;
+	border-radius: 17px;
+	background: white;
+	box-shadow: 15px 18px 15px #00000047;
+}
+label.accordion-open span {
+	color: #19cecd;
 }
 @media screen and (min-width: 768px) {
 	.accordion {
@@ -1957,19 +2023,7 @@ h3 span {
 		pointer-events: none;
 		margin-top: 20px;
 	}
-	label.accordion-open {
-		position: relative;
-		padding: 15px;
-		width: 288px;
-		height: 110px;
-		font-size: 23px;
-		font-weight: 600;
-		line-height: 1.5;
-		border: 5px solid #19cecd;
-		border-radius: 17px;
-		background: white;
-		box-shadow: 15px 18px 15px #00000047;
-	}
+
 	label.accordion-open::after {
 		position: absolute;
 		content: '';
@@ -1985,9 +2039,7 @@ h3 span {
 	.accordion label:nth-of-type(3) {
 		margin-top: 10px;
 	}
-	label.accordion-open span {
-		color: #19cecd;
-	}
+
 	.accordion-close {
 		background: #f5f6f9;
 		border-radius: 10px;
@@ -1996,6 +2048,33 @@ h3 span {
 	}
 	.accordion input[type='checkbox'] {
 		display: none;
+	}
+}
+
+@media only screen and (max-width: 639px) {
+	label.accordion-open {
+		width: 90%;
+		box-shadow: none;
+		margin: 0 auto 10px;
+	}
+	.accordion-open::before,
+	.accordion-open::after {
+		content: '';
+		width: 20px;
+		height: 4px;
+		background: #19cecd;
+		position: absolute;
+		top: 50%;
+		right: 5%;
+		transform: translateY(-50%);
+		border-radius: 30px;
+	}
+	.accordion-open::after {
+		transform: translateY(-50%) rotate(90deg);
+		transition: 0.5s;
+	}
+	.accordion-hidden:checked + .accordion-open:after {
+		transform: translateY(-50%) rotate(0);
 	}
 }
 #service-guide .what-support__inner::after {
@@ -2112,7 +2191,7 @@ h3 span {
 	position: relative;
 	background: white;
 	border-radius: 16px;
-	margin-left: 60px;
+	margin-left: 56px;
 	height: 204px;
 	align-items: center;
 }
@@ -2139,7 +2218,7 @@ h3 span {
 }
 .flow__item-illust {
 	position: relative;
-	height: 240px;
+	height: 233px;
 	bottom: 17px;
 }
 
@@ -2159,6 +2238,67 @@ h3 span {
 #service-guide .flow__item-title {
 	margin: 55px 0 20px;
 	font-size: 25px;
+}
+@media only screen and (max-width: 639px) {
+	#service-guide .flow {
+		background: #ffe4e3;
+		padding-bottom: 30px;
+	}
+	#service-guide .what-support__inner {
+		margin-top: 10px;
+	}
+	.flow__head {
+		flex-wrap: wrap;
+	}
+	#service-guide .head__item {
+		height: 204px;
+		width: 30%;
+	}
+	.flow__item .flow__item__wrap {
+		height: 316px;
+		background: none;
+		padding: 0 14px 0 0;
+	}
+	.flow__item .flow__item__wrap {
+		flex-direction: column-reverse;
+	}
+	#service-guide .head__item p {
+		width: 120px;
+		font-size: 14px;
+		background: #f5f6f9;
+		padding: 10px;
+		border-radius: 0 0 8px 8px;
+		text-align: center;
+	}
+	#service-guide .head__item img {
+		padding: 10px;
+		width: 120px;
+		background: #f5f6f9;
+		border-radius: 8px 8px 0 0;
+	}
+	.flow__item-illust {
+		width: 90%;
+	}
+	.flow__item-text {
+		position: relative;
+		padding: 0;
+	}
+	.flow__item-text::before {
+		position: absolute;
+		content: '';
+		width: 94%;
+		height: 155px;
+		background-color: #d3faf8;
+		border-radius: 16px;
+		top: -173px;
+	}
+	#service-guide .flow__item-title {
+		font-size: 20px;
+		padding-left: 14px;
+	}
+	.flow .highlighter {
+		color: #19cecd;
+	}
 }
 
 /* ===================================================================
@@ -2299,6 +2439,8 @@ h3 span {
 	margin: 0 auto;
 }
 #service-voice .blogcard-merit .blogcard_thumbnail,
+#service-voice .blogcard-guide .blogcard_thumbnail,
+#service-voice .blogcard-merit .blogcard_thumbnail,
 #service-voice .blogcard-guide .blogcard_thumbnail {
 	height: 217px;
 	width: 100%;
@@ -2325,17 +2467,12 @@ h3 span {
 	display: none;
 }
 .voicelist {
-	/* display: -webkit-box; */
 	display: -ms-flexbox;
-	/* display: flex; */
 	-ms-flex-wrap: wrap;
-	/* flex-wrap: wrap; */
-	/* max-width: 900px; */
 	margin: 0 auto;
 }
 #service-voice .voicelist li {
 	position: relative;
-	/* width: calc((100% - 60px) / 3); */
 	max-width: 900px;
 	margin: 0 auto 40px;
 }
