@@ -334,7 +334,7 @@ a:hover {
 		width: 100%;
 	}
 	.textArea h1 {
-		margin: 8px;
+		margin: 8px 0;
 		font-size: 5vw;
 		width: 100%;
 	}
@@ -2230,7 +2230,7 @@ label.accordion-open span {
 	}
 	#service-guide .head__item p {
 		width: 120px;
-		font-size: 13.5px;
+		font-size: 1.2rem;
 		background: #f5f6f9;
 		padding: 10px;
 		border-radius: 0 0 8px 8px;
@@ -2274,7 +2274,7 @@ label.accordion-open span {
 		right: -29px;
 	}
 	#service-guide .what-support__inner div {
-		margin-right: 0;
+		padding-right: 0;
 	}
 	.what-support__inner img {
 		margin-top: 0;
