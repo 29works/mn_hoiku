@@ -1596,12 +1596,6 @@ h3 span {
 	position: relative;
 	width: 100%;
 }
-.merit ul li div {
-	background: #f5f6f9;
-	/* color: #028a81; */
-	width: 100%;
-	padding: 6%;
-}
 
 .merit ul li .txt-block {
 	display: inline-block;
