@@ -2257,6 +2257,12 @@ label.accordion-open span {
 	#service-guide .head-item-no::before {
 		right: -29px;
 	}
+	#service-guide .what-support__inner div {
+		margin-right: 0;
+	}
+	.what-support__inner img {
+		margin-top: 0;
+	}
 }
 
 /* ===================================================================
