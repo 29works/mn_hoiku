@@ -2196,7 +2196,10 @@ label.accordion-open span {
 		padding-bottom: 30px;
 	}
 	#service-guide .what-support__inner {
-		margin-top: 10px;
+		margin: 0 auto;
+		flex-direction: column-reverse;
+		padding: 20px;
+		width: 90%;
 	}
 	.flow__head {
 		flex-wrap: wrap;
