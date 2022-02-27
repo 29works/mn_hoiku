@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="324.035" height="105.519" viewBox="0 0 324.035 105.519">
+  <defs>
+    <filter id="長方形_130" x="0" y="3.518" width="324.035" height="102" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-color="#ddc0a8" flood-opacity="0.678"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="mv-merit01" transform="translate(22)">
+    <g id="グループ_166" data-name="グループ 166" transform="translate(0 25.518)">
+      <g transform="matrix(1, 0, 0, 1, -22, -25.52)" filter="url(#長方形_130)">
+        <rect id="長方形_130-2" data-name="長方形 130" width="276.035" height="54" rx="10" transform="translate(22 25.52)" fill="#fff"/>
+      </g>
+      <g id="グループ_1886" data-name="グループ 1886" transform="translate(60.035 15.999)">
+        <rect id="長方形_153" data-name="長方形 153" width="202" height="15" transform="translate(0 10.071)" fill="#a2efef"/>
+        <text id="丁寧に転職をサポート" transform="translate(103 18)" fill="#060000" font-size="21" font-family="HiraKakuProN-W6, Hiragino Kaku Gothic ProN" letter-spacing="-0.02em"><tspan x="-103.11" y="0">丁寧に転職をサポート</tspan></text>
+      </g>
+      <g id="グループ_1878" data-name="グループ 1878" transform="translate(10 4)">
+        <circle id="楕円形_54" data-name="楕円形 54" cx="21.5" cy="21.5" r="21.5" transform="translate(0 0)" fill="#d6b2b2"/>
+        <g id="icon" transform="translate(10.498 -2.697)">
+          <path id="パス_22584" data-name="パス 22584" d="M6.758,23.651V37.543H9.536v2.779H20.65V37.543h2.779V23.651Z" transform="translate(-3.979 -7.957)" fill="#fdd0ad"/>
+          <rect id="長方形_451" data-name="長方形 451" width="2.778" height="2.778" transform="translate(2.759 12.915)" fill="#754800"/>
+          <rect id="長方形_452" data-name="長方形 452" width="2.778" height="2.778" transform="translate(5.557 10.137)" fill="#754800"/>
+          <rect id="長方形_453" data-name="長方形 453" width="2.778" height="2.778" transform="translate(8.336 10.137)" fill="#996501"/>
+          <rect id="長方形_454" data-name="長方形 454" width="2.778" height="2.778" transform="translate(11.114 10.137)" fill="#996501"/>
+          <rect id="長方形_455" data-name="長方形 455" width="2.778" height="2.778" transform="translate(13.893 10.137)" fill="#996501"/>
+          <rect id="長方形_456" data-name="長方形 456" width="2.778" height="2.778" transform="translate(2.779 15.694)" fill="#754800"/>
+          <rect id="長方形_457" data-name="長方形 457" width="2.778" height="2.778" transform="translate(2.779 18.472)" fill="#996501"/>
+          <rect id="長方形_458" data-name="長方形 458" width="2.778" height="2.778" transform="translate(5.557 12.915)" fill="#996501"/>
+          <rect id="長方形_459" data-name="長方形 459" width="2.778" height="2.778" transform="translate(11.114 12.915)" fill="#996501"/>
+          <rect id="長方形_460" data-name="長方形 460" width="2.778" height="2.778" transform="translate(5.557 20.672)" fill="#996501"/>
+          <rect id="長方形_461" data-name="長方形 461" width="2.778" height="2.778" transform="translate(13.429 20.672)" fill="#996501"/>
+          <rect id="長方形_462" data-name="長方形 462" width="2.778" height="2.778" transform="translate(13.893 12.915)" fill="#754800"/>
+          <rect id="長方形_463" data-name="長方形 463" width="2.778" height="2.778" transform="translate(16.671 12.915)" fill="#996501"/>
+          <rect id="長方形_464" data-name="長方形 464" width="2.778" height="2.778" transform="translate(16.671 15.694)" fill="#996501"/>
+          <rect id="長方形_465" data-name="長方形 465" width="2.778" height="2.778" transform="translate(19.449 15.694)" fill="#996501"/>
+          <rect id="長方形_466" data-name="長方形 466" width="2.778" height="2.778" transform="translate(19.449 18.472)" fill="#996501"/>
+          <rect id="長方形_467" data-name="長方形 467" width="2.778" height="2.778" transform="translate(19.449 21.25)" fill="#996501"/>
+          <rect id="長方形_468" data-name="長方形 468" width="2.778" height="2.778" transform="translate(19.449 24.029)" fill="#996501"/>
+          <rect id="長方形_469" data-name="長方形 469" width="2.778" height="2.778" transform="translate(19.449 26.807)" fill="#996501"/>
+          <rect id="長方形_470" data-name="長方形 470" width="2.778" height="2.778" transform="translate(19.449 29.586)" fill="#754800"/>
+          <rect id="長方形_471" data-name="長方形 471" width="2.778" height="2.778" transform="translate(19.449 32.364)" fill="#754800"/>
+          <rect id="長方形_472" data-name="長方形 472" width="2.778" height="2.778" transform="translate(16.671 29.586)" fill="#996501"/>
+          <rect id="長方形_473" data-name="長方形 473" width="2.778" height="2.778" transform="translate(16.671 32.364)" fill="#996501"/>
+          <rect id="長方形_474" data-name="長方形 474" width="2.778" height="2.778" transform="translate(13.893 35.143)" fill="#754800"/>
+          <rect id="長方形_475" data-name="長方形 475" width="2.778" height="2.778" transform="translate(16.671 35.143)" fill="#996501"/>
+          <rect id="長方形_476" data-name="長方形 476" width="2.779" height="2.778" transform="translate(13.892 37.921)" fill="#754800"/>
+          <rect id="長方形_477" data-name="長方形 477" width="2.778" height="2.778" transform="translate(16.671 37.921)" fill="#996501"/>
+          <rect id="長方形_478" data-name="長方形 478" width="2.778" height="2.778" transform="translate(8.336 12.915)" fill="#754800"/>
+          <rect id="長方形_479" data-name="長方形 479" width="2.778" height="2.778" transform="translate(0 15.694)" fill="#754800"/>
+          <rect id="長方形_480" data-name="長方形 480" width="2.778" height="2.778" transform="translate(0 18.472)" fill="#754800"/>
+          <rect id="長方形_481" data-name="長方形 481" width="2.778" height="2.778" transform="translate(0 21.25)" fill="#754800"/>
+          <rect id="長方形_482" data-name="長方形 482" width="2.778" height="2.779" transform="translate(0 24.029)" fill="#754800"/>
+          <rect id="長方形_483" data-name="長方形 483" width="2.778" height="2.778" transform="translate(0 26.807)" fill="#754800"/>
+        </g>
+      </g>
+    </g>
+    <g id="グループ_1892" data-name="グループ 1892" transform="translate(63)">
+      <text id="登録のメリット01" transform="translate(0 14.456)" fill="#060000" font-size="15" font-family="HiraKakuProN-W6, Hiragino Kaku Gothic ProN" letter-spacing="-0.02em"><tspan x="0" y="0">登録のメリット01</tspan></text>
+      <g id="グループ_1890" data-name="グループ 1890" transform="translate(130.954)">
+        <g id="グループ_1891" data-name="グループ 1891">
+          <circle id="楕円形_48" data-name="楕円形 48" cx="9.259" cy="9.259" r="9.259" fill="#f49902"/>
+          <path id="パス_2105" data-name="パス 2105" d="M158.938,24.694a1.111,1.111,0,0,1-.786-.325l-3.685-3.685a1.111,1.111,0,0,1,1.571-1.571l2.781,2.781,4.886-6.48a1.111,1.111,0,1,1,1.774,1.338l-5.655,7.5a1.111,1.111,0,0,1-.81.439Z" transform="translate(-150.377 -9.692)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

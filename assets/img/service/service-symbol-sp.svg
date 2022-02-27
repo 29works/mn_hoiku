@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="414" height="142" viewBox="0 0 414 142">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_636" data-name="長方形 636" width="414" height="142" transform="translate(-1 908)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="楕円形_47" x="273.682" y="4.5" width="149" height="149" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="17" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#ddc0a8" flood-opacity="0.678"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="楕円形_45" x="136.636" y="4.5" width="149" height="149" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="17" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-2"/>
+      <feFlood flood-color="#ddc0a8" flood-opacity="0.678"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="楕円形_46" x="-0.5" y="4.5" width="149" height="149" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="17" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-3"/>
+      <feFlood flood-color="#ddc0a8" flood-opacity="0.678"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="service-symbol-sp" transform="translate(1 -908)" clip-path="url(#clip-path)">
+    <g id="グループ_2326" data-name="グループ 2326" transform="translate(1 83)">
+      <g transform="matrix(1, 0, 0, 1, -2, 825)" filter="url(#楕円形_47)">
+        <g id="楕円形_47-2" data-name="楕円形 47" transform="translate(292.18 10)" fill="#fff" stroke="#19cecd" stroke-width="4">
+          <circle cx="52" cy="52" r="52" stroke="none"/>
+          <circle cx="52" cy="52" r="50" fill="none"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -2, 825)" filter="url(#楕円形_45)">
+        <g id="楕円形_45-2" data-name="楕円形 45" transform="translate(155.14 10)" fill="#fff" stroke="#19cecd" stroke-width="4">
+          <circle cx="52" cy="52" r="52" stroke="none"/>
+          <circle cx="52" cy="52" r="50" fill="none"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -2, 825)" filter="url(#楕円形_46)">
+        <g id="楕円形_46-2" data-name="楕円形 46" transform="translate(18 10)" fill="#fff" stroke="#19cecd" stroke-width="4">
+          <circle cx="52" cy="52" r="52" stroke="none"/>
+          <circle cx="52" cy="52" r="50" fill="none"/>
+        </g>
+      </g>
+      <text id="納得" transform="translate(204 895)" fill="#060000" font-size="22" font-family="HiraKakuProN-W6, Hiragino Kaku Gothic ProN" letter-spacing="-0.02em"><tspan x="-21.78" y="0">納得</tspan></text>
+      <text id="簡単" transform="translate(68 895)" fill="#060000" font-size="22" font-family="HiraKakuProN-W6, Hiragino Kaku Gothic ProN" letter-spacing="-0.02em"><tspan x="-21.78" y="0">簡単</tspan></text>
+      <g id="グループ_196" data-name="グループ 196" transform="translate(127.151 876)">
+        <path id="パス_321" data-name="パス 321" d="M-2300.848,976.907h18.229" transform="translate(2300.849 -967.793)" fill="none" stroke="#19cecd" stroke-linecap="round" stroke-width="4"/>
+        <path id="パス_322" data-name="パス 322" d="M0,0H18.229" transform="translate(9.115 18.229) rotate(-90)" fill="none" stroke="#19cecd" stroke-linecap="round" stroke-width="4"/>
+      </g>
+      <g id="グループ_197" data-name="グループ 197" transform="translate(264.076 876)">
+        <path id="パス_321-2" data-name="パス 321" d="M-2300.848,976.907h18.229" transform="translate(2300.848 -967.793)" fill="none" stroke="#19cecd" stroke-linecap="round" stroke-width="4"/>
+        <path id="パス_322-2" data-name="パス 322" d="M0,0H18.229" transform="translate(9.114 18.229) rotate(-90)" fill="none" stroke="#19cecd" stroke-linecap="round" stroke-width="4"/>
+      </g>
+      <text id="安心" transform="translate(342 895)" fill="#060000" font-size="22" font-family="HiraKakuProN-W6, Hiragino Kaku Gothic ProN" letter-spacing="-0.02em"><tspan x="-21.78" y="0">安心</tspan></text>
+    </g>
+  </g>
+</svg>

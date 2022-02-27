@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="563.145" height="171" viewBox="0 0 563.145 171">
+  <defs>
+    <filter id="楕円形_47" x="392.145" y="0" width="171" height="171" filterUnits="userSpaceOnUse">
+      <feOffset dx="15" dy="18" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="楕円形_45" x="196.137" y="0" width="171" height="171" filterUnits="userSpaceOnUse">
+      <feOffset dx="15" dy="18" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="楕円形_46" x="0" y="0" width="171" height="171" filterUnits="userSpaceOnUse">
+      <feOffset dx="15" dy="18" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="service-symbol" transform="translate(-717.5 -907.5)">
+    <g id="グループ_195" data-name="グループ 195" transform="translate(-21)">
+      <g id="グループ_194" data-name="グループ 194" transform="translate(1138.078 912)">
+        <g transform="matrix(1, 0, 0, 1, -399.58, -4.5)" filter="url(#楕円形_47)">
+          <g id="楕円形_47-2" data-name="楕円形 47" transform="translate(399.64 4.5)" fill="#fff" stroke="#19cecd" stroke-width="4">
+            <circle cx="63" cy="63" r="63" stroke="none"/>
+            <circle cx="63" cy="63" r="61" fill="none"/>
+          </g>
+        </g>
+        <text id="安心" transform="translate(62.922 74)" fill="#060000" font-size="27" font-family="HiraKakuProN-W6, Hiragino Kaku Gothic ProN" letter-spacing="-0.02em"><tspan x="-26.73" y="0">安心</tspan></text>
+      </g>
+      <g id="グループ_193" data-name="グループ 193" transform="translate(941.641 912)">
+        <g transform="matrix(1, 0, 0, 1, -203.14, -4.5)" filter="url(#楕円形_45)">
+          <g id="楕円形_45-2" data-name="楕円形 45" transform="translate(203.64 4.5)" fill="#fff" stroke="#19cecd" stroke-width="4">
+            <circle cx="63" cy="63" r="63" stroke="none"/>
+            <circle cx="63" cy="63" r="61" fill="none"/>
+          </g>
+        </g>
+        <text id="納得" transform="translate(63.359 74)" fill="#060000" font-size="27" font-family="HiraKakuProN-W6, Hiragino Kaku Gothic ProN" letter-spacing="-0.02em"><tspan x="-26.73" y="0">納得</tspan></text>
+      </g>
+      <g id="グループ_192" data-name="グループ 192" transform="translate(746 912)">
+        <g transform="matrix(1, 0, 0, 1, -7.5, -4.5)" filter="url(#楕円形_46)">
+          <g id="楕円形_46-2" data-name="楕円形 46" transform="translate(7.5 4.5)" fill="#fff" stroke="#19cecd" stroke-width="4">
+            <circle cx="63" cy="63" r="63" stroke="none"/>
+            <circle cx="63" cy="63" r="61" fill="none"/>
+          </g>
+        </g>
+        <text id="簡単" transform="translate(63 74)" fill="#060000" font-size="27" font-family="HiraKakuProN-W6, Hiragino Kaku Gothic ProN" letter-spacing="-0.02em"><tspan x="-26.73" y="0">簡単</tspan></text>
+      </g>
+    </g>
+    <g id="グループ_196" data-name="グループ 196" transform="translate(-12)">
+      <path id="パス_321" data-name="パス 321" d="M-2300.848,976.907h21.5" transform="translate(3187 -1.907)" fill="none" stroke="#19cecd" stroke-linecap="round" stroke-width="4"/>
+      <path id="パス_322" data-name="パス 322" d="M-2300.848,976.907h21.5" transform="translate(-80.008 -1315.101) rotate(-90)" fill="none" stroke="#19cecd" stroke-linecap="round" stroke-width="4"/>
+    </g>
+    <g id="グループ_197" data-name="グループ 197" transform="translate(187)">
+      <path id="パス_321-2" data-name="パス 321" d="M-2300.848,976.907h21.5" transform="translate(3187 -1.907)" fill="none" stroke="#19cecd" stroke-linecap="round" stroke-width="4"/>
+      <path id="パス_322-2" data-name="パス 322" d="M-2300.848,976.907h21.5" transform="translate(-80.008 -1315.101) rotate(-90)" fill="none" stroke="#19cecd" stroke-linecap="round" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

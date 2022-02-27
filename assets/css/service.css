@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+/* マイナビ保育士：service.css
+================================================== */
+
+
+/* added by kato 2017/9/29 */
+
+a {
+    color: #1280e0;
+}
+
+a:hover {
+    color: #1280e0;
+    text-decoration: underline;
+}
+
+.pcOnly {
+    display: initial;
+}
+
+.spOnly {
+    display: none;
+}
+
+.content-global .containerColor {
+    background: #fff;
+    padding-bottom: 50px;
+}
+
+.contentCover {
+    background-image: url("../img/topic/common/contentCover_texture.png");
+}
+
+.body-2col .main-global {
+    width: 690px;
+}
+
+.body-2col .aside-global {
+    width: 210px;
+}
+
+.footer-global {
+    margin-top: 0;
+}
+
+
+/* メインコンテンツ */
+
+.main-global p.txt {
+    padding: 30px 0 0;
+    margin: 0;
+}
+
+.mainTtlBox h2 {
+    margin-bottom: 0;
+    padding: 12px 0 10px 36px;
+    color: #dc2611;
+    font-size: 28px;
+    margin: 0;
+    border-bottom: 2px solid #dc2611;
+    background-image: url(../img/useful/icon_ttl.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 24px auto;
+}
+
+.usefulList a {
+    color: #fff;
+    display: block;
+}
+
+.usefulList a:hover {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.usefulList .list .item {
+    float: left;
+    width: 325px;
+    margin: 40px 0 0;
+    padding: 0;
+    /* border-bottom: 1px dotted #aaa; */
+    display: inline-block;
+}
+
+.usefulList .list .item .summary {
+    background-color: #18a73e;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+}
+
+.usefulList .list .item .summary p {
+    margin: 0;
+    min-height: 80px;
+}
+
+.usefulList .list .item .fig img {
+    border-top: 4px solid #dedede;
+    border-right: 4px solid #dedede;
+    border-left: 4px solid #dedede;
+    border-bottom: none;
+    width: 100%;
+}
+
+.usefulList .list .item:nth-child(2n) {
+    float: right;
+}
+
+.usefulList .list .item .itemTtl {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    line-height: 1.4;
+}
+
+
+/* サイドバナーエリア */
+
+.asideWidget-banner a {
+    display: block;
+}
+
+.asideWidget-banner:first-child {
+    margin: 0;
+}
+
+.asideWidget-banner {
+    margin: 20px auto 0;
+}
+
+.asideWidget-banner {
+    text-align: center;
+}
+
+@media only screen and (max-width: 639px) {
+    .usefulList .list .item .fig img,
+    .usefulSidebar img {
+        width: 100%;
+        height: auto;
+    }
+    .usefulList .list .item .summary p {
+        margin: 0;
+        min-height: 0px;
+    }
+    .pcOnly {
+        display: none!important;
+    }
+    .spOnly {
+        display: initial;
+    }
+    .content-global .container {
+        padding: 0 10px;
+    }
+    .spInner {
+        padding: 0 10px;
+    }
+    .sp-view .aside-global {
+        display: initial;
+    }
+    /*
+	 .sidebar
+	----------------------------------------*/
+    #side_scroll {
+        width: auto;
+    }
+    .body-2col .aside-global {
+        width: 100%;
+        margin-top: 30px;
+    }
+    /* リストアイテム */
+    .usefulList .mainTtlBox h2 {
+        padding: 10px 0 8px 30px;
+        font-size: 20px;
+        border-width: 2px;
+        background-size: 16px auto;
+    }
+    .usefulList .list .item {
+        float: none;
+        width: auto;
+        padding: 0;
+    }
+    .usefulList .list .item:nth-child(even) {
+        float: none;
+    }
+    .usefulList .list .item .itemTtl {
+        font-size: 16px;
+        margin: 7px 0 0 0;
+    }
+}

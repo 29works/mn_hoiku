@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="125" height="105" viewBox="0 0 125 105">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_561" data-name="長方形 561" width="125" height="105" transform="translate(512 1684)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0.66"/>
+    </clipPath>
+  </defs>
+  <g id="suits-me01" transform="translate(-512 -1684)" clip-path="url(#clip-path)">
+    <g id="グループ_2003" data-name="グループ 2003" transform="translate(471.891 164.066)">
+      <path id="パス_2595" data-name="パス 2595" d="M-14925.655,5237.608a2.493,2.493,0,0,1,1.37-2.021,2.344,2.344,0,0,1,2.471,0l14.19,10.107v47.523l-18.031-12.348Z" transform="translate(15010 -3696)" fill="#fff"/>
+      <path id="パス_2596" data-name="パス 2596" d="M-14907.623,5237.608a2.5,2.5,0,0,0-1.369-2.021,2.345,2.345,0,0,0-2.472,0l-14.19,10.107v47.523l18.031-12.348Z" transform="translate(15028.031 -3696)" fill="#19cecd"/>
+      <path id="合体_26" data-name="合体 26" d="M18.031,57.979,0,45.633V2.372A2.494,2.494,0,0,1,1.369.349a2.342,2.342,0,0,1,2.469,0L18.031,10.457,32.224.349a2.342,2.342,0,0,1,2.469,0,2.494,2.494,0,0,1,1.369,2.023V45.633Z" transform="translate(84.346 1539.238)" fill="none" stroke="#060000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

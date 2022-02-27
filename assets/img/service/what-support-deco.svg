@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="579.754" height="142" viewBox="0 0 579.754 142">
+  <defs>
+    <filter id="長方形_130" x="0" y="0" width="339" height="95" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-color="#b6e3e1"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="長方形_637" data-name="長方形 637" width="39" height="38" transform="translate(0 0.327)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="長方形_130-2" x="310.754" y="47" width="269" height="95" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur-2"/>
+      <feFlood flood-color="#b6e3e1"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path-2">
+      <rect id="長方形_562" data-name="長方形 562" width="28.178" height="27.997" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="what-support-deco" transform="translate(-886.246 -1377)">
+    <g id="グループ_1861" data-name="グループ 1861" transform="translate(920 1399)">
+      <g id="グループ_166" data-name="グループ 166" transform="translate(0 0)">
+        <g transform="matrix(1, 0, 0, 1, -33.75, -22)" filter="url(#長方形_130)">
+          <rect id="長方形_130-3" data-name="長方形 130" width="291" height="47" rx="10" transform="translate(22 22)" fill="#fff"/>
+        </g>
+        <text id="相談しながら決めたい方" transform="translate(151 32)" fill="#060000" font-size="20" font-family="HiraKakuProN-W6, Hiragino Kaku Gothic ProN" letter-spacing="-0.02em"><tspan x="-108" y="0">相談しながら決めたい方</tspan></text>
+      </g>
+      <g id="マスクグループ_195" data-name="マスクグループ 195" transform="translate(-1 3.673)" clip-path="url(#clip-path)">
+        <g id="グループ_2820" data-name="グループ 2820" transform="translate(2.354 5.036)">
+          <path id="合体_68" data-name="合体 68" d="M0,10.212A8.992,8.992,0,0,1,2.659,3.953L.7.7l4.3,1.376A14.7,14.7,0,0,1,12.676,0c7,0,12.676,4.572,12.676,10.212S19.678,20.423,12.676,20.423,0,15.851,0,10.212Z" transform="translate(34.509 20.423) rotate(180)" fill="#c1c1c1"/>
+          <g id="グループ_2819" data-name="グループ 2819" transform="translate(0 7.042)">
+            <path id="合体_69" data-name="合体 69" d="M4.781,18.2.07,19.706l2.2-3.659A8.879,8.879,0,0,1,0,10.211C0,4.572,5.676,0,12.675,0S25.354,4.572,25.354,10.211,19.678,20.423,12.675,20.423A14.64,14.64,0,0,1,4.781,18.2Z" transform="translate(0 0)" fill="#d6d6d6"/>
+            <ellipse id="楕円形_135" data-name="楕円形 135" cx="1.056" cy="1.056" rx="1.056" ry="1.056" transform="translate(5.986 8.803)" fill="#060000"/>
+            <ellipse id="楕円形_136" data-name="楕円形 136" cx="1.056" cy="1.056" rx="1.056" ry="1.056" transform="translate(11.62 8.803)" fill="#060000"/>
+            <ellipse id="楕円形_137" data-name="楕円形 137" cx="1.056" cy="1.056" rx="1.056" ry="1.056" transform="translate(17.254 8.803)" fill="#060000"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="グループ_1862" data-name="グループ 1862" transform="translate(1218.105 1445.7)">
+      <g id="グループ_166-2" data-name="グループ 166" transform="translate(0 0)">
+        <g transform="matrix(1, 0, 0, 1, -331.86, -68.7)" filter="url(#長方形_130-2)">
+          <rect id="長方形_130-4" data-name="長方形 130" width="221" height="47" rx="10" transform="translate(332.75 69)" fill="#fff"/>
+        </g>
+        <text id="すぐ転職したい方" transform="translate(122.895 32.3)" fill="#060000" font-size="20" font-family="HiraKakuProN-W6, Hiragino Kaku Gothic ProN" letter-spacing="-0.02em"><tspan x="-78.6" y="0">すぐ転職したい方</tspan></text>
+      </g>
+      <g id="グループ_2821" data-name="グループ 2821" transform="translate(6.678 5.636)">
+        <ellipse id="楕円形_54" data-name="楕円形 54" cx="17.508" cy="17.508" rx="17.508" ry="17.508" transform="translate(0)" fill="none"/>
+        <g id="グループ_2754" data-name="グループ 2754" transform="translate(3.419 4.464)">
+          <g id="グループ_2753" data-name="グループ 2753" clip-path="url(#clip-path-2)">
+            <path id="パス_22717" data-name="パス 22717" d="M13.132.346a10.468,10.468,0,1,0,4.441,17.812l1.915,1.916.766-.766-1.924-1.924A10.467,10.467,0,0,0,13.132.346" transform="translate(0 0)" fill="#acacae"/>
+            <path id="パス_22718" data-name="パス 22718" d="M30.259,24.725a7.763,7.763,0,1,1-5.535-9.482,7.763,7.763,0,0,1,5.535,9.482" transform="translate(-12.28 -12.28)" fill="#8fbddb"/>
+            <path id="パス_22719" data-name="パス 22719" d="M113.745,112.745h0a1.9,1.9,0,0,1-2.681,0l-5.412-5.412a1.9,1.9,0,0,1,2.681-2.681l5.412,5.412a1.9,1.9,0,0,1,0,2.681" transform="translate(-86.123 -85.303)" fill="#5083a5"/>
+            <path id="パス_22720" data-name="パス 22720" d="M56.568,26.992a.632.632,0,0,1-.593-.413,5.351,5.351,0,0,0-5.313-3.563.632.632,0,0,1-.1-1.26,6.705,6.705,0,0,1,6.6,4.384.632.632,0,0,1-.593.851" transform="translate(-40.959 -17.824)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
