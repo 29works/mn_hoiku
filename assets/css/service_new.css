@@ -2277,6 +2277,9 @@ label.accordion-open span {
 		background: #f5f6f9;
 		border-radius: 8px 8px 0 0;
 	}
+	#service-guide .service-cv {
+		padding: 14px;
+	}
 	.flow__item-illust {
 		width: 90%;
 	}
