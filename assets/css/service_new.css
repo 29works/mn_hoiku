@@ -167,6 +167,16 @@ a:hover {
 	right: 8px;
 	margin-top: 18px;
 }
+.what-support__inner::after {
+	position: absolute;
+	content: '';
+	width: 438px;
+	height: 100px;
+	right: -47px;
+	top: -31px;
+	background: url(../../assets/img/service/what-support-deco.svg) no-repeat;
+	background-size: 431px;
+}
 @media only screen and (min-width: 639px) {
 	.mv-merit img,
 	.what-support__inner::after {
@@ -711,11 +721,12 @@ a:hover {
 	.service-cv .cv-excerpt {
 		border: 2px solid #ff930f;
 		border-radius: 16px;
-		width: 100%;
+		width: 90%;
 	}
 	.service-cv__btn.pc {
 		width: 100%;
 		min-width: auto;
+		font-size: 0.78em;
 	}
 	#service-merit .service-cv .cv-excerpt p,
 	#service-guide .service-cv .cv-excerpt p,
@@ -1271,16 +1282,7 @@ a:hover {
 .what-support__inner {
 	position: relative;
 }
-.what-support__inner::after {
-	position: absolute;
-	content: '';
-	width: 438px;
-	height: 100px;
-	right: -47px;
-	top: -31px;
-	background: url(../../assets/img/service/what-support-deco.svg) no-repeat;
-	background-size: 431px;
-}
+
 .what-support__inner {
 	display: flex;
 	justify-content: space-evenly;
@@ -1323,7 +1325,7 @@ a:hover {
 @media only screen and (max-width: 639px) {
 	.what-support__inner {
 		flex-direction: column-reverse;
-		padding: 20px;
+		padding: 60px 20px 20px;
 		width: 90%;
 		margin: 10px auto;
 	}
@@ -2578,7 +2580,7 @@ label.accordion-open span {
 
 @media only screen and (max-width: 767px) {
 	#service-voice .service__wrap {
-		width: 90%;
+		width: 100%;
 		margin: 0 auto;
 	}
 	#service-voice h1::after {
@@ -2764,13 +2766,13 @@ label.accordion-open span {
 		flex-direction: column;
 	}
 	#service-voice .blogcard {
-		width: 100%;
+		width: 90%;
 		height: 160px;
 		margin: 40px auto;
 	}
 	#service-voice .blogcard_thumbnail img {
 		height: 158px;
-		left: -57px;
+		left: -53px;
 		position: relative;
 		width: 223px;
 		bottom: 0;
@@ -2804,8 +2806,8 @@ label.accordion-open span {
 		content: '';
 		width: 104px;
 		height: 104px;
-		top: -55px;
-		right: -12px;
+		top: 81px;
+		right: 12px;
 		background-size: 80%;
 		background: url(../../assets/img/consultant/consultant-cv-pro.svg) no-repeat;
 		animation-name: huwahuwa;
@@ -2813,5 +2815,9 @@ label.accordion-open span {
 		animation-iteration-count: infinite;
 		animation-direction: alternate;
 		animation-duration: 1.5s;
+	}
+	section.cv02 .cv-excerpt::after {
+		top: 145px;
+		right: 1px;
 	}
 }
