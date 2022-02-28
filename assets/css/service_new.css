@@ -188,8 +188,7 @@ a:hover {
 }
 @media only screen and (max-width: 639px) {
 	#service-merit section,
-	#service-guide section,
-	#service-voice section {
+	#service-guide section {
 		padding-top: 42px;
 	}
 	.service__container,
@@ -545,6 +544,18 @@ a:hover {
 	#service-guide .blogcard_title span {
 		color: #ff930f;
 	}
+
+}
+
+@media only screen and (max-width: 361px) {
+  .blogcard a .blogcard_button {
+    margin: 28px 0 28px 28px;
+  }
+  #service-guide .blogcard_title,
+  #service-merit .blogcard_title {
+    font-size: 16px;
+  }
+
 }
 /* --------------------------------------------------------------------
 *   ## service-cv
@@ -742,10 +753,17 @@ a:hover {
 		font-weight: normal;
 		color: #707070;
 	}
-
 	.service-cv .service__wrap {
 		flex-direction: column;
 	}
+}
+@media only screen and (max-width: 361px) {
+  .service-cv__btn.pc {
+    font-size: 0.7em;
+  }
+  .service-cv .cv-excerpt {
+font-size: 17px;
+  }
 }
 /* ===================================================================
  * # SERVICE
@@ -1382,6 +1400,10 @@ h3 span {
 	.what-service .highlighter {
 		background: #d3faf8;
 	}
+  .what-service img {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 /* --------------------------------------------------------------------
@@ -1560,6 +1582,12 @@ h3 span {
 		right: 49px;
 	}
 }
+@media only screen and (max-width: 361px) {
+  .merit ul li div h3::after {
+    right: 40px;
+  }
+}
+
 .merit-illu {
 	position: relative;
 	width: 100%;
@@ -2351,11 +2379,6 @@ label.accordion-open span {
 #service-voice .mv-merit img:nth-of-type(2) {
 	margin-right: 140px;
 }
-/* #service-voice h1 {
-	position: relative;
-	padding: 30px 0;
-	color: #1a191a;
-} */
 #service-voice h1::after {
 	content: '';
 	position: absolute;
@@ -2368,7 +2391,6 @@ label.accordion-open span {
 	animation-name: fade;
 	animation-duration: 3s;
 }
-
 #service-voice h1::before {
 	width: 84px;
 	background: url(../../assets/img/service/service-main-tag-voice.svg) no-repeat;
@@ -2383,7 +2405,6 @@ label.accordion-open span {
 	left: 40px;
 	bottom: 27px;
 }
-
 #service-voice .head__item {
 	padding: 10px;
 	text-align: center;
@@ -2530,7 +2551,6 @@ label.accordion-open span {
 .voicelist-item__title {
 	margin-bottom: 20px;
 }
-
 .voicelist-item__title span {
 	background: #d3faf8;
 }
@@ -2764,7 +2784,7 @@ label.accordion-open span {
 	#service-voice .blogcard {
 		width: 90%;
 		height: 160px;
-		margin: 40px auto;
+		margin: 20px auto;
 	}
 	#service-voice .blogcard_thumbnail img {
 		height: 158px;
@@ -2800,20 +2820,28 @@ label.accordion-open span {
 	.cv-excerpt::after {
 		position: absolute;
 		content: '';
-		width: 104px;
-		height: 104px;
-		top: 81px;
-		right: 12px;
+		width: 88px;
+		height: 88px;
+		top: 83px;
+		right: 5px;
 		background-size: 80%;
-		background: url(../../assets/img/consultant/consultant-cv-pro.svg) no-repeat;
+		background:  url(../../assets/img/consultant/consultant-cv-pro.svg) no-repeat;
 		animation-name: huwahuwa;
 		animation-timing-function: ease-in-out;
 		animation-iteration-count: infinite;
 		animation-direction: alternate;
 		animation-duration: 1.5s;
+		background-size: 23vw;
 	}
 	section.cv02 .cv-excerpt::after {
-		top: 145px;
+		top: 126px;
 		right: 1px;
 	}
+}
+
+@media only screen and (max-width: 361px) {
+
+#service-voice h3.blogcard_title {
+font-size: 15px;
+}
 }
