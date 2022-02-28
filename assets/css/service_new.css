@@ -2820,10 +2820,10 @@ label.accordion-open span {
 	.cv-excerpt::after {
 		position: absolute;
 		content: '';
-		width: 88px;
-		height: 88px;
-		top: 83px;
-		right: 5px;
+	width: 104px;
+		height: 104px;
+		top: 81px;
+		right: 12px;
 		background-size: 80%;
 		background:  url(../../assets/img/consultant/consultant-cv-pro.svg) no-repeat;
 		animation-name: huwahuwa;
@@ -2844,4 +2844,12 @@ label.accordion-open span {
 #service-voice h3.blogcard_title {
 font-size: 15px;
 }
+.cv-excerpt::after {
+  width: 88px;
+		height: 88px;
+		top: 83px;
+		right: 5px;
+    background-size: 23vw;
+}
+
 }
