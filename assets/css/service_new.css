@@ -511,6 +511,9 @@ a:hover {
 	.blogcard-merit::after {
 		top: -24px;
 	}
+  .blogcard a .blogcard_button {
+    font-size: 3vw;
+  }
 	.blogcard-merit .blogcard_thumbnail,
 	.blogcard-guide .blogcard_thumbnail,
 	.blogcard-voice .blogcard_thumbnail {
@@ -1606,12 +1609,12 @@ h3 span {
 		padding-left: 20px;
 	}
 	.merit ul li div h3::after {
-		right: 49px;
+		right: 33px;
 	}
 }
 @media only screen and (max-width: 361px) {
 	.merit ul li div h3::after {
-		right: 40px;
+		right: 36px;
 	}
 }
 
@@ -2868,4 +2871,7 @@ label.accordion-open span {
 		right: 5px;
 		background-size: 23vw;
 	}
+  #service-voice .voicelist li {
+    width: 273px;
+  }
 }
