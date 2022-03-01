@@ -695,7 +695,7 @@ a:hover {
 		width: 104px;
 		height: 104px;
 		top: 73px;
-		right: -13px;
+		right: 0;
 		background: url(../../assets/img/consultant/consultant-cv-pro.svg) no-repeat;
 		background-size: 23vw;
 		animation-name: huwahuwa;
