@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60.976" height="59.187" viewBox="0 0 60.976 59.187">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_46" data-name="長方形 46" width="60.976" height="59.187" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="useful05" transform="translate(1 0.816)">
+    <g id="グループ_2587" data-name="グループ 2587" transform="translate(-1 -0.816)">
+      <g id="グループ_2586" data-name="グループ 2586" clip-path="url(#clip-path)">
+        <path id="パス_3561" data-name="パス 3561" d="M42.79,59.568H5.75a3.25,3.25,0,0,1-3.25-3.25V5.75A3.25,3.25,0,0,1,5.75,2.5H42.79a3.25,3.25,0,0,1,3.25,3.25V56.318a3.25,3.25,0,0,1-3.25,3.25" transform="translate(-1.441 -1.441)" fill="#fff"/>
+        <path id="パス_3562" data-name="パス 3562" d="M41.35,59.187H4.31A4.315,4.315,0,0,1,0,54.877V4.31A4.315,4.315,0,0,1,4.31,0H41.35a4.315,4.315,0,0,1,4.31,4.31V54.877a4.315,4.315,0,0,1-4.31,4.31M4.31,2.119A2.194,2.194,0,0,0,2.119,4.31V54.877A2.193,2.193,0,0,0,4.31,57.068H41.35a2.193,2.193,0,0,0,2.191-2.191V4.31A2.194,2.194,0,0,0,41.35,2.119Z"/>
+        <path id="パス_3563" data-name="パス 3563" d="M89.639,26.752,67.523,48.46l-2.972,9.578a.762.762,0,0,0,.925.961l9.187-2.461L96.724,34.477a1.247,1.247,0,0,0,.022-1.741l-5.664-5.959a1.013,1.013,0,0,0-1.443-.025" transform="translate(-37.178 -15.25)" fill="#fff"/>
+        <path id="パス_3573" data-name="パス 3573" d="M88.522,37.583l8.2,8.173L78.753,62.946l-7.14-8.078Z" transform="translate(-41.268 -21.658)" fill="#5ecbcc"/>
+        <path id="パス_3564" data-name="パス 3564" d="M63.839,58.643a1.822,1.822,0,0,1-1.74-2.361l3.052-9.833L87.457,24.555a2.072,2.072,0,0,1,2.953.052l5.663,5.958a2.293,2.293,0,0,1-.041,3.22L73.771,56.047,64.31,58.581a1.808,1.808,0,0,1-.471.062m3.177-11.056-2.734,8.808,8.392-2.247,21.86-21.861a.187.187,0,0,0,0-.262L88.907,26.1Z" transform="translate(-35.738 -13.808)"/>
+        <line id="線_1" data-name="線 1" x2="7.14" y2="8.079" transform="translate(30.345 33.21)" fill="#fff"/>
+        <rect id="長方形_43" data-name="長方形 43" width="2.118" height="10.782" transform="translate(29.551 33.911) rotate(-41.468)"/>
+        <line id="線_2" data-name="線 2" y1="17.003" x2="17.003" transform="translate(32.599 19.025)" fill="#fff"/>
+        <rect id="長方形_44" data-name="長方形 44" width="24.046" height="2.118" transform="translate(31.851 35.279) rotate(-45)"/>
+        <line id="線_3" data-name="線 3" x2="7.609" y2="7.609" transform="translate(47.254 15.925)" fill="#fff"/>
+        <rect id="長方形_45" data-name="長方形 45" width="2.118" height="10.761" transform="translate(46.505 16.674) rotate(-45)"/>
+        <line id="線_4" data-name="線 4" x2="28.792" transform="translate(8.269 7.471)" fill="#fff"/>
+        <path id="パス_3565" data-name="パス 3565" d="M46.867,17.25H18.074a1.059,1.059,0,0,1,0-2.119H46.867a1.059,1.059,0,0,1,0,2.119" transform="translate(-9.805 -8.719)"/>
+        <line id="線_5" data-name="線 5" x2="28.792" transform="translate(8.269 12.896)" fill="#fff"/>
+        <path id="パス_3566" data-name="パス 3566" d="M46.867,30.052H18.074a1.059,1.059,0,1,1,0-2.119H46.867a1.059,1.059,0,0,1,0,2.119" transform="translate(-9.805 -16.097)"/>
+        <line id="線_6" data-name="線 6" x2="28.792" transform="translate(8.269 18.321)" fill="#fff"/>
+        <path id="パス_3567" data-name="パス 3567" d="M46.867,42.855H18.074a1.059,1.059,0,1,1,0-2.119H46.867a1.059,1.059,0,0,1,0,2.119" transform="translate(-9.805 -23.475)"/>
+        <line id="線_7" data-name="線 7" x2="22.891" transform="translate(8.269 23.746)" fill="#fff"/>
+        <path id="パス_3568" data-name="パス 3568" d="M40.965,55.658H18.074a1.059,1.059,0,1,1,0-2.119H40.965a1.059,1.059,0,0,1,0,2.119" transform="translate(-9.805 -30.853)"/>
+        <line id="線_8" data-name="線 8" x2="13.901" transform="translate(8.269 34.596)" fill="#fff"/>
+        <path id="パス_3569" data-name="パス 3569" d="M31.975,81.264h-13.9a1.059,1.059,0,1,1,0-2.119h13.9a1.059,1.059,0,1,1,0,2.119" transform="translate(-9.805 -45.609)"/>
+        <line id="線_9" data-name="線 9" x2="20.119" transform="translate(8.269 29.171)" fill="#fff"/>
+        <path id="パス_3570" data-name="パス 3570" d="M38.193,68.461H18.074a1.059,1.059,0,0,1,0-2.119H38.193a1.059,1.059,0,0,1,0,2.119" transform="translate(-9.805 -38.231)"/>
+        <line id="線_10" data-name="線 10" x2="13.232" transform="translate(8.269 45.446)" fill="#fff"/>
+        <path id="パス_3571" data-name="パス 3571" d="M31.306,106.869H18.073a1.059,1.059,0,0,1,0-2.119H31.306a1.059,1.059,0,1,1,0,2.119" transform="translate(-9.805 -60.364)"/>
+        <line id="線_11" data-name="線 11" x2="13.232" transform="translate(7.97 40.021)" fill="#fff"/>
+        <path id="パス_3572" data-name="パス 3572" d="M30.6,94.067H17.368a1.059,1.059,0,1,1,0-2.119H30.6a1.059,1.059,0,1,1,0,2.119" transform="translate(-9.398 -52.986)"/>
+      </g>
+    </g>
+  </g>
+</svg>
