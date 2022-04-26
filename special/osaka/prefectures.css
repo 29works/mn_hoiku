@@ -169,6 +169,12 @@ h2 span {
 		overflow-x: auto;
 		overflow-y: hidden;
 	}
+	#prefectures .map-icon::before {
+		display: none;
+	}
+	#prefectures .map-icon::after {
+		background: center / contain no-repeat url(../../assets/img/special/prefectures/map_icon-sp.svg);
+	}
 }
 
 /* ===================================================================
@@ -375,6 +381,7 @@ h2 span {
 	#prefectures .map-icon::before {
 		animation: none;
 	}
+
 	#prefectures .prefecture-name {
 		font-size: 32px;
 	}
