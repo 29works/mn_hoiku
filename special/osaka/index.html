@@ -265,13 +265,13 @@
                 お役立ち情報
               </h1>
               <p class="desc">
-                大阪府の給料相場、求人情報、<br>
-                ご利用者の声、アンケート結果など<br>
-                マイナビ保育士ならではの<br>
+                大阪府の給料相場、求人情報、<br class="pc">
+                ご利用者の声、アンケート結果など<br class="pc">
+                マイナビ保育士ならではの<br class="pc">
                 有益なお役立ち情報をご紹介します！
               </p>
             </div>
-            <img class="mv-illust" src="../../assets/img/special/prefectures/pref_topHeading_pc.svg" alt="">
+            <img class="mv-illust" src="../../assets/img/special/prefectures/pref_topHeading_pc.png" alt="">
           </div>
         </div>
 
@@ -296,14 +296,14 @@
             <div class="wrapper">
               <h2 class="dotted-line-bg">はじめに。</h2>
               <p class="desc">
-                <strong class="highlighter">大阪府は、<br>
-                  子ども・子育て支援新制度や待機児童解消加速化プランに基づいて、<br>
-                  保育所等の整備や人材確保を進めています。<br>
+                <strong class="highlighter">大阪府は、<br class="pc">
+                  子ども・子育て支援新制度や待機児童解消加速化プランに基づいて、<br class="pc">
+                  保育所等の整備や人材確保を進めています。<br class="pc">
                   保育士の給与水準も月額約20万円で、関西エリアではトップクラス</strong>です。<br>
-                大阪府は、子ども・子育て支援新制度や待機児童解消加速化プランに基づいて、<br>
-                保育所等の整備や人材確保を進めています。保育士の給与水準も月額約20万円で、<br>
-                関西エリアではトップクラスです。認定こども園への移行支援も行っており、<br>
-                すでに移行済み、あるいは移行予定の公私立の保育所・幼稚園も少なくありません。<br>
+                大阪府は、子ども・子育て支援新制度や待機児童解消加速化プランに基づいて、<br class="pc">
+                保育所等の整備や人材確保を進めています。保育士の給与水準も月額約20万円で、<br class="pc">
+                関西エリアではトップクラスです。認定こども園への移行支援も行っており、<br class="pc">
+                すでに移行済み、あるいは移行予定の公私立の保育所・幼稚園も少なくありません。<br class="pc">
                 企業主導型保育所もハイペースで増えており、様々な形態の施設が職場の選択肢として入ることになります。
               </p>
             </div>
@@ -313,40 +313,74 @@
           <section id="salary">
             <div class="wrapper">
               <h2 class="map-icon dotted-line-bg"><span class="prefecture-name">大阪府</span><small>の</small>保育士給料相場</h2>
-              <P class="desc">大阪府の各雇用形態別での給料相場をご紹介します！</P>
+              <P class="desc">大阪府の各雇用形態別での<br class="sp"> 給料相場をご紹介します！</P>
               <div class="salary-graph">
-                <div>
-                  <h3 class="employ-type">
-                    正社員
-                  </h3>
-                  <p class="average">
-                    平均年収 <strong>320</strong>万円
-                  </p>
-                  <img src="../../assets/img/special/prefectures/graph01.svg
+
+                <div class="tabs">
+                  <div class="tab_content" id="regular_content">
+                    <h3 class="employ-type">
+                      正社員
+                    </h3>
+                    <p class="average">
+                      平均年収 <strong>320</strong>万円
+                    </p>
+                    <img src="../../assets/img/special/prefectures/graph01.svg
                   " alt="graph">
-                </div>
-                <div>
-                  <h3 class="employ-type">
-                    アルバイト・パート
-                  </h3>
-                  <p class="average">
-                    平均年収 <strong>1,029</strong>万円
-                  </p>
-                  <img src="../../assets/img/special/prefectures/graph02.svg
+                  </div>
+                  <div class="tab_content" id="parttime_content">
+                    <h3 class="employ-type">
+                      アルバイト・パート
+                    </h3>
+                    <p class="average">
+                      平均年収 <strong>1,029</strong>万円
+                    </p>
+                    <img src="../../assets/img/special/prefectures/graph02.svg
                   " alt="graph">
-                </div>
-                <div>
-                  <h3 class="employ-type">
-                    派遣社員
-                  </h3>
-                  <p class="average">
-                    平均年収 <strong>320</strong>万円
-                  </p>
-                  <img src="../../assets/img/special/prefectures/graph03.svg
+                  </div>
+                  <div class="tab_content" id="temporary_content">
+                    <h3 class="employ-type">
+                      派遣社員
+                    </h3>
+                    <p class="average">
+                      平均年収 <strong>320</strong>万円
+                    </p>
+                    <img src="../../assets/img/special/prefectures/graph03.svg
                   " alt="graph">
+                  </div>
+
+                  <div class="sp">
+                    <input id="regular" type="radio" name="tab_item" checked>
+                    <label class="tab_item" for="regular">正社員</label>
+                    <input id="parttime" type="radio" name="tab_item">
+                    <label class="tab_item" for="parttime">アルバイト・パート</label>
+                    <input id="temporary" type="radio" name="tab_item">
+                    <label class="tab_item" for="temporary">派遣社員</label>
+                    <div class="tab_content" id="regular_content">
+                      <p class="average">
+                        平均年収 <strong>320</strong>万円
+                      </p>
+                      <img src="../../assets/img/special/prefectures/graph01.svg
+                                                        " alt="graph">
+                    </div>
+                    <div class="tab_content" id="parttime_content">
+                      <p class="average">
+                        平均年収 <strong>1,029</strong>万円
+                      </p>
+                      <img src="../../assets/img/special/prefectures/graph02.svg
+                                                        " alt="graph">
+                    </div>
+                    <div class="tab_content" id="temporary_content">
+                      <p class="average">
+                        平均年収 <strong>320</strong>万円
+                      </p>
+                      <img src="../../assets/img/special/prefectures/graph03.svg
+                                                        " alt="graph">
+                    </div>
+                  </div>
+
+
                 </div>
-              </div>
-            </div>
+
           </section>
 
           <section id="enqueter">
@@ -354,35 +388,40 @@
               <h2 class="map-icon dotted-line-bg">
                 <span class="prefecture-name">大阪府</span>在住<br>保育士アンケート結果発表
               </h2>
-              <P class="desc">大阪府在住の保育さんに聞いてみました！気になるアンケートは要チェック！</P>
+              <P class="desc">大阪府在住の保育さんに聞いてみました！<br class="sp">気になるアンケートは要チェック！</P>
               <div class="enqueter-item">
                 <h3><span class="no">Q1.</span>「マイナビ保育士」に<strong>ご登録いただいた理由</strong>を教えてください。</h3>
                 <div class="enqueter-gragh">
-                  <img src="../../assets/img/special/prefectures/enqueter-item-item.svg" alt="">
+                  <img src="../../assets/img/special/prefectures/enqueter-item-item.svg" alt="" class="pc">
+                  <img src="../../assets/img/special/prefectures/enqueter-item-item-sp.svg" alt="" class="sp">
                 </div>
               </div>
               <div class="enqueter-item">
                 <h3><span class="no">Q2.</span><strong>転職をお考えになった理由</strong>を教えてください。</h3>
                 <div class="enqueter-gragh">
-                  <img src="../../assets/img/special/prefectures/enqueter-item-item.svg" alt="">
+                  <img src="../../assets/img/special/prefectures/enqueter-item-item.svg" alt="" class="pc">
+                  <img src="../../assets/img/special/prefectures/enqueter-item-item-sp.svg" alt="" class="sp">
                 </div>
               </div>
               <div class="enqueter-item">
                 <h3><span class="no">Q3.</span><strong>希望する雇用形態</strong>について教えてください。</h3>
                 <div class="enqueter-gragh">
-                  <img src="../../assets/img/special/prefectures/enqueter-item-item.svg" alt="">
+                  <img src="../../assets/img/special/prefectures/enqueter-item-item.svg" alt="" class="pc">
+                  <img src="../../assets/img/special/prefectures/enqueter-item-item-sp.svg" alt="" class="sp">
                 </div>
               </div>
               <div class="enqueter-item">
                 <h3><span class="no">Q4.</span><strong>希望する職場</strong>について教えてください。</h3>
                 <div class="enqueter-gragh">
-                  <img src="../../assets/img/special/prefectures/enqueter-item-item.svg" alt="">
+                  <img src="../../assets/img/special/prefectures/enqueter-item-item.svg" alt="" class="pc">
+                  <img src="../../assets/img/special/prefectures/enqueter-item-item-sp.svg" alt="" class="sp">
                 </div>
               </div>
               <div class="enqueter-item">
                 <h3><span class="no">Q5.</span><strong>希望する年収</strong>について教えてください。</h3>
                 <div class="enqueter-gragh">
-                  <img src="../../assets/img/special/prefectures/enqueter-item-item.svg" alt="">
+                  <img src="../../assets/img/special/prefectures/enqueter-item-item.svg" alt="" class="pc">
+                  <img src="../../assets/img/special/prefectures/enqueter-item-item-sp.svg" alt="" class="sp">
                 </div>
               </div>
               <div class="enqueter-item">
@@ -391,7 +430,8 @@
                   <small>雇用形態(正社員・パート）は問いません。</small>
                 </h3>
                 <div class="enqueter-gragh">
-                  <img src="../../assets/img/special/prefectures/enqueter-item-item.svg" alt="">
+                  <img src="../../assets/img/special/prefectures/enqueter-item-item.svg" alt="" class="pc">
+                  <img src="../../assets/img/special/prefectures/enqueter-item-item-sp.svg" alt="" class="sp">
                 </div>
               </div>
             </div>
@@ -453,38 +493,40 @@
                 <span class="prefecture-name">大阪府</span>の<br>保育士向け人気コンテンツ
               </h2>
               <p class="desc">大阪府ににおける人気コンテンツをご紹介！</P>
-              <div class="popular-content">
-                <div class="content__item">
-                  <a href="/topic/2020/03/000405/">
-                    <div class="item">
-                      <img src="/img/jobOffers/RichText/column/20200221_salary_ranking_main_01.jpg"
-                        alt="保育士給料の都道府県別ランキング｜エリア以外の給料差の要因も解説">
-                      <span>保育士給料の都道府県別ランキング｜エリア以外の給料差の要因も解説</span>
-                    </div>
-                  </a>
-                  <span>待機児童や保育士不足など保育に関する問題が山積する中で、保育士の処遇改善について政府は積極的に対策を取り始めています。</span>
-                </div>
+              <div class="o-scroll">
+                <div class="popular-content o-scroll__container">
+                  <div class="content__item">
+                    <a href="/topic/2020/03/000405/">
+                      <div class="item">
+                        <img src="/img/jobOffers/RichText/column/20200221_salary_ranking_main_01.jpg"
+                          alt="保育士給料の都道府県別ランキング｜エリア以外の給料差の要因も解説">
+                        <span>保育士給料の都道府県別ランキング｜エリア以外の給料差の要因も解説</span>
+                      </div>
+                    </a>
+                    <span>待機児童や保育士不足など保育に関する問題が山積する中で、保育士の処遇改善について政府は積極的に対策を取り始めています。</span>
+                  </div>
 
-                <div class="content__item">
-                  <a href="/topic/2019/11/000351/">
-                    <div class="item">
-                      <img src="/img/jobOffers/RichText/column/20191031_Osaka_salary_main_01.jpg"
-                        alt="大阪府における保育士の給料相場は？知っておきたい支援制度も解説！">
-                      <span>大阪府における保育士の給料相場は？知っておきたい支援制度も解説！</span>
-                    </div>
-                  </a>
-                  <span>保育士として働きたい方の中には、大阪で仕事を探している方もいるかと思います。しかし、実際に大阪で働くかどうかまでは決めておらず...</span>
-                </div>
+                  <div class="content__item">
+                    <a href="/topic/2019/11/000351/">
+                      <div class="item">
+                        <img src="/img/jobOffers/RichText/column/20191031_Osaka_salary_main_01.jpg"
+                          alt="大阪府における保育士の給料相場は？知っておきたい支援制度も解説！">
+                        <span>大阪府における保育士の給料相場は？知っておきたい支援制度も解説！</span>
+                      </div>
+                    </a>
+                    <span>保育士として働きたい方の中には、大阪で仕事を探している方もいるかと思います。しかし、実際に大阪で働くかどうかまでは決めておらず...</span>
+                  </div>
 
-                <div class="content__item">
-                  <a href="/topic/2021/03/000631/">
-                    <div class="item">
-                      <img src="/img/jobOffers/RichText/column/202102_osaka_detail_01.jpg"
-                        alt="大阪府の保育士事情｜求人数の多さが特徴のエリア">
-                      <span>大阪府の保育士事情｜求人数の多さが特徴のエリア</span>
-                    </div>
-                  </a>
-                  <span>大阪府では、「子ども・子育て支援新制度」および「待機児童解消加速化プラン」に沿った施策によって、待機児童問題解消・保育人材確保を進めています。...</span>
+                  <div class="content__item">
+                    <a href="/topic/2021/03/000631/">
+                      <div class="item">
+                        <img src="/img/jobOffers/RichText/column/202102_osaka_detail_01.jpg"
+                          alt="大阪府の保育士事情｜求人数の多さが特徴のエリア">
+                        <span>大阪府の保育士事情｜求人数の多さが特徴のエリア</span>
+                      </div>
+                    </a>
+                    <span>大阪府では、「子ども・子育て支援新制度」および「待機児童解消加速化プラン」に沿った施策によって、待機児童問題解消・保育人材確保を進めています。...</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -497,43 +539,60 @@
                 キャリアアドバイザー紹介
               </h2>
               <p class="desc">大阪府担当のキャリアアドバイザーをご紹介いたします！</p>
-              <div class="staff-wrap">
-                <div class="staff__title">
-                  <img class="staff__img" src="../../assets/img/consultant/consultant_img01.png" alt="">
-                  <small>キャリアアドバイザー</small>
-                  <h3 class="staff-initial">T.R</h3>
+              <div class="o-scroll">
+                <div class="staff-wrap o-scroll__container">
+
+                  <a href="./consultant_01.html">
+                    <div class="staff__title">
+                      <img class="staff__img" src="../../assets/img/consultant/consultant_img01.png" alt="">
+                      <small>キャリアアドバイザー</small>
+                      <h3 class="staff-initial">T.R</h3>
+                    </div>
+                  </a>
+
+                  <a href="./consultant_02.html">
+                    <div class="staff__title">
+                      <img class="staff__img" src="../../assets/img/consultant/consultant_img02.png" alt="">
+                      <small>キャリアアドバイザー</small>
+                      <h3 class="staff-initial">H.Y</h3>
+                    </div>
+                  </a>
+
+                  <a href="./consultant_03.html">
+                    <div class="staff__title">
+                      <img class="staff__img" src="../../assets/img/consultant/consultant_img03.png" alt="">
+                      <small>キャリアアドバイザー</small>
+                      <h3 class="staff-initial">T.N</h3>
+                    </div>
+                  </a>
+
+                  <a href="./consultant_04.html">
+                    <div class="staff__title">
+                      <img class="staff__img" src="../../assets/img/consultant/consultant_img04.png" alt="">
+                      <small>キャリアアドバイザー</small>
+                      <h3 class="staff-initial">K.A</h3>
+                    </div>
+                  </a>
+
+                  <a href="./consultant_05.html">
+                    <div class="staff__title">
+                      <img class="staff__img" src="../../assets/img/consultant/consultant_img05.png" alt="">
+                      <small>キャリアアドバイザー</small>
+                      <h3 class="staff-initial">A.N</h3>
+                    </div>
+                  </a>
+
+                  <a href="./consultant_06.html">
+                    <div class="staff__title">
+                      <img class="staff__img" src="../../assets/img/consultant/consultant_img06.png" alt="">
+                      <small>キャリアアドバイザー</small>
+                      <h3 class="staff-initial">F.Y</h3>
+                    </div>
+                  </a>
                 </div>
 
-                <div class="staff__title">
-                  <img class="staff__img" src="../../assets/img/consultant/consultant_img02.png" alt="">
-                  <small>キャリアアドバイザー</small>
-                  <h3 class="staff-initial">H.Y</h3>
-                </div>
-
-                <div class="staff__title">
-                  <img class="staff__img" src="../../assets/img/consultant/consultant_img03.png" alt="">
-                  <small>キャリアアドバイザー</small>
-                  <h3 class="staff-initial">T.N</h3>
-                </div>
-
-                <div class="staff__title">
-                  <img class="staff__img" src="../../assets/img/consultant/consultant_img04.png" alt="">
-                  <small>キャリアアドバイザー</small>
-                  <h3 class="staff-initial">K.A</h3>
-                </div>
-
-                <div class="staff__title">
-                  <img class="staff__img" src="../../assets/img/consultant/consultant_img05.png" alt="">
-                  <small>キャリアアドバイザー</small>
-                  <h3 class="staff-initial">A.N</h3>
-                </div>
-
-                <div class="staff__title">
-                  <img class="staff__img" src="../../assets/img/consultant/consultant_img06.png" alt="">
-                  <small>キャリアアドバイザー</small>
-                  <h3 class="staff-initial">F.Y</h3>
-                </div>
               </div>
+
             </div>
           </section>
 
@@ -694,7 +753,7 @@
               </div>
 
               <div class="areas">
-                <h2><span>近隣エリア</span>の情報はこちらから</h2>
+                <h2><span>近隣エリア</span>の<br class="sp">情報はこちらから</h2>
                 <ul>
                   <li><a href="#"><span>兵庫県</span><small>の</small><br>お役たち情報</a></li>
                   <li><a href="#"><span>京都府</span><small>の</small><br>お役たち情報</a></li>
@@ -708,7 +767,7 @@
 
           <section id="useful-content">
             <h2><span>転職お役立ち</span>コンテンツ</h2>
-            <p class="desc">履歴書の書き方や職務経歴書の書き方など、転職にお役立ちなコンテンツも満載！</P>
+            <p class="desc">履歴書の書き方や職務経歴書の書き方など、<br class="sp">転職にお役立ちなコンテンツも満載！</P>
             <ul>
 
               <li>
@@ -729,8 +788,7 @@
                     <span>助かる!</span><img src="../../assets/img/special/prefectures/useful02.svg" alt="">
                   </div>
                   <div class="text">
-                    <h3>職務経歴書の<br>
-                      書き方</h3>
+                    <h3>職務経歴書の<br class="pc">書き方</h3>
                     <p>転職活動においてはあなたの経験や実績を相手に伝えるだけでなく、自己PRを記入することで最大のアピールにつながります。</p>
                   </div>
                 </a>
@@ -742,8 +800,7 @@
                     <span>教えて!</span><img src="../../assets/img/special/prefectures/useful03.svg" alt="">
                   </div>
                   <div class="text">
-                    <h3>応募封筒の<br>
-                      書き方について</h3>
+                    <h3>応募封筒の<br>書き方について</h3>
                     <p>保育園への応募封筒は白？ 茶色？ 希望の保育園・保育施設に入園するにあたり必要な「応募封筒の書き方」についてご紹介します。</p>
                   </div>
                 </a>
@@ -755,8 +812,7 @@
                     <span>教えて!</span><img src="../../assets/img/special/prefectures/useful04.svg" alt="">
                   </div>
                   <div class="text">
-                    <h3>面接マナーに<br>
-                      ついて</h3>
+                    <h3>面接マナーに<br class="pc">ついて</h3>
                     <p>園長や施設長、保育園・保育施設の採用担当者と面接をする前に、ぜひとも知っておきたいのが面接マナー。</p>
                   </div>
                 </a>
@@ -768,8 +824,7 @@
                     <span>助かる!</span><img src="../../assets/img/special/prefectures/useful05.svg" alt="">
                   </div>
                   <div class="text">
-                    <h3>志望動機の<br>
-                      書き方</h3>
+                    <h3>志望動機の<br class="pc">書き方</h3>
                     <p>書き方・伝え方に悩む保育士さん必見！採用担当者に好印象を与える「志望動機」の作り方をお伝えします。</p>
                   </div>
                 </a>

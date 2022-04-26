@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="364.866" height="198.131" viewBox="0 0 364.866 198.131">
+  <g id="enqueter-item-item-sp" transform="translate(1 -2)">
+    <g id="グループ_2593" data-name="グループ 2593" transform="translate(349.281 20.95) rotate(90)">
+      <path id="Line" d="M0,0H178.9" transform="translate(0 176.654)" fill="none" stroke="#c7c7c7" stroke-width="1"/>
+      <path id="Line-2" data-name="Line" d="M0,0H178.9" transform="translate(0 88.165)" fill="none" stroke="#c7c7c7" stroke-width="1"/>
+      <path id="Line-3" data-name="Line" d="M0,0H178.9" fill="none" stroke="#c7c7c7" stroke-width="1"/>
+    </g>
+    <g id="グループ_2795" data-name="グループ 2795" transform="translate(89.266 28.396)">
+      <rect id="長方形_429" data-name="長方形 429" width="234.583" height="23" fill="#f90"/>
+      <rect id="長方形_430" data-name="長方形 430" width="160.995" height="23" transform="translate(0 36)" fill="#ffa31a"/>
+      <rect id="長方形_431" data-name="長方形 431" width="80.658" height="23" transform="translate(0 72)" fill="#ffad33"/>
+      <rect id="長方形_432" data-name="長方形 432" width="192.487" height="23" transform="translate(0 108)" fill="#ffb84d"/>
+      <rect id="長方形_433" data-name="長方形 433" width="254.828" height="23" transform="translate(0 144)" fill="#ffc166"/>
+    </g>
+    <path id="Line-4" data-name="Line" d="M0,0H179.735" transform="translate(89.753 19.896) rotate(90)" fill="none" stroke="#cfdae7" stroke-width="1"/>
+    <text id="_10_" data-name="10%" transform="translate(155.38 14)" font-size="13" font-family="Arial-BoldMT, Arial" letter-spacing="-0.02em" font-weight="700"><tspan x="0" y="0">10</tspan><tspan y="0" font-family="ArialMT, Arial" font-weight="400">%</tspan></text>
+    <text id="_20_" data-name="20%" transform="translate(246.108 14)" font-size="13" font-family="Arial-BoldMT, Arial" letter-spacing="-0.02em" font-weight="700"><tspan x="0" y="0">20</tspan><tspan y="0" font-family="ArialMT, Arial" font-weight="400">%</tspan></text>
+    <text id="_30_" data-name="30%" transform="translate(337.866 14)" font-size="13" font-family="Arial-BoldMT, Arial" letter-spacing="-0.02em" font-weight="700"><tspan x="0" y="0">30</tspan><tspan y="0" font-family="ArialMT, Arial" font-weight="400">%</tspan></text>
+    <g id="グループ_2594" data-name="グループ 2594" transform="translate(84.93 19.631)">
+      <path id="パス_3544" data-name="パス 3544" d="M-9288.027,6208.234h4.923" transform="translate(9288.027 -6208.234)" fill="none" stroke="#cfdae7" stroke-linecap="round" stroke-width="1"/>
+      <path id="パス_3545" data-name="パス 3545" d="M-9288.027,6208.234h4.923" transform="translate(9288.027 -6170.234)" fill="none" stroke="#cfdae7" stroke-linecap="round" stroke-width="1"/>
+      <path id="パス_3546" data-name="パス 3546" d="M-9288.027,6208.234h4.923" transform="translate(9288.027 -6133.703)" fill="none" stroke="#cfdae7" stroke-linecap="round" stroke-width="1"/>
+      <path id="パス_3547" data-name="パス 3547" d="M-9288.027,6208.234h4.923" transform="translate(9288.027 -6097.703)" fill="none" stroke="#cfdae7" stroke-linecap="round" stroke-width="1"/>
+      <path id="パス_3548" data-name="パス 3548" d="M-9288.027,6208.234h4.923" transform="translate(9288.027 -6062.234)" fill="none" stroke="#cfdae7" stroke-linecap="round" stroke-width="1"/>
+      <path id="パス_3549" data-name="パス 3549" d="M-9288.027,6208.234h4.923" transform="translate(9288.027 -6028.234)" fill="none" stroke="#cfdae7" stroke-linecap="round" stroke-width="1"/>
+    </g>
+    <g id="グループ_2596" data-name="グループ 2596" transform="translate(0 31.866)">
+      <text id="労働時間_休暇" data-name="労働時間・休暇" transform="translate(82 11)" font-size="12" font-family="HiraKakuProN-W3, Hiragino Kaku Gothic ProN" letter-spacing="-0.024em"><tspan x="-82.272" y="0">労働時間・休暇</tspan></text>
+      <text id="家庭の事情" transform="translate(82 48.486)" font-size="12" font-family="HiraKakuProN-W3, Hiragino Kaku Gothic ProN" letter-spacing="-0.024em"><tspan x="-58.848" y="0">家庭の事情</tspan></text>
+      <text id="転居" transform="translate(82 82.027)" font-size="12" font-family="HiraKakuProN-W3, Hiragino Kaku Gothic ProN" letter-spacing="-0.024em"><tspan x="-23.712" y="0">転居</tspan></text>
+      <text id="社風_方針" data-name="社風・方針" transform="translate(82 119.513)" font-size="12" font-family="HiraKakuProN-W3, Hiragino Kaku Gothic ProN" letter-spacing="-0.024em"><tspan x="-58.848" y="0">社風・方針</tspan></text>
+      <text id="ダミー" transform="translate(82 157)" font-size="12" font-family="HiraKakuProN-W3, Hiragino Kaku Gothic ProN" letter-spacing="-0.024em"><tspan x="-35.424" y="0">ダミー</tspan></text>
+    </g>
+  </g>
+</svg>
