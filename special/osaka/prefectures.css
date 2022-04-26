@@ -5,20 +5,19 @@
 
 * --------------------------------------------------------------------
 *
-* # NORMALIZE
-* # BASE SETUP
-*   ## mainTtlArea
-*   ## prefectures-nav
-
-
- * #salary
- * #enqueter
- * #ranking
- * #popular
- * #consultant
- * #voice
- * #wheretogo
- * #useful-content
+* BASE SETUP
+*
+*   .mainTtlArea
+*   .prefectures-nav
+*
+* #salary
+* #enqueter
+* #ranking
+* #popular
+* #consultant
+* #voice
+* #wheretogo
+* #useful-content
 
  * .find
 
@@ -33,28 +32,36 @@
 	--gray3: #e9e9e8;
 	--mask: linear-gradient(#000 0 0) bottom/100% calc(100% - 24px) no-repeat, radial-gradient(circle farthest-side, #000 98%, #0000) top/44.40px 48px repeat-x;
 }
-/* ====================================================================
- * # NORMALIZE
- *
- *
- * -------------------------------------------------------------------- */
 
+/* ===================================================================
+ * BASE SETUP
+ *
+ *
+ * ------------------------------------------------------------------- */
 body {
 	color: #1a191a;
 }
 header {
 	z-index: 999;
 }
-@media screen and (min-width: 769px) {
-	body {
-		margin-top: 120px;
-	}
+a:hover {
+	opacity: 0.6;
+	text-decoration: underline;
+}
+#prefectures h1 span,
+#prefectures h2 span {
+	color: #19cecd;
 }
 .pc {
 	display: block;
 }
 .sp {
 	display: none;
+}
+@media screen and (min-width: 769px) {
+	body {
+		margin-top: 120px;
+	}
 }
 @media only screen and (max-width: 639px) {
 	.pc {
@@ -67,30 +74,52 @@ header {
 		padding-top: 70px;
 	}
 }
-h2 {
-	font-size: 32px;
+#prefectures {
+	padding-bottom: 70px;
 }
-a:hover {
-	opacity: 0.6;
-	text-decoration: underline;
+#prefectures section {
+	padding: 80px 0 40px;
 }
-h1 span,
-h2 span {
-	color: #19cecd;
+#prefectures h1 {
+	padding: 26px 0 6px;
+	color: #1a191a;
 }
-.dotted-line {
+#prefectures h2 {
+	position: relative;
+	margin: 0 auto;
+	font-size: 28px;
+	letter-spacing: 1px;
+	line-height: 1.3;
+	font-weight: 600;
+	text-align: center;
+	padding-bottom: 8px;
+	width: fit-content;
+}
+#prefectures h3 {
+	position: relative;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.4;
+}
+#prefectures .textArea h1 {
+	position: relative;
+	font-size: 34px;
+	text-align: center;
+	line-height: 1.7;
+}
+#prefectures .dotted-line {
 	position: relative;
 }
-.dotted-line::after {
+#prefectures .dotted-line::after {
 	content: '';
 	position: absolute;
 	height: 4px;
 	background: url(../../assets/img/special/prefectures/dotted_line.svg);
 }
-.dotted-line-bg {
+#prefectures .dotted-line-bg {
 	background: bottom no-repeat url(../../assets/img/special/prefectures/dotted_line.svg);
 }
-.wrapper {
+#prefectures .wrapper {
 	position: relative;
 	width: 1000px;
 	height: auto;
@@ -121,163 +150,14 @@ h2 span {
 	top: 0;
 	left: -50px;
 }
-@media only screen and (min-width: 640px) {
-	#prefectures .map-icon::before {
-		animation: shadow-anim 1s infinite;
-	}
-	#prefectures .map-icon::after {
-		animation: bound 1s infinite;
-	}
-	@keyframes bound {
-		0%,
-		100% {
-			top: -10px;
-			transform: scale(1), rotateX(68deg);
-		}
-		30% {
-			top: -60%;
-			transform: scale(0.96, 1.04), rotateX(68deg);
-		}
-		60% {
-			transform: scale(1);
-		}
-		90% {
-			top: -10px;
-			transform: scale(1.15, 0.9);
-		}
-	}
-	@keyframes shadow-anim {
-		0%,
-		100% {
-			transform: scale(1), rotateX(68deg);
-			filter: blur(4px);
-		}
-		30% {
-			transform: scale(1.6, 1);
-		}
-	}
-}
-@media only screen and (max-width: 639px) {
-	.wrapper {
-		width: 100%;
-	}
-	.o-scroll::-webkit-scrollbar {
-		display: none;
-	}
-	.o-scroll {
-		overflow: scroll;
-		overflow-x: auto;
-		overflow-y: hidden;
-	}
-	#prefectures .map-icon::before {
-		display: none;
-	}
-	#prefectures .map-icon::after {
-		background: center / contain no-repeat url(../../assets/img/special/prefectures/map_icon-sp.svg);
-	}
-}
-
-/* ===================================================================
- * # BASE SETUP
- *
- *
- * ------------------------------------------------------------------- */
-#prefectures {
-	padding-bottom: 70px;
-}
-#prefectures section {
-	padding: 80px 0 40px;
-}
-#prefectures h1 {
-	padding: 26px 0 6px;
-	color: #1a191a;
-}
-#prefectures h2 {
-	position: relative;
-	margin: 0 auto;
-	font-size: 28px;
-	letter-spacing: 1px;
-	line-height: 1.3;
-	font-weight: 600;
-	text-align: center;
-	padding-bottom: 8px;
-	width: fit-content;
-}
-#prefectures h3 {
-	position: relative;
-	font-size: 20px;
-	font-weight: 600;
-	line-height: 1.4;
-}
-
-#prefectures .textArea h1 {
-	position: relative;
-	font-size: 34px;
-	text-align: center;
-	line-height: 1.7;
-}
-@media only screen and (max-width: 639px) {
-	#prefectures section {
-		width: 100%;
-		padding-bottom: 0;
-	}
-	#prefectures h1 {
-		padding: 8px 0 20px;
-	}
-	#prefectures h2 {
-		width: fit-content;
-		line-height: 1.35;
-		font-size: 23px;
-		padding-bottom: 10px;
-		letter-spacing: 0.5px;
-	}
-}
-
-/* ====================================================================
- * # Main Visual
- *
- *
- * -------------------------------------------------------------------- */
-.kakeru {
+#prefectures .kakeru {
 	position: relative;
 	bottom: 21px;
 	margin: 0 10px 0 6px;
 }
-.kakeru img {
+#prefectures .kakeru img {
 	width: 60px;
 	height: 60px;
-}
-#prefectures .mainTtlArea {
-	position: relative;
-	display: flex;
-	margin: 0 auto;
-	flex-direction: row;
-	align-content: center;
-	align-items: center;
-	justify-content: flex-end;
-	width: 960px;
-}
-#prefectures .mainTtlArea::before {
-	position: absolute;
-	content: '';
-	width: 150px;
-	height: 206px;
-	left: 0;
-	bottom: -32px;
-	background: no-repeat url(../../assets/img/special/prefectures/pref_mv_illust.svg);
-}
-#prefectures .textArea {
-	margin-right: 62px;
-}
-#prefectures .textArea .dotted-line::after {
-	width: 99%;
-	right: 0;
-	bottom: 68px;
-}
-#prefectures .mv-illust {
-	width: 39%;
-	bottom: -31px;
-	position: relative;
 }
 #prefectures .prefecture-name {
 	position: relative;
@@ -295,6 +175,7 @@ h2 span {
 	font-size: 16px;
 	text-align: center;
 }
+
 #prefectures .highlighter {
 	background: var(--yellow);
 }
@@ -366,81 +247,84 @@ h2 span {
 	bottom: 20px;
 }
 @media only screen and (max-width: 639px) {
-	#prefectures .prefecture-name.map-icon::after {
-		top: -12px;
+	#prefectures section {
+		width: 100%;
+		padding-bottom: 0;
 	}
-	#prefectures .textArea .dotted-line::after {
-		bottom: 45px;
+	#prefectures h1 {
+		padding: 8px 0 20px;
 	}
-	#prefectures .mainTtlArea::before {
-		bottom: -359px;
-		z-index: 1;
-		left: 4%;
+	#prefectures h2 {
+		width: fit-content;
+		line-height: 1.35;
+		font-size: 23px;
+		padding-bottom: 10px;
+		letter-spacing: 0.5px;
 	}
-	#prefectures .map-icon::after,
+	#prefectures .wrapper {
+		width: 100%;
+	}
+	#prefectures .o-scroll::-webkit-scrollbar {
+		display: none;
+	}
+	#prefectures .o-scroll {
+		overflow: scroll;
+		overflow-x: auto;
+		overflow-y: hidden;
+	}
 	#prefectures .map-icon::before {
-		animation: none;
+		display: none;
 	}
-
-	#prefectures .prefecture-name {
-		font-size: 32px;
-	}
-	#prefectures .salary-graph .average {
-		font-size: 5vw;
-	}
-	#prefectures .salary-graph .average strong::before {
-		bottom: 14px;
-	}
-	.kakeru {
-		bottom: 11px;
+	#prefectures .map-icon::after {
+		background: center / contain no-repeat url(../../assets/img/special/prefectures/map_icon-sp.svg);
 	}
 }
-@media only screen and (max-width: 361px) {
-	#prefectures .textArea .dotted-line::after {
-		bottom: 29px;
+@media only screen and (min-width: 640px) {
+	#prefectures .map-icon::before {
+		animation: shadow-anim 1s infinite;
 	}
-	#prefectures .salary-graph .average strong {
-		font-size: 35px;
+	#prefectures .map-icon::after {
+		animation: bound 1s infinite;
+	}
+	@keyframes bound {
+		0%,
+		100% {
+			top: -10px;
+			transform: scale(1), rotateX(68deg);
+		}
+		30% {
+			top: -60%;
+			transform: scale(0.96, 1.04), rotateX(68deg);
+		}
+		60% {
+			transform: scale(1);
+		}
+		90% {
+			top: -10px;
+			transform: scale(1.15, 0.9);
+		}
+	}
+	@keyframes shadow-anim {
+		0%,
+		100% {
+			transform: scale(1), rotateX(68deg);
+			filter: blur(4px);
+		}
+		30% {
+			transform: scale(1.6, 1);
+		}
 	}
 }
-
-.pcOnly {
-	display: initial;
-}
-.spOnly {
-	display: none;
-}
-.content-global .containerColor {
-	background: #fff;
-	padding-bottom: 50px;
-}
-.contentCover {
-	background-image: url('../img/topic/common/contentCover_texture.png');
-}
-.body-2col .main-global {
-	width: 690px;
-}
+/* ====================================================================
+ * # Main Visual
+ *
+ *
+ * -------------------------------------------------------------------- */
 .body-2col .aside-global {
 	width: 210px;
 }
 .footer-global {
 	margin-top: 0;
-}
-.main-global p.txt {
-	padding: 30px 0 0;
-	margin: 0;
-}
-.mainTtlBox h2 {
-	margin-bottom: 0;
-	padding: 12px 0 10px 36px;
-	color: #dc2611;
-	font-size: 28px;
-	margin: 0;
-	border-bottom: 2px solid #dc2611;
-	background-image: url(../img/useful/icon_ttl.png);
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: 24px auto;
 }
 .wrapper a:hover {
 	opacity: 0.5;
@@ -460,23 +344,7 @@ h2 span {
 .asideWidget-banner {
 	text-align: center;
 }
-
 @media only screen and (max-width: 639px) {
-	#service__main .list .item .fig img,
-	.usefulSidebar img {
-		width: 100%;
-		height: auto;
-	}
-	#service__main .list .item .summary p {
-		margin: 0;
-		min-height: 0px;
-	}
-	.pcOnly {
-		display: none !important;
-	}
-	.spOnly {
-		display: initial;
-	}
 	.content-global .container {
 		padding: 0 10px;
 	}
@@ -486,23 +354,12 @@ h2 span {
 	.sp-view .aside-global {
 		display: initial;
 	}
-
 	/*
 	 .sidebar
 	----------------------------------------*/
-	#side_scroll {
-		width: auto;
-	}
 	.body-2col .aside-global {
 		width: 100%;
 		margin-top: 30px;
-	}
-	/* リストアイテム */
-	.wrapper .mainTtlBox h2 {
-		padding: 10px 0 8px 30px;
-		font-size: 20px;
-		border-width: 2px;
-		background-size: 16px auto;
 	}
 	#service__main .list .item {
 		float: none;
@@ -590,63 +447,83 @@ h2 span {
 }
 
 /* --------------------------------------------------------------------
-*   ## mainTtlArea
+*   .mainTtlArea
 * -------------------------------------------------------------------- */
-/* .content-global {
-	background: white;
-} */
-.mainTtlCenter {
+#prefectures .mainTtlCenter {
 	width: 100%;
 	height: auto;
 	background-color: var(--yellow);
+	background-position: center bottom;
+	margin: 0 auto 82px;
+	display: flex;
+	align-content: center;
+	height: 320px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
 }
-.mainTtlArea {
+#prefectures .mainTtlArea {
 	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
+	justify-content: flex-end;
+	box-sizing: border-box;
 	margin: 0 auto;
+	width: 960px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
-	box-sizing: border-box;
-	flex-direction: row;
-	align-content: center;
 }
-.textArea h1 {
-	color: #19cecd;
-	line-height: 1.4;
-	font-weight: 600;
+#prefectures .mainTtlArea::before {
+	position: absolute;
+	content: '';
+	width: 150px;
+	height: 206px;
+	left: 0;
+	bottom: -32px;
+	background: no-repeat url(../../assets/img/special/prefectures/pref_mv_illust.svg);
 }
-.textArea h1 strong {
+#prefectures .mainTtlArea .prefecture-name {
+	font-size: 48px;
+}
+#prefectures .textArea {
+	margin-right: 62px;
+}
+#prefectures .textArea h1 strong {
 	font-size: 140%;
 }
-.mainTtlCenter .map-icon::before {
+#prefectures .textArea .dotted-line::after {
+	width: 99%;
+	right: 0;
+	bottom: 68px;
+}
+#prefectures .mainTtlCenter .map-icon::before {
 	background: #f3e4be;
 }
-
+#prefectures .mv-illust {
+	width: 39%;
+	bottom: -31px;
+	position: relative;
+}
 @media only screen and (max-width: 639px) {
-	.content-global .container {
+	#prefectures .content-global .container {
 		padding: 0;
 	}
-	.content-global .container .css-pz3g2y-BreadcrumbStyle {
+	#prefectures .content-global .container .css-pz3g2y-BreadcrumbStyle {
 		padding: 5px;
 	}
-	.mainTtlArea {
+	#prefectures .mainTtlArea {
+		flex-direction: column;
 		align-items: center;
 		width: 100%;
-	}
-	.textArea h1 {
-		margin: 8px 0;
-		font-size: 5vw;
-		width: 100%;
-	}
-	#prefectures .mainTtlArea {
-		width: 100%;
 		top: 0;
-		flex-direction: column;
 	}
 	#prefectures .textArea h1 {
 		font-size: 6.5vw;
 		width: fit-content;
-		margin: 6% auto 0 20%;
+		margin: 6% auto 0 18%;
 	}
 	#prefectures .textArea p {
 		font-size: 12px;
@@ -654,6 +531,44 @@ h2 span {
 		margin: 0 auto;
 		padding: 0 4% 4%;
 		text-align: left;
+	}
+	#prefectures .mainTtlArea .prefecture-name {
+		font-size: 42px;
+	}
+	#prefectures .prefecture-name {
+		font-size: 32px;
+	}
+	#prefectures .prefecture-name.map-icon::after {
+		top: 2px;
+	}
+	#prefectures .textArea .dotted-line::after {
+		bottom: 45px;
+	}
+	#prefectures .mainTtlArea::before {
+		bottom: -359px;
+		z-index: 1;
+		left: 4%;
+	}
+	#prefectures .map-icon::after,
+	#prefectures .map-icon::before {
+		animation: none;
+	}
+	#prefectures .salary-graph .average {
+		font-size: 5vw;
+	}
+	#prefectures .salary-graph .average strong::before {
+		bottom: 14px;
+	}
+	#prefectures .kakeru {
+		bottom: 11px;
+	}
+}
+@media only screen and (max-width: 361px) {
+	#prefectures .textArea .dotted-line::after {
+		bottom: 29px;
+	}
+	#prefectures .salary-graph .average strong {
+		font-size: 35px;
 	}
 }
 @media only screen and (max-width: 350px) {
@@ -663,7 +578,7 @@ h2 span {
 }
 
 /* --------------------------------------------------------------------
-*   ## prefectures-nav
+*   .prefectures-nav
 * -------------------------------------------------------------------- */
 
 .prefectures-nav ul {
@@ -728,411 +643,6 @@ h2 span {
 		height: 7px;
 		right: 10px;
 	}
-}
-@media only screen and (max-width: 361px) {
-	.prefectures-nav ul a {
-		font-size: 12px;
-	}
-}
-
-/* --------------------------------------------------------------------
-*   ## blogcard
-* -------------------------------------------------------------------- */
-.blogcard {
-	margin: 80px auto 0;
-	width: 860px;
-	border-radius: 16px;
-	border: 1px solid #eeeeee;
-	word-wrap: break-word;
-	box-shadow: 0 0 10px 6px rgba(0, 0, 0, 0.025);
-}
-.blogcard-guide {
-	position: relative;
-	background-color: #ffe4e3;
-}
-.blogcard-voice {
-	position: relative;
-	background-color: #fff1cc;
-}
-.blogcard-merit {
-	position: relative;
-	background-color: #ffead9;
-}
-.blogcard-guide::after,
-.blogcard-voice::after,
-.blogcard-merit::after {
-	position: absolute;
-	content: '';
-	top: -13px;
-	left: 18px;
-	width: 172px;
-	height: 57px;
-	background: url(../../assets/img/service/blog-tag-red.svg) no-repeat;
-	background-size: 167px;
-}
-.blogcard-voice::after {
-	background: url(../../assets/img/service/blog-tag-yellow.svg) no-repeat;
-	background-size: 167px;
-}
-.blogcard-merit::after {
-	background: url(../../assets/img/service/blog-tag-orange.svg) no-repeat;
-	background-size: 167px;
-}
-.blogcard a {
-	display: flex;
-	text-decoration: none;
-	opacity: 1;
-	transition: all 0.2s ease;
-	align-items: center;
-}
-.blogcard-guide a {
-	color: #e06b64;
-}
-.blogcard-voice a {
-	color: #f49902;
-}
-.blogcard-merit a {
-	color: #ff930f;
-}
-.blogcard a:hover {
-	opacity: 0.6;
-}
-.blogcard a .blogcard_button {
-	padding: 10px 40px;
-	border: 2px solid;
-	border-radius: 300px;
-	margin: 28px;
-	font-weight: bold;
-}
-.blogcard-guide a .blogcard_button {
-	border-color: #e06b64;
-}
-.blogcard-voice a span {
-	border-color: #f49902;
-}
-.blogcard-guide h3.blogcard_title span {
-	color: #e06b64;
-}
-.blogcard_thumbnail {
-	float: left;
-	border-radius: 16px 0 0 16px;
-}
-.blogcard-guide .blogcard_thumbnail {
-	background: center bottom / cover no-repeat url('../../assets/img/service/service-guide-bg.png'), #ffccca;
-}
-.blogcard-voice .blogcard_thumbnail {
-	background: #ffe3a3;
-}
-.blogcard-merit .blogcard_thumbnail {
-	background: center bottom / cover no-repeat url('../../assets/img/service/service-merit-bg.png'), #ffd6b8;
-}
-.blogcard_title {
-	font-size: 1em;
-	font-weight: bold;
-	line-height: 1.4;
-	padding: 17px 29px 10px;
-}
-.blogcard_excerpt {
-	color: #1a191a;
-	line-height: 1.6;
-	padding: 0 28px 20px 28px;
-}
-@media screen and (min-width: 768px) {
-	.blogcard:hover {
-		-webkit-transform: scale(1.1);
-		-moz-transform: scale(1.1);
-		-ms-transform: scale(1.1);
-		-o-transform: scale(1.1);
-		transform: scale(1.1);
-	}
-}
-@media only screen and (max-width: 639px) {
-	.blogcard {
-		width: 90%;
-		height: 160px;
-		margin: 40px auto 28px;
-	}
-	.blogcard-guide::after,
-	.blogcard-voice::after,
-	.blogcard-merit::after {
-		top: -24px;
-	}
-	.blogcard a .blogcard_button {
-		font-size: 3vw;
-	}
-	.blogcard-merit .blogcard_thumbnail,
-	.blogcard-guide .blogcard_thumbnail,
-	.blogcard-voice .blogcard_thumbnail {
-		width: 36%;
-		overflow: hidden;
-	}
-	.blogcard-guide .blogcard_thumbnail {
-		background-color: #ffa3a0;
-	}
-	.blogcard-voice .blogcard_thumbnail {
-		background-color: #ffd682;
-	}
-	.blogcard-merit .blogcard_thumbnail img,
-	.blogcard-guide .blogcard_thumbnail img,
-	.blogcard-voice .blogcard_thumbnail img {
-		height: 158px;
-		left: -57px;
-		position: relative;
-		width: 223px;
-	}
-	.blogcard-merit .blogcard_thumbnail img {
-		left: -48px;
-	}
-
-	.blogcard-voice .blogcard_thumbnail img {
-		left: -44px;
-	}
-	.blogcard_excerpt {
-		display: none;
-	}
-	#service-merit .blogcard_title,
-	#prefectures .blogcard_title {
-		font-size: 18px;
-		padding: 0 0 14px 26px;
-	}
-	.blogcard-guide h3.blogcard_title span.sp,
-	#prefectures .blogcard_title {
-		color: #1a191a;
-	}
-	#prefectures .blogcard_title span {
-		color: #ff930f;
-	}
-}
-
-@media only screen and (max-width: 361px) {
-	.blogcard a .blogcard_button {
-		margin: 28px 0 28px 28px;
-	}
-	#prefectures .blogcard_title,
-	#service-merit .blogcard_title {
-		font-size: 16px;
-	}
-}
-/* --------------------------------------------------------------------
-*   ## service-cv
-* -------------------------------------------------------------------- */
-.service-cv {
-	background: #f5f6f9;
-}
-.service-cv .wrapper {
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	text-align: center;
-}
-.cv02 .wrapper {
-	flex-direction: row-reverse;
-}
-#service-merit section.cv01 {
-	padding: 0;
-	margin-top: 80px;
-}
-.service-cv .cv-excerpt {
-	font-size: 19px;
-	font-weight: bold;
-	text-align: center;
-	line-height: 1.6;
-}
-.service-cv .cv-excerpt p {
-	font-size: 16px;
-	color: #19cecd;
-}
-
-.service-cv__btn.pc {
-	display: block;
-	margin: 12px auto 7px;
-	padding: 18px 15px;
-	width: fit-content;
-	min-width: 367px;
-	color: white;
-	background: #ff930f;
-	border-radius: 300px;
-	font-size: 17px;
-	font-weight: 600;
-	-webkit-transform: scale(1);
-	-moz-transform: scale(1);
-	-ms-transform: scale(1);
-	-o-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: 0.3s;
-	-moz-transition: 0.3s;
-	-ms-transition: 0.3s;
-	-o-transition: 0.3s;
-	transition: 0.3s;
-}
-.service-cv__btn.pc:hover {
-	color: white;
-	filter: drop-shadow(2px 3px 9px rgb(145, 145, 145));
-}
-.service-cv__btn.sp {
-	display: none;
-}
-.cv-excerpt h2 {
-	margin-top: 0;
-	color: #1a191a;
-	font-size: 22px;
-	font-weight: 600;
-	line-height: 1.6;
-}
-.cv-excerpt h2 span {
-	background: #1ce6e687;
-}
-.cv-excerpt h3 {
-	margin-top: 5px;
-	color: #19cecd;
-	font-size: 18px;
-	font-weight: 600;
-}
-@media screen and (min-width: 768px) {
-	.service-cv__btn.pc:hover {
-		-webkit-transform: scale(1.2);
-		-moz-transform: scale(1.2);
-		-ms-transform: scale(1.2);
-		-o-transform: scale(1.2);
-		transform: scale(1.2);
-	}
-}
-@media only screen and (max-width: 639px) {
-	.service-cv__btn.sp {
-		position: relative;
-		display: block;
-		margin: 0 auto 7px;
-		padding: 25px 15px;
-		min-width: fit-content;
-		border-radius: 300px;
-		font-size: 15px;
-		font-weight: 600;
-		color: white;
-		background: #ff930f;
-		overflow: hidden;
-	}
-	.service-cv__btn.sp::after {
-		content: '';
-		position: absolute;
-		top: -100px;
-		left: -100px;
-		width: 50px;
-		height: 50px;
-		background-image: linear-gradient(100deg, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 0) 0%);
-		animation-name: shiny;
-		animation-duration: 3s;
-		animation-timing-function: ease-in-out;
-		animation-iteration-count: infinite;
-	}
-	.cv-excerpt {
-		padding: 25px 15px 15px;
-		background: white;
-	}
-	.cv-excerpt h2 {
-		font-size: 1.4em;
-		line-height: 1.3;
-	}
-	.cv-excerpt h3 {
-		line-height: 1.4;
-	}
-	.cv-excerpt::after {
-		position: absolute;
-		content: '';
-		width: 104px;
-		height: 104px;
-		top: 73px;
-		right: 0;
-		background: url(../../assets/img/consultant/consultant-cv-pro.svg) no-repeat;
-		background-size: 23vw;
-		animation-name: huwahuwa;
-		animation-timing-function: ease-in-out;
-		animation-iteration-count: infinite;
-		animation-direction: alternate;
-		animation-duration: 1.5s;
-	}
-	.service-cv {
-		line-height: 1.3;
-	}
-	.service-cv img {
-		width: 80%;
-	}
-	.service-cv__btn.sp {
-		position: relative;
-		display: block;
-		margin: 0 auto 7px;
-		padding: 25px 15px;
-		min-width: fit-content;
-		border-radius: 300px;
-		font-size: 15px;
-		font-weight: 600;
-		color: white;
-		background: #ff930f;
-		overflow: hidden;
-	}
-	.service-cv__btn.sp::after {
-		content: '';
-		position: absolute;
-		top: -100px;
-		left: -100px;
-		width: 50px;
-		height: 50px;
-		background-image: linear-gradient(100deg, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 0) 0%);
-		animation-name: shiny;
-		animation-duration: 3s;
-		animation-timing-function: ease-in-out;
-		animation-iteration-count: infinite;
-	}
-	.cv-excerpt {
-		padding: 25px 15px 15px;
-		background: white;
-	}
-	.cv-excerpt h2 {
-		font-size: 1.4em;
-		line-height: 1.3;
-	}
-	.cv-excerpt h3 {
-		line-height: 1.4;
-	}
-
-	.service-cv .cv-excerpt {
-		border: 2px solid #ff930f;
-		border-radius: 16px;
-		width: 90%;
-	}
-	.service-cv__btn.pc {
-		width: 100%;
-		min-width: auto;
-		font-size: 0.78em;
-	}
-	#service-merit .service-cv .cv-excerpt p,
-	#prefectures .service-cv .cv-excerpt p,
-	#service-voice .service-cv .cv-excerpt p {
-		text-align: center;
-		font-size: 18px;
-	}
-	#service-merit .service-cv .cv-excerpt p.cv-detail,
-	#prefectures .service-cv .cv-excerpt p.cv-detail,
-	#service-voice .service-cv .cv-excerpt p.cv-detail {
-		margin: 14px;
-		font-size: 12px;
-		text-align: left;
-		font-weight: normal;
-		color: #707070;
-	}
-	.service-cv .wrapper {
-		flex-direction: column;
-	}
-}
-@media only screen and (max-width: 361px) {
-	.service-cv__btn.pc {
-		font-size: 0.7em;
-	}
-	.service-cv .cv-excerpt {
-		font-size: 17px;
-	}
-}
-
-@media only screen and (max-width: 639px) {
 	.salary-graph {
 		flex-direction: column-reverse;
 		padding: 60px 20px 20px;
@@ -1144,21 +654,10 @@ h2 span {
 		margin: 40px 0;
 	}
 }
-
-#prefectures .mainTtlCenter {
-	background-position: center bottom;
-	margin: 0 auto 82px;
-	display: flex;
-	align-content: center;
-	height: 320px;
-	justify-content: center;
-	align-items: center;
-	flex-direction: row;
-}
-#prefectures .mv-merit img:first-of-type,
-#prefectures .mv-merit img:last-of-type {
-	position: relative;
-	bottom: -30px;
+@media only screen and (max-width: 361px) {
+	.prefectures-nav ul a {
+		font-size: 12px;
+	}
 }
 
 #prefectures h1::before {
@@ -1187,6 +686,7 @@ h2 span {
 		text-align: right;
 		margin: -12px 4% 0 57%;
 		right: 0;
+		font-size: 30px;
 	}
 }
 
@@ -1221,6 +721,7 @@ h2 span {
 	#prefectures .mv-illust {
 		width: 73%;
 		bottom: -246px;
+		left: 5%;
 	}
 	#prefectures .desc {
 		text-align: center;
@@ -2191,7 +1692,6 @@ h2 span {
 	border: 2px solid #ffdf8b;
 	margin: 0 16px 16px 0;
 }
-
 #prefectures #wheretogo .areas ul li:first-of-type::after,
 #prefectures #wheretogo .areas ul li:nth-of-type(3)::after,
 #prefectures #wheretogo .areas ul li:last-of-type::after {
@@ -2294,6 +1794,9 @@ h2 span {
 	#prefectures #wheretogo .areas ul li {
 		width: 100%;
 		margin: 0;
+	}
+	#prefectures #wheretogo .wheretogo-content h4 {
+		font-size: 17px;
 	}
 }
 
