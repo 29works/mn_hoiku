@@ -18,9 +18,8 @@
 * #voice
 * #wheretogo
 * #useful-content
-
- * .find
-
+*   .find
+*
 ==================================================================== */
 :root {
 	--green: #19cecd;
@@ -100,6 +99,14 @@ a:hover {
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 1.4;
+}
+#prefectures h1::before {
+	bottom: 86px;
+	left: 285px;
+	margin: auto;
+}
+#prefectures h2::before {
+	margin: auto;
 }
 #prefectures .textArea h1 {
 	position: relative;
@@ -252,7 +259,7 @@ a:hover {
 		padding-bottom: 0;
 	}
 	#prefectures h1 {
-		padding: 8px 0 20px;
+		padding: 8px 0 0;
 	}
 	#prefectures h2 {
 		width: fit-content;
@@ -277,6 +284,10 @@ a:hover {
 	}
 	#prefectures .map-icon::after {
 		background: center / contain no-repeat url(../../assets/img/special/prefectures/map_icon-sp.svg);
+	}
+	#prefectures .desc {
+		text-align: center;
+		font-size: 12px;
 	}
 }
 @media only screen and (min-width: 640px) {
@@ -520,6 +531,11 @@ a:hover {
 		width: 100%;
 		top: 0;
 	}
+	#prefectures .textArea {
+		width: 100%;
+		margin-right: 0;
+		padding-left: 0;
+	}
 	#prefectures .textArea h1 {
 		font-size: 6.5vw;
 		width: fit-content;
@@ -553,11 +569,28 @@ a:hover {
 	#prefectures .map-icon::before {
 		animation: none;
 	}
+	#prefectures .salary-graph {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+		margin: 0 auto;
+		padding: 15px;
+		width: 90%;
+		border-radius: 16px;
+	}
 	#prefectures .salary-graph .average {
 		font-size: 5vw;
 	}
 	#prefectures .salary-graph .average strong::before {
 		bottom: 14px;
+	}
+	#prefectures .salary-graph div {
+		width: 100%;
+	}
+	.salary-graph img {
+		margin-top: 0;
 	}
 	#prefectures .kakeru {
 		bottom: 11px;
@@ -580,7 +613,6 @@ a:hover {
 /* --------------------------------------------------------------------
 *   .prefectures-nav
 * -------------------------------------------------------------------- */
-
 .prefectures-nav ul {
 	display: flex;
 	justify-content: space-around;
@@ -660,14 +692,6 @@ a:hover {
 	}
 }
 
-#prefectures h1::before {
-	bottom: 86px;
-	left: 285px;
-	margin: auto;
-}
-#prefectures h2::before {
-	margin: auto;
-}
 @media only screen and (max-width: 639px) {
 	#prefectures .mainTtlCenter {
 		height: 740px;
@@ -679,14 +703,11 @@ a:hover {
 		font-size: 20px;
 		margin-top: -50px;
 	}
-	#prefectures .intro {
-		padding-top: 32px;
-	}
-	#prefectures .intro .dotted-line-bg {
-		text-align: right;
-		margin: -12px 4% 0 57%;
-		right: 0;
-		font-size: 30px;
+
+	#prefectures .mv-illust {
+		width: 73%;
+		bottom: -246px;
+		left: 5%;
 	}
 }
 
@@ -699,43 +720,21 @@ a:hover {
 #prefectures .intro p {
 	font-size: 17px;
 }
-
 @media only screen and (max-width: 639px) {
-	#prefectures h1 {
-		padding-bottom: 0;
+	#prefectures .intro {
+		padding-top: 32px;
 	}
-	#prefectures .textArea {
-		width: 100%;
-		margin-right: 0;
-		padding-left: 0;
-	}
-	#prefectures .mv-merit {
-		margin: -20px 0;
-	}
-	#prefectures .mv-merit img {
-		width: 47%;
-	}
-	#prefectures .mv-merit img:nth-of-type(2) {
-		width: 40%;
-	}
-	#prefectures .mv-illust {
-		width: 73%;
-		bottom: -246px;
-		left: 5%;
-	}
-	#prefectures .desc {
-		text-align: center;
-		font-size: 12px;
+	#prefectures .intro .dotted-line-bg {
+		text-align: right;
+		margin: -12px 4% 0 57%;
+		right: 0;
+		font-size: 30px;
 	}
 	#prefectures .intro .desc {
 		text-align: left;
 		font-size: 14px;
 		padding: 8% 4%;
 	}
-}
-
-.accordion label {
-	font-weight: 500;
 }
 
 /* ====================================================================
@@ -793,18 +792,6 @@ a:hover {
 	#prefectures #salary .map-icon::after {
 		top: -53px;
 	}
-	.map-icon::after {
-		top: -52px;
-	}
-	.desc {
-		padding-bottom: 27px;
-	}
-	.tabs {
-		margin-top: 50px;
-		background-color: #fff;
-		width: 700px;
-		margin: 0 auto;
-	}
 	.tab_item {
 		width: fit-content;
 		height: 50px;
@@ -839,7 +826,10 @@ a:hover {
 		display: block;
 	}
 	.tabs {
+		margin-top: 50px;
+		margin: 0 auto;
 		width: 100%;
+		background-color: #fff;
 	}
 	.tabs input:checked + .tab_item {
 		position: relative;
@@ -863,7 +853,6 @@ a:hover {
 		height: 300px;
 	}
 }
-
 @media only screen and (min-width: 639px) {
 	#prefectures #salary .tabs {
 		display: flex;
@@ -1893,10 +1882,10 @@ a:hover {
 	}
 }
 /* ====================================================================
- * .find
- *
- *
- * -------------------------------------------------------------------- */
+*   .find
+*
+*
+* -------------------------------------------------------------------- */
 #prefectures .find {
 	width: 1000px;
 	margin: 0 auto;
@@ -1930,206 +1919,5 @@ a:hover {
 	#prefectures .find h2 span {
 		font-size: 16px;
 		margin-bottom: 4px;
-	}
-}
-
-#prefectures .head__item {
-	padding: 10px;
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	height: 234px;
-	align-items: center;
-	margin: 0 auto;
-}
-#prefectures .head__item span,
-#prefectures .head__item p {
-	font-size: 18px;
-	font-weight: bold;
-}
-#prefectures .head__item strong {
-	color: #19cecd;
-}
-#prefectures .head-item-no {
-	position: relative;
-}
-#prefectures .head-item-no::before,
-.flow__item .flow__item__wrap::after {
-	content: '';
-	width: 12px;
-	height: 12px;
-	border: 0px;
-	border-top: solid 3px #19cecd;
-	border-right: solid 3px #19cecd;
-	-ms-transform: rotate(45deg);
-	-webkit-transform: rotate(45deg);
-	transform: rotate(45deg);
-	position: absolute;
-	top: 50%;
-	right: -54px;
-	margin-top: -6px;
-}
-.flow__item .flow__item__wrap::after {
-	top: 50%;
-	right: auto;
-	left: -42px;
-	margin-top: -6px;
-	transform: rotate(135deg);
-}
-.flow__item ul li:last-of-type .flow__item__wrap::after {
-	border-radius: 300px;
-	background-color: #19cecd;
-}
-#prefectures .head__item:last-of-type .head-item-no::before {
-	display: none;
-}
-.flow__item ul li {
-	display: flex;
-	flex-direction: column;
-}
-.flow__item .flow__item__wrap {
-	display: flex;
-	position: relative;
-	background: white;
-	border-radius: 16px;
-	margin-left: 56px;
-	height: 204px;
-	align-items: center;
-}
-.flow__item .flow__item__wrap::before {
-	content: '';
-	position: absolute;
-	width: 8px;
-	height: 100%;
-	border: 0px;
-	border-radius: 30px;
-	background-color: #94efea;
-	left: -40px;
-}
-.flow__item ul li:last-of-type .flow__item__wrap::before {
-	height: 50%;
-	top: 0;
-}
-.flow__item-text {
-	flex: 50%;
-	padding: 0 64px;
-}
-.flow__item-illust {
-	position: relative;
-	height: 233px;
-	bottom: 14px;
-}
-#prefectures .flow__item .head-item-no {
-	color: #060000;
-	padding-right: 44px;
-}
-#prefectures .flow__item .head-item-no::after {
-	right: 7px;
-	margin-top: -13px;
-}
-#prefectures .flow__item .head-item-no::before {
-	display: none;
-}
-
-#prefectures .flow__item-title {
-	margin: 55px 0 20px;
-	font-size: 25px;
-}
-@media only screen and (max-width: 639px) {
-	#prefectures .cv01 {
-		margin-top: 0;
-	}
-	#prefectures .flow {
-		background: #ffe4e3;
-		padding-bottom: 30px;
-	}
-	#prefectures .salary-graph {
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center;
-		align-content: center;
-		margin: 0 auto;
-		padding: 15px;
-		width: 90%;
-		border-radius: 16px;
-	}
-	.flow__head {
-		flex-wrap: wrap;
-	}
-	#prefectures .head__item {
-		height: 204px;
-		width: 30%;
-	}
-	.flow__item .flow__item__wrap {
-		height: 316px;
-		background: none;
-		padding: 0 14px 0 0;
-	}
-	.flow__item .flow__item__wrap {
-		flex-direction: column-reverse;
-	}
-	#prefectures .head__item p {
-		width: 120px;
-		font-size: 1.2rem;
-		background: #f5f6f9;
-		padding: 10px;
-		border-radius: 0 0 8px 8px;
-		text-align: center;
-		letter-spacing: -0.5px;
-	}
-	#prefectures .head__item img {
-		padding: 10px;
-		width: 120px;
-		background: #f5f6f9;
-		border-radius: 8px 8px 0 0;
-	}
-	#prefectures .service-cv {
-		padding: 14px;
-	}
-	.flow__item-illust {
-		width: 90%;
-		bottom: 17px;
-	}
-	.flow__item-text {
-		position: relative;
-		padding: 0;
-	}
-	.flow__item-text::before {
-		position: absolute;
-		content: '';
-		width: 98%;
-		height: 155px;
-		background-color: #d3faf8;
-		border-radius: 16px;
-		top: -173px;
-	}
-	#prefectures .flow__item-title {
-		font-size: 20px;
-		padding-left: 14px;
-		margin-top: 14px;
-	}
-	.flow .highlighter {
-		color: #19cecd;
-	}
-	#prefectures .head-item-no::before {
-		right: -29px;
-	}
-	#prefectures .salary-graph div {
-		width: 100%;
-	}
-	.salary-graph img {
-		margin-top: 0;
-	}
-}
-@media only screen and (max-width: 412px) {
-	.flow__item-illust {
-		bottom: 12px;
-	}
-}
-@media only screen and (max-width: 376px) {
-	.flow__item-illust {
-		bottom: 7px;
 	}
 }
