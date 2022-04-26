@@ -486,6 +486,7 @@ a:hover {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
+	top: 4px;
 }
 #prefectures .mainTtlArea::before {
 	position: absolute;
