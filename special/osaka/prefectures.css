@@ -382,6 +382,9 @@ h2 span {
 }
 
 @media only screen and (max-width: 639px) {
+	#prefectures .prefecture-name.map-icon::after {
+		top: -12px;
+	}
 	#prefectures .textArea .dotted-line::after {
 		bottom: 45px;
 	}
@@ -393,14 +396,6 @@ h2 span {
 	#prefectures .map-icon::after,
 	#prefectures .map-icon::before {
 		animation: none;
-	}
-	#prefectures .map-icon::before {
-	}
-	#prefectures .textArea .map-icon::after {
-		animation: bound 1s infinite;
-	}
-	#prefectures .textArea .map-icon::before {
-		animation: shadow-anim 1s infinite;
 	}
 	#prefectures .prefecture-name {
 		font-size: 32px;
@@ -683,7 +678,7 @@ h2 span {
 	#prefectures .textArea h1 {
 		font-size: 6.5vw;
 		width: fit-content;
-		margin: 6% auto 0 17%;
+		margin: 6% auto 0 20%;
 	}
 	#prefectures .textArea p {
 		font-size: 12px;
@@ -750,7 +745,7 @@ h2 span {
 		margin-bottom: -260px;
 	}
 	.prefectures-nav ul li {
-		width: 46%;
+		width: 48%;
 		background: white;
 	}
 	.prefectures-nav {
