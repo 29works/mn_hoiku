@@ -42,6 +42,9 @@
 body {
 	color: #1a191a;
 }
+header {
+	z-index: 999;
+}
 @media screen and (min-width: 769px) {
 	body {
 		margin-top: 120px;
@@ -330,7 +333,8 @@ h2 span {
 	justify-content: space-evenly;
 	align-items: stretch;
 	background: white;
-	padding: 20px;
+	padding: 24px 20px 10px 20px;
+	border-radius: 16px;
 }
 #prefectures .salary-graph .employ-type {
 	position: relative;
@@ -339,6 +343,7 @@ h2 span {
 	border-radius: 8px;
 	padding: 8px;
 	text-align: center;
+	margin-bottom: 20px;
 }
 #prefectures .salary-graph .employ-type::after {
 	position: absolute;
@@ -364,21 +369,21 @@ h2 span {
 	align-items: baseline;
 	justify-content: center;
 	letter-spacing: 1px;
-	font-size: 20px;
+	font-size: 24px;
 }
 #prefectures .salary-graph .average strong {
 	position: relative;
-	font-size: 33px;
+	font-size: 42px;
 	color: var(--orange);
 }
 #prefectures .salary-graph .average strong::before {
 	position: absolute;
 	content: '';
 	width: 5px;
-	height: 22px;
-	left: -99px;
+	height: 29px;
+	left: -112px;
 	background: var(--orange);
-	bottom: 16px;
+	bottom: 20px;
 }
 
 @media only screen and (max-width: 639px) {
@@ -400,11 +405,13 @@ h2 span {
 	#prefectures .prefecture-name {
 		font-size: 32px;
 	}
+	#prefectures .salary-graph .average strong::before {
+		bottom: 14px;
+	}
 	.kakeru {
 		bottom: 11px;
 	}
 }
-
 .pcOnly {
 	display: initial;
 }
@@ -427,12 +434,10 @@ h2 span {
 .footer-global {
 	margin-top: 0;
 }
-
 .main-global p.txt {
 	padding: 30px 0 0;
 	margin: 0;
 }
-
 .mainTtlBox h2 {
 	margin-bottom: 0;
 	padding: 12px 0 10px 36px;
@@ -445,13 +450,11 @@ h2 span {
 	background-position: left center;
 	background-size: 24px auto;
 }
-
 .wrapper a:hover {
 	opacity: 0.5;
 	text-decoration: none;
 	color: #060000;
 }
-
 /* サイドバナーエリア */
 .asideWidget-banner a {
 	display: block;
@@ -757,6 +760,11 @@ h2 span {
 	}
 	.prefectures-nav ul a {
 		font-size: 12px;
+	}
+	.prefectures-nav ul li::before {
+		width: 7px;
+		height: 7px;
+		right: 10px;
 	}
 }
 
@@ -1334,7 +1342,7 @@ h2 span {
 		height: 50px;
 		background-color: #efefef;
 		line-height: 50px;
-		font-size: 16px;
+		font-size: 3.6vw;
 		display: block;
 		float: left;
 		font-weight: bold;
@@ -1353,7 +1361,7 @@ h2 span {
 	}
 	.tab_content {
 		display: none;
-		padding: 40px 40px 0;
+		padding: 13px 40px 0;
 		clear: both;
 		overflow: hidden;
 	}
@@ -1391,6 +1399,7 @@ h2 span {
 @media only screen and (min-width: 639px) {
 	#prefectures #salary .tabs {
 		display: flex;
+		justify-content: space-evenly;
 	}
 }
 
