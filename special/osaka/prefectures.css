@@ -400,6 +400,9 @@ h2 span {
 	#prefectures .prefecture-name {
 		font-size: 32px;
 	}
+	.kakeru {
+		bottom: 11px;
+	}
 }
 
 .pcOnly {
