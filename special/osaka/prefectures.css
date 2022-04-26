@@ -2236,15 +2236,17 @@ h2 span {
 #prefectures #wheretogo .contain-step {
 	position: relative;
 }
-#prefectures #wheretogo .contain-step::before {
-	position: absolute;
-	content: '';
-	top: -28px;
-	left: 500px;
-	height: 69px;
-	background: url(../../assets/img/special/prefectures/steps.svg) no-repeat;
-	animation: stepsline 4s steps(5) infinite;
-	-webkit-animation: stepsline 4s steps(5) infinite;
+@media only screen and (min-width: 639px) {
+	#prefectures #wheretogo .contain-step::before {
+		position: absolute;
+		content: '';
+		top: -28px;
+		left: 500px;
+		height: 69px;
+		background: url(../../assets/img/special/prefectures/steps.svg) no-repeat;
+		animation: stepsline 4s steps(5) infinite;
+		-webkit-animation: stepsline 4s steps(5) infinite;
+	}
 }
 @keyframes stepsline {
 	0% {
