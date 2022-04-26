@@ -42,6 +42,12 @@ body {
 		margin-top: 120px;
 	}
 }
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
 .pc {
 	display: block;
 }
@@ -372,7 +378,7 @@ a:hover {
 		top: -20px;
 		background-size: 100%;
 	}
-  	.aside-global .sp-asideWidget-banner-block .module-block.bottom .facebook,
+	.aside-global .sp-asideWidget-banner-block .module-block.bottom .facebook,
 	.aside-global .sp-asideWidget-banner-block .module-block.bottom .follow {
 		margin: 0 16px 40px 16px;
 	}
@@ -666,9 +672,9 @@ a:hover {
 	.blogcard-merit::after {
 		top: -24px;
 	}
-  .blogcard a .blogcard_button {
-    font-size: 3vw;
-  }
+	.blogcard a .blogcard_button {
+		font-size: 3vw;
+	}
 	.blogcard-merit .blogcard_thumbnail,
 	.blogcard-guide .blogcard_thumbnail,
 	.blogcard-voice .blogcard_thumbnail {
@@ -1124,9 +1130,6 @@ a:hover {
 		margin-bottom: 18px;
 	}
 }
-
-
-
 
 /* #service-top
 ---------------------------------------------------------------------------- */
@@ -2857,7 +2860,7 @@ label.accordion-open span {
 		right: 5px;
 		background-size: 23vw;
 	}
-  #service-voice .voicelist li {
-    width: 273px;
-  }
+	#service-voice .voicelist li {
+		width: 273px;
+	}
 }
