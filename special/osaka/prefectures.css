@@ -90,7 +90,6 @@ h2 span {
 .dotted-line-bg {
 	background: bottom no-repeat url(../../assets/img/special/prefectures/dotted_line.svg);
 }
-
 .wrapper {
 	position: relative;
 	width: 1000px;
@@ -143,7 +142,6 @@ h2 span {
 			transform: scale(1.15, 0.9);
 		}
 	}
-
 	@keyframes shadow-anim {
 		0%,
 		100% {
@@ -222,34 +220,6 @@ h2 span {
 		font-size: 23px;
 		padding-bottom: 10px;
 		letter-spacing: 0.5px;
-	}
-	@keyframes bound {
-		0%,
-		100% {
-			top: -10px;
-			transform: scale(1), rotateX(68deg);
-		}
-		30% {
-			top: -60%;
-			transform: scale(0.96, 1.04), rotateX(68deg);
-		}
-		60% {
-			transform: scale(1);
-		}
-		90% {
-			top: -10px;
-			transform: scale(1.15, 0.9);
-		}
-	}
-	@keyframes shadow-anim {
-		0%,
-		100% {
-			transform: scale(1), rotateX(68deg);
-			filter: blur(4px);
-		}
-		30% {
-			transform: scale(1.6, 1);
-		}
 	}
 }
 
@@ -385,7 +355,6 @@ h2 span {
 	background: var(--orange);
 	bottom: 20px;
 }
-
 @media only screen and (max-width: 639px) {
 	#prefectures .prefecture-name.map-icon::after {
 		top: -12px;
@@ -405,6 +374,9 @@ h2 span {
 	#prefectures .prefecture-name {
 		font-size: 32px;
 	}
+	#prefectures .salary-graph .average {
+		font-size: 5vw;
+	}
 	#prefectures .salary-graph .average strong::before {
 		bottom: 14px;
 	}
@@ -412,6 +384,15 @@ h2 span {
 		bottom: 11px;
 	}
 }
+@media only screen and (max-width: 361px) {
+	#prefectures .textArea .dotted-line::after {
+		bottom: 29px;
+	}
+	#prefectures .salary-graph .average strong {
+		font-size: 35px;
+	}
+}
+
 .pcOnly {
 	display: initial;
 }
@@ -494,6 +475,7 @@ h2 span {
 	.sp-view .aside-global {
 		display: initial;
 	}
+
 	/*
 	 .sidebar
 	----------------------------------------*/
@@ -595,42 +577,13 @@ h2 span {
 		font-size: 1.2em;
 	}
 }
-@keyframes huwahuwa {
-	0% {
-		transform: translate(0, 0px);
-	}
-	100% {
-		transform: translate(0, -20px);
-	}
-}
-@keyframes fade {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-@keyframes shiny {
-	0% {
-		transform: scale(0) rotate(25deg);
-		opacity: 0;
-	}
-	50% {
-		transform: scale(1) rotate(25deg);
-		opacity: 1;
-	}
-	100% {
-		transform: scale(50) rotate(25deg);
-		opacity: 0;
-	}
-}
+
 /* --------------------------------------------------------------------
 *   ## mainTtlArea
 * -------------------------------------------------------------------- */
-.content-global {
+/* .content-global {
 	background: white;
-}
+} */
 .mainTtlCenter {
 	width: 100%;
 	height: auto;
@@ -676,10 +629,8 @@ h2 span {
 	}
 	#prefectures .mainTtlArea {
 		width: 100%;
-		/* height: auto; */
 		top: 0;
 		flex-direction: column;
-		/* padding-top: 140px; */
 	}
 	#prefectures .textArea h1 {
 		font-size: 6.5vw;
@@ -695,8 +646,8 @@ h2 span {
 	}
 }
 @media only screen and (max-width: 350px) {
-	.mainTtlArea .textArea br.sp {
-		display: none;
+	#prefectures .textArea h1 {
+		font-size: 5vw;
 	}
 }
 
@@ -765,6 +716,11 @@ h2 span {
 		width: 7px;
 		height: 7px;
 		right: 10px;
+	}
+}
+@media only screen and (max-width: 361px) {
+	.prefectures-nav ul a {
+		font-size: 12px;
 	}
 }
 
@@ -1402,7 +1358,11 @@ h2 span {
 		justify-content: space-evenly;
 	}
 }
-
+@media only screen and (max-width: 376px) {
+	.tab_item {
+		font-size: 3.4vw;
+	}
+}
 /* ====================================================================
  * #enqueter
  *
@@ -1544,7 +1504,14 @@ h2 span {
 		width: 23vw;
 	}
 }
-
+@media only screen and (max-width: 376px) {
+	#prefectures #enqueter .enqueter-gragh {
+		width: 100%;
+	}
+	#prefectures #enqueter .enqueter-gragh img {
+		width: 100%;
+	}
+}
 @media only screen and (min-width: 639px) {
 	#prefectures #enqueter .enqueter-item:first-of-type:before {
 		content: '';
@@ -2079,6 +2046,7 @@ h2 span {
 	}
 	#prefectures #voice .voicelist-item__head .title {
 		width: 53%;
+		padding-left: 8px;
 	}
 	#prefectures #voice .voicelist-item-img {
 		width: 98px;
@@ -2086,8 +2054,8 @@ h2 span {
 		margin: 20px;
 	}
 	#prefectures #voice .voicelist-item-img img {
-		width: 103px;
-		left: -2px;
+		width: 99px;
+		left: -7px;
 	}
 	#prefectures #voice .col-r {
 		width: 100%;
