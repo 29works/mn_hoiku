@@ -73,6 +73,7 @@ a:hover {
 		padding-top: 70px;
 	}
 }
+
 #prefectures {
 	padding-bottom: 70px;
 }
@@ -182,7 +183,6 @@ a:hover {
 	font-size: 16px;
 	text-align: center;
 }
-
 #prefectures .highlighter {
 	background: var(--yellow);
 }
@@ -556,6 +556,7 @@ a:hover {
 		font-size: 32px;
 	}
 	#prefectures .prefecture-name.map-icon::after {
+		width: 28px;
 		top: 2px;
 	}
 	#prefectures .textArea .dotted-line::after {
@@ -596,18 +597,34 @@ a:hover {
 	#prefectures .kakeru {
 		bottom: 11px;
 	}
+	#prefectures .textArea h1 strong {
+		font-size: 109%;
+	}
 }
 @media only screen and (max-width: 361px) {
+	#prefectures .textArea h1 {
+		margin-left: 4% auto 1% 14%;
+		font-size: 5vw;
+	}
+	#prefectures .textArea p {
+		padding: 2% 4% 4%;
+	}
+	#prefectures .kakeru img {
+		width: 50px;
+		height: 50px;
+	}
+	#prefectures .mainTtlArea .prefecture-name {
+		font-size: 37px;
+	}
 	#prefectures .textArea .dotted-line::after {
 		bottom: 29px;
 	}
+	#prefectures .prefecture-name.map-icon::after {
+		top: -5px;
+		left: -36px;
+	}
 	#prefectures .salary-graph .average strong {
 		font-size: 35px;
-	}
-}
-@media only screen and (max-width: 350px) {
-	#prefectures .textArea h1 {
-		font-size: 5vw;
 	}
 }
 
@@ -686,14 +703,6 @@ a:hover {
 		width: 93%;
 		margin: 40px 0;
 	}
-}
-@media only screen and (max-width: 361px) {
-	.prefectures-nav ul a {
-		font-size: 12px;
-	}
-}
-
-@media only screen and (max-width: 639px) {
 	#prefectures .mainTtlCenter {
 		height: 740px;
 		display: flex;
@@ -709,6 +718,14 @@ a:hover {
 		width: 73%;
 		bottom: -246px;
 		left: 5%;
+	}
+}
+@media only screen and (max-width: 361px) {
+	.prefectures-nav {
+		top: -623px;
+	}
+	.prefectures-nav ul a {
+		font-size: 12px;
 	}
 }
 
@@ -734,7 +751,12 @@ a:hover {
 	#prefectures .intro .desc {
 		text-align: left;
 		font-size: 14px;
-		padding: 8% 4%;
+		padding: 8% 4% 16%;
+	}
+}
+@media only screen and (max-width: 394px) {
+	#prefectures .intro .dotted-line-bg {
+		font-size: 23px;
 	}
 }
 
