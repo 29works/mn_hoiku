@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="101" height="97" viewBox="0 0 101 97">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_836" data-name="長方形 836" width="101" height="97" transform="translate(1034 995.282)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="合体_76" x="-20.354" y="-19.37" width="144.972" height="143.614" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="beginner-icon" transform="translate(-1034 -995.282)" clip-path="url(#clip-path)">
+    <g transform="matrix(1, 0, 0, 1, 1034, 995.28)" filter="url(#合体_76)">
+      <path id="合体_76-2" data-name="合体 76" d="M30.405,78.659A39.9,39.9,0,0,1,39.567,0a39.9,39.9,0,0,1,9.278,78.631L39.319,90.152Z" transform="matrix(0.64, -0.77, 0.77, 0.64, -7.83, 50.77)" fill="#fff5b9" stroke="#19cecd" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    </g>
+    <g id="グループ_2879" data-name="グループ 2879" transform="translate(1068.309 1024.52)">
+      <path id="パス_23328" data-name="パス 23328" d="M-14925.653,5236.625a1.437,1.437,0,0,1,.946-1.185,1.855,1.855,0,0,1,1.7,0l9.8,5.924v27.855l-12.445-7.238Z" transform="translate(14927.085 -5233.804)" fill="#fff"/>
+      <path id="パス_23329" data-name="パス 23329" d="M-14913.208,5236.625a1.437,1.437,0,0,0-.944-1.185,1.86,1.86,0,0,0-1.706,0l-9.795,5.924v27.855l12.445-7.238Z" transform="translate(14939.532 -5233.804)" fill="#19cecd"/>
+      <path id="合体_26" data-name="合体 26" d="M12.379,35.349a1.6,1.6,0,0,1-.809-.215L-.877,27.812A1.193,1.193,0,0,1-1.5,26.8V1.141A2.679,2.679,0,0,1,.166-1.13,3.549,3.549,0,0,1,1.741-1.5a3.282,3.282,0,0,1,1.675.437l8.962,5.484,8.965-5.486A3.286,3.286,0,0,1,23.015-1.5a3.547,3.547,0,0,1,1.574.369,2.681,2.681,0,0,1,1.668,2.272V26.8a1.193,1.193,0,0,1-.623,1.016L13.188,35.134A1.6,1.6,0,0,1,12.379,35.349Zm-11.013-9.2,11.013,6.479,11.013-6.479V1.2c-.014-.037-.062-.113-.224-.193a.364.364,0,0,0-.152-.044.207.207,0,0,0-.06.009L13.21,6.936a1.627,1.627,0,0,1-1.662,0L1.8.971a.207.207,0,0,0-.06-.009.368.368,0,0,0-.153.045c-.161.079-.209.156-.223.192Z" transform="translate(1.5 1.5)" fill="#313131"/>
+    </g>
+  </g>
+</svg>

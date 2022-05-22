@@ -42,6 +42,10 @@ body {
 		margin-top: 120px;
 	}
 }
+h1 {
+	font-size: 36px;
+}
+h2 {
 ul,
 ol {
 	margin: 0;
@@ -182,7 +186,6 @@ a:hover {
 	background: url(../../assets/img/service/what-support-deco.svg) no-repeat;
 	background-size: 431px;
 }
-/* added by kato 2017/9/29 */
 
 .pcOnly {
 	display: initial;
@@ -537,6 +540,8 @@ a:hover {
 	align-items: center;
 	font-size: 15px;
 	font-weight: 600;
+	width: 920px;
+	margin: 0 auto;
 }
 .service-nav ul a {
 	color: #1a191a;
@@ -546,9 +551,14 @@ a:hover {
 }
 @media only screen and (max-width: 639px) {
 	.service-nav ul {
+		width: 100%;
 		border-bottom: 2px solid #e9e9e8;
 	}
 }
+@media only screen and (max-width: 639px) {
+	.service-nav ul {
+		font-size: 13px;
+	}
 
 /* --------------------------------------------------------------------
 *   ## blogcard
@@ -2340,9 +2350,6 @@ label.accordion-open span {
  *
  *
  * ------------------------------------------------------------------- */
-#service-voice .service__wrap {
-	width: 920px;
-}
 #service-voice .service-nav ul li:nth-of-type(3):after {
 	content: '';
 	height: 3px;
@@ -2488,8 +2495,7 @@ label.accordion-open span {
 }
 .voicelist {
 	display: -ms-flexbox;
-	-ms-flex-wrap: wrap;
-	margin: 0 auto;
+	margin: 40px auto 0;
 }
 #service-voice .voicelist li {
 	position: relative;
@@ -2724,7 +2730,6 @@ label.accordion-open span {
 	.o-scroll::-webkit-scrollbar {
 		display: none;
 	}
-
 	.voicelist {
 		flex-direction: row;
 	}
