@@ -629,6 +629,9 @@ a:hover {
 	#service-change .worries-item .text p {
 		margin-bottom: 0;
 	}
+	#service-change #worries02 .illust {
+		width: 100%;
+	}
 	#service-change #worries02 .text,
 	#service-change #worries04 .text,
 	#service-change #worries06 .text {
@@ -1235,6 +1238,10 @@ a:hover {
 		height: 2em;
 		background-size: 2em;
 		left: 0;
+	}
+	#service-change #qna {
+		padding-bottom: 20px;
+		margin-bottom: 20px;
 	}
 	#service-change #qna .service__wrap {
 		padding: 10px 14px;
