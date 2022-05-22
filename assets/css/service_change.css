@@ -758,8 +758,9 @@ a:hover {
 	font-weight: 600;
 	padding: 51px 0 20px;
 }
-#service-change .flow__head {
+#service-change #flow .flow__head {
 	margin-bottom: 0;
+	justify-content: space-evenly;
 }
 #service-change #flow .head__item {
 	display: flex;
@@ -796,9 +797,11 @@ a:hover {
 	right: 7px;
 	margin-top: -13px;
 }
-#service-change .flow__item .head-item-no {
+#service-change #flow .flow__item .head-item-no {
+	position: relative;
 	padding-right: 44px;
 }
+
 #service-change #flow .head-item-no::before {
 	position: absolute;
 	content: '';
@@ -814,10 +817,10 @@ a:hover {
 	right: -54px;
 	margin-top: -6px;
 }
-#service-change #flow .head__item:last-of-type .head-item-no::before {
+#service-change #flow a:last-of-type .head-item-no::before {
 	display: none;
 }
-#service-change #flow .flow__item-title .head-item-no::before {
+#service-change #flow .flow__item .flow__item-title .head-item-no::before {
 	display: none;
 }
 #service-change #flow .flow__item-title {
