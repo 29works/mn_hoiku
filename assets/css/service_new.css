@@ -46,6 +46,17 @@ h1 {
 	font-size: 36px;
 }
 h2 {
+	font-size: 32px;
+}
+h3 {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 1.4;
+}
+a:hover {
+	opacity: 0.6;
+	text-decoration: underline;
+}
 ul,
 ol {
 	margin: 0;
@@ -559,6 +570,7 @@ a:hover {
 	.service-nav ul {
 		font-size: 13px;
 	}
+}
 
 /* --------------------------------------------------------------------
 *   ## blogcard
@@ -2013,7 +2025,6 @@ h3 span {
 		height: auto;
 		opacity: 1;
 		background: #ffffff;
-		/* font-weight: 700; */
 		border-radius: 16px;
 		width: 90%;
 		margin: 16px auto;
@@ -2362,7 +2373,6 @@ label.accordion-open span {
 #service-voice h2 {
 	padding-left: 86px;
 }
-
 #service-voice img.mv-illust {
 	width: 34%;
 	position: absolute;
