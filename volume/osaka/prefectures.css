@@ -1639,6 +1639,7 @@ a:hover {
 	-webkit-mask: var(--mask);
 	mask: var(--mask);
 	padding: 56px 40px 60px;
+	border-radius: 0 0 14px 14px;
 }
 
 #prefectures #wheretogo .wheretogo-content::before,
@@ -1910,7 +1911,6 @@ a:hover {
 *
 * -------------------------------------------------------------------- */
 #prefectures .find {
-	width: 1000px;
 	margin: 0 auto;
 	background: #fffcf9;
 }
