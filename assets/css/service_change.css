@@ -606,6 +606,9 @@ a:hover {
 		font-size: 1.2rem;
 		text-align: center;
 	}
+	#service-change .worries-item .illust {
+		width: 100%;
+	}
 	#service-change .worries__list li:nth-of-type(4) a div::after {
 		background: bottom center / contain no-repeat url(../../assets/img/service/worries-item04_illust_sp2.svg);
 	}
@@ -804,7 +807,6 @@ a:hover {
 	position: relative;
 	padding-right: 44px;
 }
-
 #service-change #flow .head-item-no::before {
 	position: absolute;
 	content: '';
@@ -867,6 +869,13 @@ a:hover {
 #service-change #flow input[type='checkbox'] {
 	display: none;
 }
+
+@media only screen and (min-width: 640px) {
+	#service-change #flow .flow__item label[for] {
+		cursor: auto;
+	}
+}
+
 @media only screen and (max-width: 639px) {
 	#service-change #flow .approach h3 {
 		line-height: 1.5;
