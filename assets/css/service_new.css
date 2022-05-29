@@ -2518,7 +2518,7 @@ label.accordion-open span {
 	border-radius: 300px;
 	background: #ffb51036;
 	backdrop-filter: blur(8px);
-	-webkit-backdrop-filter: blur(8px) contrast(20%);
+	-webkit-backdrop-filter: blur(8px);
 	box-shadow: 9px 4px 10px #f4d48a;
 	z-index: 2;
 }
