@@ -269,6 +269,9 @@ strong {
 a {
 	transition: transform 0.2s;
 }
+.active a {
+	z-index: 3;
+}
 .active a:hover,
 .inner a img:hover,
 a:hover,
@@ -543,6 +546,12 @@ header .logo {
 		flex-direction: column;
 		height: 178vw;
 	}
+	.interview::before {
+		content: '';
+		width: 1000px;
+		height: 900px;
+		background: url();
+	}
 }
 @media only screen and (max-width: 400px) {
 	.message {
@@ -552,11 +561,21 @@ header .logo {
 /* interview
 ---------------------------------------------------------------------------- */
 .interview {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding-top: 32px;
 	background: var(--orange1);
+}
+.interview::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 1000px;
+	background: center top / contain url(../../assets/img/special/active_recruitment/bg_interview.png) no-repeat;
+	z-index: 0;
+	top: 0;
 }
 .interview h4 {
 	color: var(--orange3);
