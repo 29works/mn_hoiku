@@ -967,6 +967,12 @@ header .logo {
 	.voice-cont p:nth-of-type(2) {
 		right: 0;
 	}
+	.voice-cont p::after {
+		top: 11px;
+	}
+	.voice-cont p:first-of-type::after {
+		left: -15px;
+	}
 	.voice-cont p:first-of-type::after,
 	.voice-cont p:nth-of-type(2)::after {
 		right: -10px;
