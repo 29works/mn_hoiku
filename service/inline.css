@@ -1055,7 +1055,7 @@ body {
 		margin-top: 120px;
 	}
 }
-.css-vhb39x {
+.header__outer {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -1064,36 +1064,36 @@ body {
 }
 
 @media screen and (min-width: 769px) {
-	.css-vhb39x {
+	.header__outer {
 		position: fixed;
 	}
 }
 
-.css-vhb39x span {
+.header__outer span {
 	line-height: 1;
 }
 
-.css-vhb39x p {
+.header__outer p {
 	margin: 0;
 	line-height: 1;
 }
 
-.css-vhb39x a {
+.header__outer a {
 	color: rgb(51, 51, 51);
 }
 
-.css-vhb39x ul,
-.css-vhb39x ol {
+.header__outer ul,
+.header__outer ol {
 	margin-top: 0;
 	margin-bottom: 0px;
 }
 
-.css-1a1o4pf {
+.header__head {
 	display: none;
 }
 
 @media screen and (min-width: 769px) {
-	.css-1a1o4pf {
+	.header__head {
 		display: block;
 		border-top: 6px solid #1acece;
 		font-size: 9px;
@@ -1102,7 +1102,7 @@ body {
 		background-color: #fffcf9;
 	}
 
-	.css-1a1o4pf div {
+	.header__head div {
 		width: 1000px;
 		margin: 10px auto 0;
 		display: -webkit-box;
@@ -1115,7 +1115,7 @@ body {
 		justify-content: space-between;
 	}
 }
-.css-su6h4k {
+.header__foot {
 	margin: 0 auto;
 	box-sizing: border-box;
 	width: 100%;
@@ -1124,7 +1124,7 @@ body {
 }
 
 @media screen and (min-width: 769px) {
-	.css-su6h4k {
+	.header__foot {
 		border-top: none;
 	}
 }
@@ -1236,8 +1236,8 @@ body {
 	}
 }
 .css-1odpe1t-ImageStyle {
-	width: 300;
-	height: 78;
+	width: 300px;
+	height: 78px;
 }
 .css-s15ebs {
 	-webkit-flex-direction: column;
