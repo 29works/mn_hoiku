@@ -2,26 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700&display=swap');
 
 :root {
-	--blue1: #cff0fc;
-	--blue: #33cfff;
 	--black: #302a25;
-
-	--yellow: #ffef2d;
-
+	--blue1: #cff0fc;
+	--blue2: #33cfff;
 	--orange1: #fdefd5;
 	--orange2: #ffcd72;
 	--orange3: #ffae1a;
 	--orange4: #ff930f;
-
+	--yellow: #ffef2d;
 	--brown: #5f350f;
-
-	--green: #19cecd;
-	--green2: #e5ffff;
-	--green3: #d3faf8;
-	--gray: #c7c5c4;
-	--gray2: #f5f6f9;
-	--gray3: #e9e9e8;
-	--pupple: #f6e3ff;
 }
 
 /* ----------------------------------------------------------------------------
@@ -221,7 +210,6 @@ small {
 .mb30 {
 	margin-bottom: 30px !important;
 }
-
 .bg_none {
 	background: none !important;
 }
@@ -235,15 +223,12 @@ h6 {
 strong {
 	font-weight: bold;
 }
-
 .ct {
 	text-align: center;
 }
-
 .pc {
 	display: block;
 }
-
 .sp {
 	display: none;
 }
@@ -260,6 +245,7 @@ strong {
 		overflow-x: hidden;
 	}
 }
+
 .inner {
 	width: 950px;
 	margin: 0 auto;
@@ -339,13 +325,8 @@ a:hover,
 	}
 }
 
-/* --------------------------------------------------------------------------------------------------------------------------------------
-contents
------------------------------------------------------------------------------------------------------------------------------------------ */
-
 /* header
 ---------------------------------------------------------------------------- */
-
 header {
 	width: 960px;
 	margin: 0 auto;
@@ -354,7 +335,6 @@ header .logo {
 	padding: 20px;
 	text-align: center;
 }
-
 @media only screen and (max-width: 767px) {
 	header {
 		width: 100%;
@@ -370,7 +350,6 @@ header .logo {
 
 /* main 
 ---------------------------------------------------------------------------- */
-
 .main {
 	position: relative;
 	width: 100%;
@@ -432,6 +411,7 @@ header .logo {
 		width: 100%;
 	}
 }
+
 /* contents
 ---------------------------------------------------------------------------- */
 .contents {
@@ -489,6 +469,7 @@ header .logo {
 		width: 100%;
 	}
 }
+
 /* message
 ---------------------------------------------------------------------------- */
 .message {
@@ -516,7 +497,7 @@ header .logo {
 	width: 450px;
 }
 .message h4 {
-	color: var(--blue);
+	color: var(--blue2);
 }
 .message h4 span {
 	color: var(--black);
@@ -558,6 +539,7 @@ header .logo {
 		height: 180vw;
 	}
 }
+
 /* interview
 ---------------------------------------------------------------------------- */
 .interview {
@@ -601,6 +583,7 @@ header .logo {
 		text-align: center;
 	}
 }
+
 /* joboffer
 ---------------------------------------------------------------------------- */
 .joboffer {
@@ -907,7 +890,7 @@ header .logo {
 	font-weight: 600;
 	text-align: center;
 	line-height: 1.5;
-	color: var(--blue);
+	color: var(--blue2);
 }
 .contect {
 	position: relative;
